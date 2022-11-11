@@ -1,0 +1,30 @@
+Expand greatly upon the topic of "What is censorship-resistant design?" in the context of computer science in british english:
+
+1. What is censorship-resistant design?
+
+Censorshipresistant design is a computer security technique that aims to make it difficult or impossible for an outside authority to censor or restrict the access to a user's computer data.
+Certain features of a computer system can be designed to resist tampering by malicious outsiders, whether governmental or criminal.
+
+2. How can censorship-resistant design be used to protect freedom of expression?
+
+Censorshipresistant design can be used to protect freedom of expression by making it difficult or impossible for outside observers to censor or restrict the access of users to information. This could be valuable in cases where freedom of expression is under threat from oppressive governments or criminal organizations.
+
+3. What are the challenges of censorship-resistant design?
+
+The main challenges of censorshipresistant design are twofold: first, developing secure algorithms and protocols that can resist tampering by malicious outsiders; and second, building robust and userfriendly systems that are aware of user needs and preferences.
+
+4. How does censorship-resistant design differ from other design paradigms?
+
+Censorshipresistance is not a typical design feature for most software systems, where the goal is typically to make the system more understandable or easier to use by the users. For example, many software systems feature automatic error correction, which helps users find and fix errors. Error correction is not censorshipresistant, because malicious outsiders can simply replace erroneous data with correct data.
+
+Censorshipresistant design is also distinctly different from other design paradigms, such as objectoriented design or microservices architectures, in that the primary focus is not on the functionality of the system but on the security of the data.
+
+5. What are the benefits of censorship-resistant design?
+
+The main benefits of censorship resistant design are safety and freedom. Safety benefits arise from the fact that censorship resistant systems can protect users from oppressive governments or criminal organizations. Freedom benefits arise from the fact that censorship resistant systems can make it difficult or impossible for outsiders to restrict the access of users to information.
+
+6. How can censorship-resistant design be used to promote social justice?
+
+
+==========================
+{"id": "cmpl-6BOAGZsh7k6uB61ho2Kup5MBheJe5", "object": "text_completion", "created": 1668172516, "model": "text-curie-001", "choices": [{"text": "\n\nCensorship-resistant design can be used to promote social justice by making it difficult or impossible for outside observers to restrict the access of users to information that is critical for internal debate or activism. This could be valuable in cases where social justice is under threat from oppressive governments or criminal organizations.", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 465, "completion_tokens": 60, "total_tokens": 525}}

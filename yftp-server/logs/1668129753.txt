@@ -1,0 +1,109 @@
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:25:15.276263
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:25:15.276263
+last uploaded: 5s ago, current time: 2022-11-11 01:25:20.289198
+last uploaded: 10s ago, current time: 2022-11-11 01:25:25.303270
+last uploaded: 15s ago, current time: 2022-11-11 01:25:30.317273
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:25:35.323578
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:25:35.323578
+last uploaded: 5s ago, current time: 2022-11-11 01:25:40.328711
+last uploaded: 10s ago, current time: 2022-11-11 01:25:45.338766
+last uploaded: 15s ago, current time: 2022-11-11 01:25:50.343591
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:25:55.345330
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:25:55.345330
+last uploaded: 5s ago, current time: 2022-11-11 01:26:00.353502
+last uploaded: 10s ago, current time: 2022-11-11 01:26:05.353924
+last uploaded: 15s ago, current time: 2022-11-11 01:26:10.363623
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:26:15.363721
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:26:15.363721
+last uploaded: 5s ago, current time: 2022-11-11 01:26:20.380602
+last uploaded: 10s ago, current time: 2022-11-11 01:26:25.393745
+last uploaded: 15s ago, current time: 2022-11-11 01:26:30.394376
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:26:35.405781
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:26:35.405781
+last uploaded: 5s ago, current time: 2022-11-11 01:26:40.410487
+last uploaded: 10s ago, current time: 2022-11-11 01:26:45.421751
+last uploaded: 15s ago, current time: 2022-11-11 01:26:50.434089
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:26:55.441369
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:26:55.441369
+last uploaded: 5s ago, current time: 2022-11-11 01:27:00.457234
+last uploaded: 10s ago, current time: 2022-11-11 01:27:05.459266
+last uploaded: 15s ago, current time: 2022-11-11 01:27:10.474626
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:27:15.477486
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:27:15.477486
+last uploaded: 5s ago, current time: 2022-11-11 01:27:20.482477
+last uploaded: 10s ago, current time: 2022-11-11 01:27:25.484164
+last uploaded: 15s ago, current time: 2022-11-11 01:27:30.491393
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:27:35.502775
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:27:35.502775
+last uploaded: 5s ago, current time: 2022-11-11 01:27:40.509618
+last uploaded: 10s ago, current time: 2022-11-11 01:27:45.525318
+last uploaded: 15s ago, current time: 2022-11-11 01:27:50.531238
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:27:55.533383
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:27:55.533383
+last uploaded: 5s ago, current time: 2022-11-11 01:28:00.539320
+last uploaded: 10s ago, current time: 2022-11-11 01:28:05.541524
+last uploaded: 15s ago, current time: 2022-11-11 01:28:10.543617
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:28:15.556524
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:28:15.556524
+last uploaded: 5s ago, current time: 2022-11-11 01:28:20.567418
+last uploaded: 10s ago, current time: 2022-11-11 01:28:25.575670
+last uploaded: 15s ago, current time: 2022-11-11 01:28:30.585444
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:28:35.593508
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:28:35.593508
+last uploaded: 5s ago, current time: 2022-11-11 01:28:40.598323
+last uploaded: 10s ago, current time: 2022-11-11 01:28:45.607556
+last uploaded: 15s ago, current time: 2022-11-11 01:28:50.621671
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:28:55.627697
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:28:55.627697
+last uploaded: 5s ago, current time: 2022-11-11 01:29:00.641622
+last uploaded: 10s ago, current time: 2022-11-11 01:29:05.648491
+last uploaded: 15s ago, current time: 2022-11-11 01:29:10.664090
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:29:15.675533
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:29:15.675533
+last uploaded: 5s ago, current time: 2022-11-11 01:29:20.683055
+last uploaded: 10s ago, current time: 2022-11-11 01:29:25.693600
+last uploaded: 15s ago, current time: 2022-11-11 01:29:30.695406
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:29:35.706601
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:29:35.706601
+last uploaded: 5s ago, current time: 2022-11-11 01:29:40.716402
+last uploaded: 10s ago, current time: 2022-11-11 01:29:45.727304
+last uploaded: 15s ago, current time: 2022-11-11 01:29:50.739176
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:29:55.742187
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:29:55.742187
+last uploaded: 5s ago, current time: 2022-11-11 01:30:00.752502
+last uploaded: 10s ago, current time: 2022-11-11 01:30:05.767408
+last uploaded: 15s ago, current time: 2022-11-11 01:30:10.777224
+Checking timezone, current hour: 1
+Uploading video time: 2022-11-11 01:30:15.777504
+[Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
+last uploaded: 20s ago, current time: 2022-11-11 01:30:15.777504

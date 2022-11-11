@@ -1,0 +1,15 @@
+Expand greatly upon the topic of "What is the difference between a physical computer and a virtual machine?" in the context of computer science in british english:
+
+1. What is the difference between a physical computer and a virtual machine?
+
+One key difference between physical computers and virtual machines is that a physical computer is made of physical hardware, while a virtual machine is a software construct that runs on top of a physical computer. Physical computers are limited by their physical resources. For example, one physical computer can only handle a certain number of calculations per second, while a virtual machine can make use of more resources, such as more processors or more memory, to handle more calculations. Additionally, virtual machines can be configured to mimic the physical characteristics of different types of computers, such as ex 86 or 64bit processors, in order to run software that needs to be executed on a particular type or shape of computer.
+
+2. How do virtual machines work?
+
+A virtual machine is a software construct that runs on top of a physical computer. The virtual machine takes the place of the physical computer, allowing software to be executed on the virtual machine rather than the physical computer. This makes it possible to run different versions of the same software on different types of computers, or to run different types of software on the same type of computer.
+
+3. What are the benefits of using a virtual machine?
+
+
+==========================
+{"id": "cmpl-6BUwcIFOLKJiTeHJmgnHASmo5Xr7O", "object": "text_completion", "created": 1668198578, "model": "text-curie-001", "choices": [{"text": "\n\nThere are a number of benefits to using a virtual machine. For example, it allows different versions of the same software to beExecuted on different types of computers, or to run different types of software on the same type of computer. Additionally, it can save valuable resources, such as memory and processing power, on a physical computer.", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 286, "completion_tokens": 69, "total_tokens": 355}}

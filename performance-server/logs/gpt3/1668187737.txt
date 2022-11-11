@@ -1,0 +1,11 @@
+Expand greatly upon the topic of "What is a DDoS attack?" in the context of computer science in british english:
+
+1. What is a DDoS attack?
+
+A DDoS attack is an attack where a large number of requests are sent to a target over a short period of time in order to overload its ability to respond. This can result in the target being unable to service legitimate requests or being slowed down to the point where it cannot function.
+
+2. How do DDoS attacks work?
+
+
+==========================
+{"id": "cmpl-6BS7l3CojZtvdssIpEzbia0l1eoMj", "object": "text_completion", "created": 1668187737, "model": "text-curie-001", "choices": [{"text": "\n\nThere are a number of different ways that a DDoS attack can work. One popular method is called a SYN floods. This is where a target is flooded with SYN requests, which are requests that are used to establish a connection. Once the target has responded to the SYN requests, the attacker can then flood it with requests that are used to send data. This causes the target to become overloaded and Unable to serve legitimate requests.\n\n", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 109, "completion_tokens": 92, "total_tokens": 201}}

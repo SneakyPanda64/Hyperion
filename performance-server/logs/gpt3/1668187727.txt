@@ -1,0 +1,5 @@
+Write a list of 10 topics relating to computer science and "What is a DDoS attack?":
+
+
+==========================
+{"id": "cmpl-6BS7bFSGBTgISC8oqZprc4YdXCCpj", "object": "text_completion", "created": 1668187727, "model": "text-davinci-002", "choices": [{"text": "\n1. What is a DDoS attack?\n2. How do DDoS attacks work?\n3. What are the consequences of a DDoS attack?\n4. How can you protect against DDoS attacks?\n5. What are the different types of DDoS attacks?\n6. What are the most common DDoS attacks?\n7. How do you detect a DDoS attack?\n8. How do you respond to a DDoS attack?\n9. What are the best practices for preventing DDoS attacks?\n10. What are the most common DDoS attack mitigation techniques?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 21, "completion_tokens": 123, "total_tokens": 144}}

@@ -1,0 +1,12 @@
+Expand greatly upon the topic of "What is censorship-resistant design?" in the context of computer science in british english:
+
+1. What is censorship-resistant design?
+
+Censorshipresistant design is a computer security technique that aims to make it difficult or impossible for an outside authority to censor or restrict the access to a user's computer data.
+Certain features of a computer system can be designed to resist tampering by malicious outsiders, whether governmental or criminal.
+
+2. How can censorship-resistant design be used to protect freedom of expression?
+
+
+==========================
+{"id": "cmpl-6BO9yaLeZtswNPgKXVBuBrQ3ym7jE", "object": "text_completion", "created": 1668172498, "model": "text-curie-001", "choices": [{"text": "\nCensorship-resistant design can be used to protect freedom of expression by making it difficult or impossible for outside observers to censor or restrict the access of users to information. This could be valuable in cases where freedom of expression is under threat from oppressive governments or criminal organisations.", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 116, "completion_tokens": 55, "total_tokens": 171}}

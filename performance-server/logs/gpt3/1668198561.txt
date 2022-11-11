@@ -1,0 +1,6 @@
+Write a list of 3 interesting topics relating to computer science:
+
+1. Why is Kafka fast?
+2. How does HTTPS work?
+==========================
+{"id": "cmpl-6BUwLup33ZFKC7BllLLLXL7LiZDhY", "object": "text_completion", "created": 1668198561, "model": "text-davinci-002", "choices": [{"text": " \n3. What is the difference between a physical computer and a virtual machine?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 29, "completion_tokens": 17, "total_tokens": 46}}
