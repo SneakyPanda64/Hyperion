@@ -1,0 +1,7 @@
+Expand greatly upon the topic of "Why Algorithm Analysis and Design Matters" in the context of computer science summarised for a 9th grader:
+
+1. What is an algorithm?
+
+
+==========================
+{"id": "cmpl-6C5oanMeMdKYtZaga2SkMFcjD8l5K", "object": "text_completion", "created": 1668340308, "model": "text-curie-001", "choices": [{"text": "", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 41, "total_tokens": 41}}

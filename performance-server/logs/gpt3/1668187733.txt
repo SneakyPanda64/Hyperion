@@ -1,7 +1,0 @@
-Expand greatly upon the topic of "What is a DDoS attack?" in the context of computer science in british english:
-
-1. What is a DDoS attack?
-
-
-==========================
-{"id": "cmpl-6BS7hSCZlXoDgt2EkUrKZu5SGYoTD", "object": "text_completion", "created": 1668187733, "model": "text-curie-001", "choices": [{"text": "\nA DDoS attack is an attack where a large number of requests are sent to a target over a short period of time in order to overload its ability to respond. This can result in the target being unable to service legitimate requests or being slowed down to the point where it cannot function.", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 39, "completion_tokens": 58, "total_tokens": 97}}

@@ -1,0 +1,8 @@
+[2022-11-13 14:01:51,459] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-13 14:01:51,627] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/playlists?part=id&id=UC_x5XG1OV2P6uZZ5FSM9Ttw&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&maxResults=2 HTTP/1.1" 200 None
+[2022-11-13 14:01:51,629] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-13 14:01:52,400] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/search?part=snippet&type=video&maxResults=50&order=relevance&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&q=Algorithms:%20The%20Key%20to%20Security%20and%20Cryptography&publishedAfter=2000-01-01T00:00:00Z&publishedBefore=3000-01-01T00:00:00Z HTTP/1.1" 200 None
+[2022-11-13 14:01:52,404] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-13 14:01:52,484] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(tags))&part=snippet&id=5jpgMXt1Z9Y HTTP/1.1" 200 None
+[2022-11-13 14:01:52,487] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-13 14:01:52,570] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(tags))&part=snippet&id=bO4lEQfPn60 HTTP/1.1" 200 None

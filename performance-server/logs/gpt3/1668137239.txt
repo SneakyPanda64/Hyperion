@@ -1,7 +1,0 @@
-Extract tags that are directly related to "computer science" from the following passage of text in a list format:
-
-passage: the use of heuristics in computer science include the complexity of the problem and the amount of knowledge that is required to solve the problem.
-
-tags:
-==========================
-{"id": "cmpl-6BEzHKjXmORZmLkMCkZi4wpgS5XQ0", "object": "text_completion", "created": 1668137239, "model": "text-babbage-001", "choices": [{"text": "\n\n-Computer science\n-Heuristics", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 60, "completion_tokens": 10, "total_tokens": 70}}

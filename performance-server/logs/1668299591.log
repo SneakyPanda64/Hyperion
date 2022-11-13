@@ -1,0 +1,14 @@
+[2022-11-13 00:33:11,154] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:33:11,154] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic computer science:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:33:11,155] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 00:33:11,159] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 00:33:11,773] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 278
+[2022-11-13 00:33:11,774] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=89 request_id=30b75f6ce8180df8144b5ea5a4072bf1 response_code=200
+[2022-11-13 00:33:11,782] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:33:11,783] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"computer science\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:33:12,385] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 404
+[2022-11-13 00:33:12,386] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=341 request_id=59cdc6cef28876a4078293012f692dc4 response_code=200
+[2022-11-13 00:33:12,388] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:33:12,388] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a short, unique and interesting answer title relating to the theory of \\"Algorithms in data structure\\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:33:12,798] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 289
+[2022-11-13 00:33:12,799] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=172 request_id=9ccc42bff575e6f7b4564e5ad9f2d2f1 response_code=200

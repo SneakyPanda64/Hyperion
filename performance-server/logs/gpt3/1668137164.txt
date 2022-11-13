@@ -1,7 +1,0 @@
-Expand greatly upon the topic of "What is the difference between a heuristic and an algorithm?" in the context of computer science in british english:
-
-1. What is the difference between a heuristic and an algorithm?
-
-
-==========================
-{"id": "cmpl-6BEy4MHof7y8kMFdsbsQu5fvrzEKt", "object": "text_completion", "created": 1668137164, "model": "text-curie-001", "choices": [{"text": "\n\nA heuristic is a rule of thumb that a computer scientist might use to get a rough approximation of the solution to a problem. An algorithm, on the other hand, is a specific, specific way of solving a problem.", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 49, "completion_tokens": 47, "total_tokens": 96}}

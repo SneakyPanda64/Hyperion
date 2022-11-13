@@ -1,0 +1,7 @@
+Expand greatly upon the topic of "Algorithms for Sequence Processing: A Video Essay" in the context of computer science summarised for a 9th grader:
+
+1. What is an algorithm?
+
+
+==========================
+{"id": "cmpl-6C5r30Dbffvd9zWpsGBiyXZeLaLhP", "object": "text_completion", "created": 1668340461, "model": "text-curie-001", "choices": [{"text": "\nAn algorithm is a set of steps or instructions that is used to solve a problem. algorithms can be written in a variety of different ways, but they all have in common the use of certain mathematical operations. \n\n", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 45, "completion_tokens": 45, "total_tokens": 90}}

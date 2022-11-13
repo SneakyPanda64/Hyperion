@@ -1,0 +1,10 @@
+[2022-11-13 17:14:46,300] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-13 17:14:46,993] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/playlists?part=id&id=UC_x5XG1OV2P6uZZ5FSM9Ttw&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&maxResults=2 HTTP/1.1" 200 None
+[2022-11-13 17:14:47,001] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-13 17:14:48,428] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/search?part=snippet&type=video&maxResults=50&order=relevance&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&q=Fortnite&publishedAfter=2000-01-01T00:00:00Z&publishedBefore=3000-01-01T00:00:00Z HTTP/1.1" 200 None
+[2022-11-13 17:14:48,466] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-13 17:14:49,038] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=yrn12W1ad8A HTTP/1.1" 200 None
+[2022-11-13 17:14:49,043] DEBUG - Hashtags []
+[2022-11-13 17:14:49,043] DEBUG - Top Hashtags []
+[2022-11-13 17:14:49,043] DEBUG - Tags []
+[2022-11-13 17:14:49,043] DEBUG - Top Tags []

@@ -1,0 +1,14 @@
+[2022-11-13 11:20:52,739] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:20:52,740] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic computer science:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-13 11:20:52,740] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 11:20:52,743] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 11:20:53,422] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 289
+[2022-11-13 11:20:53,423] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=115 request_id=61e754fc71ed9f56cdfed540fbe71538 response_code=200
+[2022-11-13 11:20:53,431] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:20:53,432] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"computer science\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-13 11:20:53,961] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 388
+[2022-11-13 11:20:53,962] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=318 request_id=96f97234a92f420764571621422ca74b response_code=200
+[2022-11-13 11:20:53,965] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:20:53,965] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a short, unique and interesting answer title relating to the theory of \\"Algorithmic randomness\\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-13 11:20:55,703] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 334
+[2022-11-13 11:20:55,704] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1274 request_id=667cd093a1af7e71de9eba9b26af7b68 response_code=200

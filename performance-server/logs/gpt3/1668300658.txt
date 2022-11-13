@@ -1,0 +1,3 @@
+Write a short, unique and interesting answer title relating to the theory of " Algorithms used in business to forecast sales":
+==========================
+{"id": "cmpl-6BvV4d1tEVB2uAS7gfNSUatHCeBJK", "object": "text_completion", "created": 1668300658, "model": "text-curie-001", "choices": [{"text": "\n\nPredicted Trends in Sales by Businesses", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 25, "completion_tokens": 10, "total_tokens": 35}}

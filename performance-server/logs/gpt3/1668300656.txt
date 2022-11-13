@@ -1,0 +1,3 @@
+Write a single unique and interesting keyword relating to basic business:
+==========================
+{"id": "cmpl-6BvV2hf1xbvauQ4WdM8USZgSKptuH", "object": "text_completion", "created": 1668300656, "model": "text-curie-001", "choices": [{"text": "\n\nbusiness models", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 12, "completion_tokens": 4, "total_tokens": 16}}

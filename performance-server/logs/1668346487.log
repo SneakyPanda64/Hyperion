@@ -1,0 +1,4 @@
+[2022-11-13 13:34:47,841] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-13 13:34:48,012] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/playlists?part=id&id=UC_x5XG1OV2P6uZZ5FSM9Ttw&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&maxResults=2 HTTP/1.1" 200 None
+[2022-11-13 13:34:48,015] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-13 13:34:48,869] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/search?part=snippet&type=video&maxResults=50&order=relevance&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&q=alexandria%20ocasio-cortez&publishedAfter=2000-01-01T00:00:00Z&publishedBefore=3000-01-01T00:00:00Z HTTP/1.1" 200 None

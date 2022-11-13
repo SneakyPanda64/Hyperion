@@ -1,0 +1,15 @@
+[2022-11-13 10:12:04,269] CRITICAL - FTP server could not be reached
+[2022-11-13 10:12:04,279] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 10:12:04,279] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic business:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 10:12:04,279] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 10:12:04,283] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 10:12:04,995] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 276
+[2022-11-13 10:12:04,997] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=90 request_id=30fba83d37fac4ce03db80926d135f4c response_code=200
+[2022-11-13 10:12:05,006] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 10:12:05,006] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"business\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 10:12:05,740] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 409
+[2022-11-13 10:12:05,741] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=455 request_id=37a24d7baa0d7dc49c21ece872ce1c11 response_code=200
+[2022-11-13 10:12:05,742] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 10:12:05,744] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a short, unique and interesting answer title relating to the theory of \\"Algorithms in Online Shopping \\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 10:12:06,148] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 310
+[2022-11-13 10:12:06,149] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=150 request_id=f540329515626ec012b91d429ea4f129 response_code=200

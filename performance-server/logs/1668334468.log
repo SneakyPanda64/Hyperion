@@ -1,0 +1,14 @@
+[2022-11-13 10:14:28,950] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 10:14:28,950] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic business:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 10:14:28,950] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 10:14:28,955] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 10:14:29,535] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 270
+[2022-11-13 10:14:29,536] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=141 request_id=5dc22b731753cd03a611bf7ced95fa96 response_code=200
+[2022-11-13 10:14:29,544] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 10:14:29,544] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"business\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 10:14:30,334] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 525
+[2022-11-13 10:14:30,335] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=480 request_id=53d437f8b931db07d168e2c4ddad7060 response_code=200
+[2022-11-13 10:14:30,337] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 10:14:30,338] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a short, unique and interesting answer title relating to the theory of \\"Algorithms used in business to manage inventory\\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 10:14:30,739] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 309
+[2022-11-13 10:14:30,740] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=201 request_id=6a7c2db14e45fb0bc4c0e01af146099c response_code=200

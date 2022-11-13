@@ -1,0 +1,4 @@
+Write a list of 5 interesting beginner topics on where algorithms is used in the context of "business":
+-
+==========================
+{"id": "cmpl-6BvMwlb9EPoMMYc4SV3WeX8OquGTH", "object": "text_completion", "created": 1668300154, "model": "text-curie-001", "choices": [{"text": " Algorithms in marketing\n- Algorithms for stock trading\n- Algorithms for scheduling doctor's appointments\n- Algorithms for forecasting sales\n- Algorithms for predicting user behavior on social media", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 22, "completion_tokens": 43, "total_tokens": 65}}

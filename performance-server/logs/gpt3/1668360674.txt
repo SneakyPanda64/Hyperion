@@ -1,0 +1,3 @@
+Write a short, unique and interesting title relating to the theory of "Algorithms in artificial intelligence" in the form of a video essay title:
+==========================
+{"id": "cmpl-6CB74qO3gsKnjODVQuqh5DM1sQkTm", "object": "text_completion", "created": 1668360674, "model": "text-davinci-002", "choices": [{"text": "\n\nThe Benefits of Algorithms in Artificial Intelligence", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 30, "completion_tokens": 11, "total_tokens": 41}}

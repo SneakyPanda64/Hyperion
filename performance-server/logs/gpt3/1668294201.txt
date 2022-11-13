@@ -1,0 +1,4 @@
+Write a list of 5 interesting topics relating to computer science theory and Algorithms:
+-
+==========================
+{"id": "cmpl-6BtovqMJCVo02UdcEgiYd7oByjstG", "object": "text_completion", "created": 1668294201, "model": "text-curie-001", "choices": [{"text": "Computational complexity\n-Data structures\n-Algorithms\n-Problem solving\n-Computer security", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 19, "completion_tokens": 21, "total_tokens": 40}}

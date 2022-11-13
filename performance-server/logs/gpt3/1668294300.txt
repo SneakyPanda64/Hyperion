@@ -1,0 +1,5 @@
+Write a list of 5 interesting topics relating to computer science and algorithms:
+
+-
+==========================
+{"id": "cmpl-6BtqWv3GBPZHIXFYfcigD3boPS3Kf", "object": "text_completion", "created": 1668294300, "model": "text-curie-001", "choices": [{"text": "Algorithms and data structures\n-Algorithms for artificial intelligence\n-Algorithms for web search\n-Algorithms for data analysis\n-Algorithms for machine learning", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 17, "completion_tokens": 38, "total_tokens": 55}}

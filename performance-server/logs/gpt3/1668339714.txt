@@ -1,0 +1,11 @@
+Expand greatly upon the topic of "How Algorithms are Taking Over artificial intelligence" in the context of computer science summarised for a 9th grader:
+
+1. How algorithms are used in artificial intelligence
+
+Algorithms are at the heart of everything that happens in artificial intelligence. They are the set of instructions that tell a computer what to do in order to solve a problem or complete a task.
+
+2. What are some benefits of using algorithms in artificial intelligence
+
+
+==========================
+{"id": "cmpl-6C5f0SbeBacORZTNDt0VwMkUQBmWt", "object": "text_completion", "created": 1668339714, "model": "text-davinci-002", "choices": [{"text": "Some benefits of using algorithms in artificial intelligence include the ability to find new and more efficient ways to do things, the ability to automate repetitive tasks, and the ability to make better decisions by processing large amounts of data.\n\n", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 100, "completion_tokens": 45, "total_tokens": 145}}

@@ -1,8 +1,0 @@
-Extract tags that are directly related to "computer science" from the following passage of text in a list format:
-
-passage: strong security protocols, and configuring serverless systems with proper security measures.
-Additionally, developers will need to protect their applications by using firewalls, intrusion detection or prevention systems, and data backups.
-
-tags:
-==========================
-{"id": "cmpl-6BUmx0OMB4Hs1iJ7sgmBcAzkp9kgb", "object": "text_completion", "created": 1668197979, "model": "text-babbage-001", "choices": [{"text": " security, computer science, data backups", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 73, "completion_tokens": 7, "total_tokens": 80}}

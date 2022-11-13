@@ -1,0 +1,3 @@
+Write a short, unique and interesting answer title relating to the theory of "Algorithms can be used to predict the success of a marketing campaign ":
+==========================
+{"id": "cmpl-6BvSNg3WGppJ0bAnlFvOONm1f4fkw", "object": "text_completion", "created": 1668300491, "model": "text-curie-001", "choices": [{"text": "\n\nCan Algorithms Predict the Success of a Marketing Campaign?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 31, "completion_tokens": 14, "total_tokens": 45}}

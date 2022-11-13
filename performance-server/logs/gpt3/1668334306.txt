@@ -1,0 +1,3 @@
+Write a short, unique and interesting answer title relating to the theory of "Detecting Fraud in Banking":
+==========================
+{"id": "cmpl-6C4FmtKtNWcNSYNeqvyfMdargL0Ln", "object": "text_completion", "created": 1668334306, "model": "text-curie-001", "choices": [{"text": "\n\nCan a Lie be Detected with Hard Data?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 21, "completion_tokens": 11, "total_tokens": 32}}

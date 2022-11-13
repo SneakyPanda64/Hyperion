@@ -1,0 +1,13 @@
+Extract tags that are directly related to "computer science" from the following passage of text in a comma seperated list format:
+
+passage: computers are very good at finding information, but they can only find the information that is stored in their memory. They can't find information that is hidden in other computer files or on the internet. 
+
+2.Data mining is a process of finding information that is hidden in computer data. It is used by computer scientists and other experts to find patterns and to make predictions about future events. 
+
+3.Data mining has been used for a long time to find patterns in data. IBM developed the first computer data mining program in the early 1960s. 
+
+4. Data mining is a very important tool for computer scientists and other experts. One of the benefits of data mining is that it can be used to find patterns in data. This can be useful for a variety of purposes, including prediction of future events and identification of useful information. Data mining is a complex process, and there are a number of challenges that need to be overcome in order to completed data mining. These include issues with the data, the algorithms used to find patterns in the data, and the interpretation of the results. Data mining is an important tool for computer scientists and other experts, and there are likely to be continued developments in this field. The future of data mining is likely to involve further improvements in the algorithms used to find patterns in data and the way in which results are interpreted.
+
+tags:
+==========================
+{"id": "cmpl-6C5V51m0hd4wE6KaE7y3BZlmLOCKv", "object": "text_completion", "created": 1668339099, "model": "text-babbage-001", "choices": [{"text": "\n-computer science\n-data mining\n-patterns\n-information\n-stored data\n-memory", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 312, "completion_tokens": 23, "total_tokens": 335}}

@@ -1,0 +1,7 @@
+Extract tags that are directly related to "computer science" from the following passage of text in a comma seperated list format:
+
+passage: There are a few algorithms in graph theory that can help you find the shortest path between two points. One of these algorithms is Dijkstra's algorithm, which can find the shortest path between two nodes in a graph. Another algorithm that can help you find the shortest path is the BellmanFord algorithm, which can also find the shortest path between two nodes in a graph.
+
+tags:
+==========================
+{"id": "cmpl-6C5cvcXZ0b7yhKMTnUDhsvofn5xPk", "object": "text_completion", "created": 1668339585, "model": "text-babbage-001", "choices": [{"text": "\n-algorithms\n-graph theory\n- shortest path\n- Dijkstra\n- BellmanFord", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 111, "completion_tokens": 23, "total_tokens": 134}}

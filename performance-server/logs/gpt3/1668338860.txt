@@ -1,0 +1,3 @@
+Write a short, unique and interesting topic relating to the theory of "Algorithms in computer security":
+==========================
+{"id": "cmpl-6C5RE8E2XqaJD6UydTTop5EOC37Kw", "object": "text_completion", "created": 1668338860, "model": "text-davinci-002", "choices": [{"text": "\n\n1. How algorithms are used to secure computer systems\n2. How different algorithms can be used to attack and defend", "index": 0, "logprobs": null, "finish_reason": "length"}], "usage": {"prompt_tokens": 21, "completion_tokens": 25, "total_tokens": 46}}

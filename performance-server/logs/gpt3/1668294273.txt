@@ -1,0 +1,3 @@
+Write a single unique and interesting keyword relating to basic computer science theory:
+==========================
+{"id": "cmpl-6Btq5tc2GgD7Iu3HX2g4NCjcnHGVQ", "object": "text_completion", "created": 1668294273, "model": "text-curie-001", "choices": [{"text": "\n\nabstract data types", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 14, "completion_tokens": 6, "total_tokens": 20}}

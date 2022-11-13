@@ -1,0 +1,4 @@
+Write a list of 5 interesting beginner topics relating to algorithms in the context of  "computer science":
+-
+==========================
+{"id": "cmpl-6BuY0JFN1k6GOsXycMOAlbG5PmtQf", "object": "text_completion", "created": 1668296996, "model": "text-curie-001", "choices": [{"text": "Algorithm design\n-Algorithm analysis\n-Algorithm performance\n-Algorithm complexity\n-Algorithm transformation", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 22, "completion_tokens": 23, "total_tokens": 45}}

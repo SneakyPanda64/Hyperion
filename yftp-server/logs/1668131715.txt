@@ -1,8 +1,0 @@
-[2022-11-11 01:55:20.588852] last uploaded: 5s ago, current time: 2022-11-11 01:55:20.588852
-[2022-11-11 01:55:25.590750] last uploaded: 10s ago, current time: 2022-11-11 01:55:25.590750
-[2022-11-11 01:55:30.604667] last uploaded: 15s ago, current time: 2022-11-11 01:55:30.604667
-[2022-11-11 01:55:35.608780] Checking timezone, current hour: 1
-[2022-11-11 01:55:35.608780] Uploading video time: 2022-11-11 01:55:35.608780
-[2022-11-11 01:55:35.609781] [Youtube] Checking if V2hhdCBpcyBhIG5ldXJhbCBuZXR3b3JrPw is already uploaded
-[2022-11-11 01:55:35.610784] last uploaded: 20s ago, current time: 2022-11-11 01:55:35.608780
-[2022-11-11 01:55:40.620843] last uploaded: 5s ago, current time: 2022-11-11 01:55:40.620843

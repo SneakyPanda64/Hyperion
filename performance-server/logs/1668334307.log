@@ -1,0 +1,15 @@
+[2022-11-13 10:11:47,792] CRITICAL - FTP server could not be reached
+[2022-11-13 10:11:47,807] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 10:11:47,808] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic business:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 10:11:47,809] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 10:11:47,820] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 10:11:48,595] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 277
+[2022-11-13 10:11:48,597] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=101 request_id=ca3a3939e910ba41fb3b8f0dff3651f5 response_code=200
+[2022-11-13 10:11:48,611] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 10:11:48,612] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"business\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 10:11:49,252] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 428
+[2022-11-13 10:11:49,254] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=353 request_id=38997a18bfb42fe1396b1862289f7adb response_code=200
+[2022-11-13 10:11:49,258] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 10:11:49,258] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a short, unique and interesting answer title relating to the theory of \\"Detecting Fraud in Banking\\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 10:11:49,655] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 301
+[2022-11-13 10:11:49,657] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=189 request_id=97128ce91d73e6526b9f600533018eb1 response_code=200

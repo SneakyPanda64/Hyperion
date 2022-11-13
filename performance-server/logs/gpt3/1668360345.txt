@@ -1,0 +1,7 @@
+Expand greatly upon the topic of "The fascinating world of algorithms for computer graphics" in the context of computer science summarised for a 9th grader:
+
+1. What are algorithms?
+
+
+==========================
+{"id": "cmpl-6CB1lY6g3tBz7oy89CykSmnDKYgia", "object": "text_completion", "created": 1668360345, "model": "text-davinci-002", "choices": [{"text": "\nIn computing, an algorithm is a set of instructions that are followed in order to solve a problem or accomplish a task. Algorithms are typically written as a series of steps that can be carried out by a computer.\n\n", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 41, "completion_tokens": 47, "total_tokens": 88}}

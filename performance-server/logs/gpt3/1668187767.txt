@@ -1,7 +1,0 @@
-Extract tags that are directly related to "computer science" from the following passage of text in a list format:
-
-passage: and caching.
-
-tags:
-==========================
-{"id": "cmpl-6BS8FFw2A8DctOPMXZWBoKxXwAeO7", "object": "text_completion", "created": 1668187767, "model": "text-babbage-001", "choices": [{"text": " caching, computer science", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 35, "completion_tokens": 4, "total_tokens": 39}}

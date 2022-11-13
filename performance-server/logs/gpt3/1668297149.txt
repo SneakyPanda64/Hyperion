@@ -1,0 +1,4 @@
+Write a list of 5 interesting beginner topics relating to algorithms in the context of "computer science":
+-
+==========================
+{"id": "cmpl-6BuaT6UE2wAZMBdlEoDiIqFXpNAzE", "object": "text_completion", "created": 1668297149, "model": "text-davinci-002", "choices": [{"text": "What is an algorithm?\n-What are the most common types of algorithms?\n-What are some common applications of algorithms?\n-How are algorithms designed and implemented?\n-What are some common issues with algorithms?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 21, "completion_tokens": 45, "total_tokens": 66}}

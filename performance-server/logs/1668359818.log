@@ -1,0 +1,10 @@
+[2022-11-13 17:16:58,196] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-13 17:16:58,884] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/playlists?part=id&id=UC_x5XG1OV2P6uZZ5FSM9Ttw&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&maxResults=2 HTTP/1.1" 200 None
+[2022-11-13 17:16:58,893] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-13 17:16:59,827] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/search?part=snippet&type=video&maxResults=50&order=relevance&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&q=What%20is%20an%20algorithm?&publishedAfter=2000-01-01T00:00:00Z&publishedBefore=3000-01-01T00:00:00Z HTTP/1.1" 200 None
+[2022-11-13 17:16:59,861] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-13 17:17:00,321] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=6hfOvs8pY1k HTTP/1.1" 200 None
+[2022-11-13 17:17:00,327] DEBUG - Hashtags []
+[2022-11-13 17:17:00,328] DEBUG - Top Hashtags []
+[2022-11-13 17:17:00,328] DEBUG - Tags ['\\david malan\\', 'algorithm', 'algorithms', 'enjoyanimation', '\\joyce', 'stenneke\\', 'ted-ed', 'tededucation', '\\ted', 'ed\\']
+[2022-11-13 17:17:00,329] DEBUG - Top Tags ['\\david malan\\', 'algorithm', 'algorithms', 'enjoyanimation', '\\joyce', 'stenneke\\', 'ted-ed', 'tededucation', '\\ted', 'ed\\']

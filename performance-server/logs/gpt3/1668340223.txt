@@ -1,0 +1,7 @@
+Expand greatly upon the topic of "Algorithms: The Key to Security and Cryptography" in the context of computer science summarised for a 9th grader:
+
+1. What is an algorithm?
+
+
+==========================
+{"id": "cmpl-6C5nDVpvc0AO2tTUg5FhcMqA1wUeg", "object": "text_completion", "created": 1668340223, "model": "text-curie-001", "choices": [{"text": "\nAn algorithm is a set of rules that tell a computer what to do. These rules can be inputted into a computer and will produce a specific result. Algorithms play an important role in security and cryptography because they help encrypt data and protect it from being read by unauthorized people.", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 45, "completion_tokens": 58, "total_tokens": 103}}

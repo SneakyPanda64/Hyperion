@@ -1,0 +1,15 @@
+[2022-11-13 11:22:01,052] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:22:01,052] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic computer science:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-13 11:22:01,053] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 11:22:01,059] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 11:22:01,717] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 273
+[2022-11-13 11:22:01,718] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=111 request_id=e49961c63f0610fd300b9f0f3aec6cea response_code=200
+[2022-11-13 11:22:01,725] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:22:01,726] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"computer science\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-13 11:22:02,263] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 367
+[2022-11-13 11:22:02,264] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=287 request_id=dfb1bdb8b3105d7fe6e79488ed79325a response_code=200
+[2022-11-13 11:22:02,266] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:22:02,267] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a short, unique and interesting answer title relating to the theory of \\"Algorithm design\\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-13 11:22:02,879] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 293
+[2022-11-13 11:22:02,881] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=399 request_id=a996fcb8c625a26022ede8670491d7b1 response_code=200
+[2022-11-13 11:22:02,897] DEBUG - Keyword algorithms, Topics ['Algorithm design', 'Algorithm analysis', 'Algorithm implementation', 'Algorithm performance', 'Algorithm theory'], Title The Algorithm Design Process

@@ -1,6 +1,0 @@
-Write a list of 3 interesting topics relating to computer science:
-
-1. Why is Kafka fast?
-2. How does HTTPS work?
-==========================
-{"id": "cmpl-6BS7aG4OVantMpB0FTMka6rRmms6X", "object": "text_completion", "created": 1668187726, "model": "text-davinci-002", "choices": [{"text": "\n3. What is a DDoS attack?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 29, "completion_tokens": 10, "total_tokens": 39}}

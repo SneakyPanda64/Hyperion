@@ -1,0 +1,7 @@
+Expand greatly upon the topic of "Death by Algorithm: A Data Analysis Horror Story" in the context of computer science in british english:
+
+1. The impact of algorithms on society
+
+
+==========================
+{"id": "cmpl-6C5SQSas1fdKSwm8nJD9Dh5z06PpY", "object": "text_completion", "created": 1668338934, "model": "text-curie-001", "choices": [{"text": "\nDeath by Algorithm is a horror story that explores the impact of algorithms on society. In this story, a computer program is designed to kill people. The program is released onto the internet, and begins killing people indiscriminately. The computer scientist who created the program becomes a fugitive.", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 42, "completion_tokens": 57, "total_tokens": 99}}

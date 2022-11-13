@@ -1,0 +1,4 @@
+Write a list of 5 interesting beginner topics on where algorithms is used in the context of "business":
+-
+==========================
+{"id": "cmpl-6BvQ4YqfmAncIxyYgp1qAO07YMM7E", "object": "text_completion", "created": 1668300348, "model": "text-curie-001", "choices": [{"text": "A business algorithm is a set of steps or operations that a business uses to make decisions.\n-Algorithm analysis is the process of examining the mathematical structure and the algorithmic behavior of computer programs or other digital artifacts.\n-Algorithm design is the process of creating algorithms that solve problems or achieve goals.\n-Algorithmic trading is a form of automated trading based on the use of algorithms.\n-Algorithmically generated music is music that is created by algorithms.", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 22, "completion_tokens": 96, "total_tokens": 118}}

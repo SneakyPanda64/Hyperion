@@ -1,3 +1,5 @@
+import logging
+
 import torch
 import torchaudio
 from time import time, sleep
@@ -70,7 +72,7 @@ def tts(text, voice, preset, path, mono=False):
     print(f"[TTS] Model loading took: {model_time} seconds")
 
 def complete(prompt, model='text-davinci-002', temperature=0.7, max_tokens=256, top_p=1, frequency_penalty=0,
-         presence_penalty=0, n=1, stop="", echo=False):
+         presence_penalty=0, stop="", n=1, echo=False):
     response = openai.Completion.create(
         model=model,
         prompt=prompt,
@@ -95,9 +97,9 @@ def edit(text, instruction, temperature=0):
             temperature=temperature,
             top_p=1
         )
-    except:
-        print("[Edit/Openai] Rate limited retrying in 10s")
-        sleep(10)
+    except Exception as e:
+        logging.debug("[Edit/Openai] Rate limited retrying in 3s", e)
+        sleep(3)
         return edit(text, instruction, temperature)
     return response
 def base64UrlEncode(data):
@@ -110,10 +112,8 @@ def base64UrlDecode(base64Url):
 
     return urlsafe_b64decode(base64Url + padding).decode("utf-8")
 def mkdir(path):
-    try:
+    if os.path.exists(path):
         shutil.rmtree(path)
-    except:
-        pass
     os.mkdir(path)
 # def textwrap(text, max):
 #     sentences = []

@@ -1,0 +1,14 @@
+[2022-11-13 00:45:50,220] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:45:50,220] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic business:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:45:50,221] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 00:45:50,225] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 00:45:51,077] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 388
+[2022-11-13 00:45:51,079] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=217 request_id=a2705bf1f5301274849ad295b37c3006 response_code=200
+[2022-11-13 00:45:51,088] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:45:51,089] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"business\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:45:52,615] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 761
+[2022-11-13 00:45:52,616] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1048 request_id=251dbbf251e5f509579db582abba28f0 response_code=200
+[2022-11-13 00:45:52,619] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:45:52,619] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a short, unique and interesting answer title relating to the theory of \\"Algorithm design is the process of creating algorithms that solve problems or achieve goals.\\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:45:53,023] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 298
+[2022-11-13 00:45:53,025] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=169 request_id=6d44c020e0ba8e9407408b2bb16d57fe response_code=200

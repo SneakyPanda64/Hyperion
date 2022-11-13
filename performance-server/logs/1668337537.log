@@ -1,0 +1,14 @@
+[2022-11-13 11:05:37,163] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:05:37,163] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic business:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 11:05:37,163] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 11:05:37,167] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 11:05:38,034] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 278
+[2022-11-13 11:05:38,035] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=95 request_id=ae8db9abf24d5e17ae1d9f43ec74cfdf response_code=200
+[2022-11-13 11:05:38,039] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:05:38,039] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"business\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 11:05:39,002] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 467
+[2022-11-13 11:05:39,003] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=612 request_id=70d68ffb09bf8bcc4f5c5d9dd4916785 response_code=200
+[2022-11-13 11:05:39,004] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:05:39,004] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a short, unique and interesting answer title relating to the theory of \\" 1. Algorithms used in search engines 2. Algorithms used in social networks 3. Algorithms used in recommender systems 4. Algorithms used in artificial intelligence 5. Algorithms used in data mining\\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 11:05:39,410] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 340
+[2022-11-13 11:05:39,411] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=186 request_id=000de21e379d3309fc5b522f128a2ebf response_code=200

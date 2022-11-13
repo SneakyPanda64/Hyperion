@@ -1,0 +1,19 @@
+[2022-11-13 11:16:21,384] INFO - Getting video script.
+[2022-11-13 11:16:21,398] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:16:21,399] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic computer science:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 11:16:21,399] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 11:16:21,402] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 11:16:21,968] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 273
+[2022-11-13 11:16:21,969] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=101 request_id=bc1d9a2533add9ae4567dd207ae2e2e7 response_code=200
+[2022-11-13 11:16:21,981] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:16:21,981] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"computer science\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 11:16:22,753] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 431
+[2022-11-13 11:16:22,754] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=586 request_id=b5fd7242cc946bbf1cba98868aca4f6f response_code=200
+[2022-11-13 11:16:22,757] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:16:22,757] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a short, unique and interesting answer title relating to the theory of \\"Algorithms in data compression\\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 11:16:23,102] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 307
+[2022-11-13 11:16:23,103] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=185 request_id=0142810766add24f4d5718caf367161b response_code=200
+[2022-11-13 11:16:23,121] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:16:23,121] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of 1 topics relating to computer science and \\"The Art of Compressing Data with Algorithms\\":\\n\\n", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 11:16:25,907] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 476
+[2022-11-13 11:16:25,908] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2632 request_id=5c507c5a5e31e2d6eaba75eb279d0b37 response_code=200

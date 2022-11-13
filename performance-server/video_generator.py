@@ -13,7 +13,6 @@ def CreateVideo(id):
     with open(os.path.join(path, "script.json"), "r") as f:
         contents = json.loads(f.read())
     print("[Thumbnail] Creating thumbnail")
-    thumbnail.GenerateThumbnail(id, "computer science", contents["topic"])
     start_time = 3
     full_duration = (mp.AudioFileClip(os.path.join(path, "audio", "audio.wav"))).duration + start_time
     clips = [(mp.VideoFileClip(os.path.join("content", "intro.mp4")))]

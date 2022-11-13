@@ -1,14 +1,15 @@
 from PIL import Image, ImageFont, ImageDraw
-
+import json
 import os
 import util
 
-def GenerateThumbnail(id, genre, title):
-    path = os.path.join("scripts", id, "thumbnail.png")
+def GenerateThumbnail(id):
+    path = os.path.join("scripts", id)
+    j = json.load(open(os.path.join(path, "script.json")))
     icon = Image.open("content/data-science.png").convert("RGBA")
     img = Image.new('RGB', (1920, 1080), (47, 47, 47))
     d = ImageDraw.Draw(img)
-    textwrap = util.textwrap(title, 10)
+    textwrap = util.textwrap(j["topic"], 10)
     if len(textwrap) == 1:
         fontsize = 150
     elif len(textwrap) == 2:
@@ -29,4 +30,4 @@ def GenerateThumbnail(id, genre, title):
     center = util.GetCenter(1920, 1080, size[2], size[3])
     d.multiline_text((center[0]-250, center[1]), text=text, font=fnt, fill=(255, 255, 255), align="left")
     img.paste(icon, (1300, 250), icon)
-    img.save(path)
+    img.save(os.path.join(path, "thumbnail.png"))

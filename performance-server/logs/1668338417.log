@@ -1,0 +1,14 @@
+[2022-11-13 11:20:17,576] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:20:17,577] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic computer science:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-13 11:20:17,577] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 11:20:17,581] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 11:20:18,274] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 273
+[2022-11-13 11:20:18,275] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=96 request_id=fa7285bea862b221f57d87f3564198ea response_code=200
+[2022-11-13 11:20:18,283] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:20:18,283] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"computer science\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-13 11:20:19,453] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 630
+[2022-11-13 11:20:19,453] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=850 request_id=be0c4eda0747ec5044d565de3de9fdbc response_code=200
+[2022-11-13 11:20:19,456] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 11:20:19,456] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a short, unique and interesting answer title relating to the theory of \\"Algorithms are used to determine how likely a person is to respond to a question.\\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-13 11:20:19,862] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 340
+[2022-11-13 11:20:19,863] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=198 request_id=977c27d06c7c97af62d618cd5dd5672b response_code=200

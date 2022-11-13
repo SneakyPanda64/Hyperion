@@ -1,0 +1,3 @@
+Write a short, unique and interesting answer title relating to "Algorithms in data entry":
+==========================
+{"id": "cmpl-6BvB85ZdXfHGJQ54ukpghCspeGQhN", "object": "text_completion", "created": 1668299422, "model": "text-curie-001", "choices": [{"text": "\n\nHow to Enter Numbers Quick and Easy", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 19, "completion_tokens": 9, "total_tokens": 28}}

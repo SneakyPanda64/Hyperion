@@ -1,0 +1,3 @@
+Write a short, unique and interesting title relating to the theory of "Algorithms in artificial intelligence" in the form of a video essay title:
+==========================
+{"id": "cmpl-6C5es3FXoe9ldOm1qox2CWLJDd3Kt", "object": "text_completion", "created": 1668339706, "model": "text-davinci-002", "choices": [{"text": "\n\nHow Algorithms are Taking Over artificial intelligence", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 30, "completion_tokens": 11, "total_tokens": 41}}

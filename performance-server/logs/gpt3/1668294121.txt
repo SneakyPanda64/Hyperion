@@ -1,0 +1,5 @@
+Write a list of 5 interesting topics relating to computer science theory and 
+
+Data Structures:
+==========================
+{"id": "cmpl-6BtndfUJPkxt7IFaPz40KMGHOVAkm", "object": "text_completion", "created": 1668294121, "model": "text-curie-001", "choices": [{"text": "\n-What are the different types of data structures?\n-How do data structures help us organize and access data?\n-What are the benefits of using data structures?\n-What are the pros and cons of different data structure implementations?\n-What are some common data structure problems and how can they be solved?\n\nAlgorithms:\n-What are the different types of algorithms?\n-How do algorithms help us solve problems?\n-What are the benefits of using algorithms?\n-What are the pros and cons of different algorithm implementations?\n-What are some common algorithm problems and how can they be solved?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 20, "completion_tokens": 129, "total_tokens": 149}}

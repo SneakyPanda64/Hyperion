@@ -1,0 +1,3 @@
+Write a short, unique and interesting title relating to the theory of "Algorithm analysis and design" in the form of a video essay title:
+==========================
+{"id": "cmpl-6C5oYg7GQCCUkkBT7u1F4CRmke88K", "object": "text_completion", "created": 1668340306, "model": "text-davinci-002", "choices": [{"text": "\n\nWhy Algorithm Analysis and Design Matters", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 29, "completion_tokens": 9, "total_tokens": 38}}

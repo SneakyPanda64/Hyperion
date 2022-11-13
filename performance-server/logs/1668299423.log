@@ -1,0 +1,14 @@
+[2022-11-13 00:30:23,027] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:30:23,027] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic computer science:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:30:23,027] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 00:30:23,033] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 00:30:23,934] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 388
+[2022-11-13 00:30:23,936] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=302 request_id=1cd7d5d2ee9df76705e15ff2b54ce72e response_code=200
+[2022-11-13 00:30:23,945] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:30:23,946] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"computer science\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:30:24,549] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 408
+[2022-11-13 00:30:24,550] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=389 request_id=a19ffffde51b755636da596f73263101 response_code=200
+[2022-11-13 00:30:24,552] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:30:24,552] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a short, unique and interesting answer title relating to \\"Algorithms in data entry\\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:30:24,956] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 298
+[2022-11-13 00:30:24,958] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=174 request_id=2548342819021c37f2d86e46d4522087 response_code=200

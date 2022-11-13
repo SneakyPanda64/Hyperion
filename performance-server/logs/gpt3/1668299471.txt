@@ -1,0 +1,4 @@
+Write a list of 5 interesting beginner topics on where algorithms is used in the context of "computer science":
+-
+==========================
+{"id": "cmpl-6BvBv5t39AGt5ESgHxDc7W5DOqykk", "object": "text_completion", "created": 1668299471, "model": "text-curie-001", "choices": [{"text": "Algorithms in data compression\n-Algorithms in search engines\n-Algorithms in artificial intelligence\n-Algorithms in robotics\n-Algorithms in game theory", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 23, "completion_tokens": 37, "total_tokens": 60}}

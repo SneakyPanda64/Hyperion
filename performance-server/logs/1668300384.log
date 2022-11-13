@@ -1,0 +1,14 @@
+[2022-11-13 00:46:24,443] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:46:24,443] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic business:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:46:24,443] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 00:46:24,448] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 00:46:25,177] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 273
+[2022-11-13 00:46:25,178] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=95 request_id=39711c403a6ca8ed04470e0454fe7565 response_code=200
+[2022-11-13 00:46:25,207] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:46:25,207] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"business\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:46:26,067] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 571
+[2022-11-13 00:46:26,068] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=704 request_id=8d650801d71d575c18377529b832ac8f response_code=200
+[2022-11-13 00:46:26,071] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:46:26,071] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a short, unique and interesting answer title relating to the theory of \\" 1. Algorithms in business: how they work and what they can do for you2. The role of algorithms in market research3. How algorithms can help you run your business more efficiently4. The impact of algorithms on the world of online marketing5. The pros and cons of using algorithms in customer service\\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:46:26,510] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 358
+[2022-11-13 00:46:26,511] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=196 request_id=4451053eebd6a49f96e635d548cf07e6 response_code=200

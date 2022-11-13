@@ -1,0 +1,11 @@
+Expand greatly upon the topic of "The fascinating world of algorithms for computer graphics" in the context of computer science summarised for a 9th grader:
+
+1. What are algorithms?
+
+In computing, an algorithm is a set of instructions that are followed in order to solve a problem or accomplish a task. Algorithms are typically written as a series of steps that can be carried out by a computer.
+
+2. What are some common algorithms used in computer graphics?
+
+
+==========================
+{"id": "cmpl-6CB1qKzBZvqO3E1dyAAMgXKgAHDra", "object": "text_completion", "created": 1668360350, "model": "text-davinci-002", "choices": [{"text": "\n\nSome common algorithms used in computer graphics include those for rendering images, manipulating 3D models, and creating animations. For example, an algorithm may be used to determine how a 3D model should be displayed on a 2D screen, or to calculate the motion of objects in a 2D or 3D space.\n\n", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 101, "completion_tokens": 66, "total_tokens": 167}}

@@ -1,0 +1,11 @@
+Expand greatly upon the topic of "Algorithms for Sequence Processing: A Video Essay" in the context of computer science summarised for a 9th grader:
+
+1. What is an algorithm?
+
+An algorithm is a set of steps or instructions that is used to solve a problem. Algorithms can be written in a variety of different ways, but they all have in common the use of certain mathematical operations.
+
+2. What are some common algorithms used for sequence processing?
+
+
+==========================
+{"id": "cmpl-6C5r6tj52MR0CikoSlLYoiOq104df", "object": "text_completion", "created": 1668340464, "model": "text-curie-001", "choices": [{"text": "\n\nThere are a number of common algorithms used for sequence processing, including search algorithms, join algorithms, and scan algorithms.\n\n", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 104, "completion_tokens": 27, "total_tokens": 131}}

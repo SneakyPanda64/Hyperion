@@ -1,0 +1,7 @@
+Expand greatly upon the topic of "Algorithms: Predicting the Outcomes of Events" in the context of computer science summarised for a 9th grader:
+
+1. What is an algorithm?
+
+
+==========================
+{"id": "cmpl-6CAyzkQTbXFzzGF5MUibBDk2gEHSJ", "object": "text_completion", "created": 1668360173, "model": "text-curie-001", "choices": [{"text": "\nAn algorithm is a set of step-by-step instructions for solving a problem.\n\n", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 45, "completion_tokens": 20, "total_tokens": 65}}

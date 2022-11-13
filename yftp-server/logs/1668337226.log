@@ -1,0 +1,36 @@
+[2022-11-13 11:00:26,728] INFO - concurrency model: async
+[2022-11-13 11:00:26,728] INFO - masquerade (NAT) address: None
+[2022-11-13 11:00:26,728] INFO - passive ports: None
+[2022-11-13 11:00:26,729] DEBUG - poller: 'pyftpdlib.ioloop.Select'
+[2022-11-13 11:00:26,729] DEBUG - authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+[2022-11-13 11:00:26,729] DEBUG - handler: 'pyftpdlib.handlers.type'
+[2022-11-13 11:00:26,729] DEBUG - max connections: 256
+[2022-11-13 11:00:26,729] DEBUG - max connections per ip: 5
+[2022-11-13 11:00:26,729] DEBUG - timeout: 300
+[2022-11-13 11:00:26,729] DEBUG - banner: 'pyftpdlib based ftpd ready.'
+[2022-11-13 11:00:26,737] DEBUG - max login attempts: 3
+[2022-11-13 11:00:26,737] INFO - >>> starting FTP server on :::21, pid=4620 <<<
+[2022-11-13 11:00:47,685] INFO - ::1:51790-[] FTP session opened (connect)
+[2022-11-13 11:00:47,685] DEBUG - ::1:51790-[] -> 220 pyftpdlib based ftpd ready.
+[2022-11-13 11:00:47,685] DEBUG - ::1:51790-[] <- USER ubuntu
+[2022-11-13 11:00:47,686] DEBUG - ::1:51790-[] -> 331 Username ok, send password.
+[2022-11-13 11:00:47,686] DEBUG - ::1:51790-[ubuntu] <- PASS ******
+[2022-11-13 11:00:47,686] DEBUG - ::1:51790-[ubuntu] -> 230 Login successful.
+[2022-11-13 11:00:47,686] INFO - ::1:51790-[ubuntu] USER 'ubuntu' logged in.
+[2022-11-13 11:00:47,686] DEBUG - ::1:51790-[ubuntu] <- CWD /
+[2022-11-13 11:00:47,687] DEBUG - ::1:51790-[ubuntu] -> 250 "/" is the current directory.
+[2022-11-13 11:00:47,687] DEBUG - ::1:51790-[ubuntu] <- TYPE A
+[2022-11-13 11:00:47,687] DEBUG - ::1:51790-[ubuntu] -> 200 Type set to: ASCII.
+[2022-11-13 11:00:47,687] DEBUG - ::1:51790-[ubuntu] <- EPSV
+[2022-11-13 11:00:47,690] DEBUG - ::1:51790-[ubuntu] -> 229 Entering extended passive mode (|||51792|).
+[2022-11-13 11:00:47,691] DEBUG - [debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening ::1:0 at 0x2509410b010>)
+[2022-11-13 11:00:47,692] DEBUG - [debug] call: close() (<pyftpdlib.handlers.PassiveDTP ::1:0 at 0x2509410b010>)
+[2022-11-13 11:00:47,692] DEBUG - ::1:51790-[ubuntu] <- NLST
+[2022-11-13 11:00:47,693] DEBUG - ::1:51790-[ubuntu] -> 125 Data connection already open. Transfer starting.
+[2022-11-13 11:00:47,693] DEBUG - [debug] call: close() (<DTPHandler(id=2545104760272, addr='::1:51790', user='ubuntu')>)
+[2022-11-13 11:00:47,694] DEBUG - ::1:51790-[ubuntu] -> 226 Transfer complete.
+[2022-11-13 11:00:47,694] DEBUG - [debug] call: close() (<FTPHandler(id=2545104760272, addr='::1:51790', user='ubuntu')>)
+[2022-11-13 11:00:47,695] INFO - ::1:51790-[ubuntu] FTP session closed (disconnect).
+[2022-11-13 11:03:23,327] INFO - received interrupt signal
+[2022-11-13 11:03:23,327] INFO - >>> shutting down FTP server, 1 socket(s), pid=4620 <<<
+[2022-11-13 11:03:23,327] DEBUG - [debug] closing IOLoop (<pyftpdlib.ioloop.Select (fds=1, tasks=3) at 0x25091a4a7a0>)

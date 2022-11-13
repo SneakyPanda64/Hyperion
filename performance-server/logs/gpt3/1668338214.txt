@@ -1,0 +1,5 @@
+Write a list of 1 topics relating to computer science and "Algorithms for Searching and Sorting":
+
+
+==========================
+{"id": "cmpl-6C5GoawUAxN2PdoGoLn707FpxWynU", "object": "text_completion", "created": 1668338214, "model": "text-davinci-002", "choices": [{"text": "\n1. Algorithms for searching and sorting data\n2. Efficient search and sort algorithms\n3. Algorithms for large data sets\n4. Algorithms for streaming data\n5. Algorithms for real-time data", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 23, "completion_tokens": 50, "total_tokens": 73}}

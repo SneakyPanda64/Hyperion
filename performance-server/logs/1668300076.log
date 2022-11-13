@@ -1,0 +1,14 @@
+[2022-11-13 00:41:16,700] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:41:16,700] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic business:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:41:16,700] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 00:41:16,705] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 00:41:17,391] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 290
+[2022-11-13 00:41:17,392] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=108 request_id=b9fe873ed933812e9e67007673da4a99 response_code=200
+[2022-11-13 00:41:17,397] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:41:17,397] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"business\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:41:18,587] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 581
+[2022-11-13 00:41:18,588] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=778 request_id=f78dd1b55e1bb79c38daec3d06488fec response_code=200
+[2022-11-13 00:41:18,589] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:41:18,590] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a short, unique and interesting answer title relating to the theory of \\"Algorithms are used to improve the efficiency of business processes. \\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:41:18,886] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 315
+[2022-11-13 00:41:18,887] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=140 request_id=32dd6a5e2c2867e03bba24997251ef54 response_code=200

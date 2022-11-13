@@ -1,0 +1,4 @@
+Write a list of 5 interesting beginner topics relating to programming paradigms in the context of "computer science":
+-
+==========================
+{"id": "cmpl-6BueC9lTgPOEitqjka1ccMvpiwrSy", "object": "text_completion", "created": 1668297380, "model": "text-curie-001", "choices": [{"text": "Different programming paradigms (e.g., procedural, functional, object-oriented)\n-Programming languages (e.g., C++, Java, Python, Ruby)\n-Data structures (e.g., lists, arrays, trees)\n-Algorithms (e.g., search, sorting)\n-Computer security", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 24, "completion_tokens": 70, "total_tokens": 94}}

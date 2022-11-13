@@ -1,0 +1,10 @@
+[2022-11-12 23:05:17,763] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-12 23:05:17,764] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic computer science theory:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-12 23:05:17,765] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-12 23:05:17,770] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-12 23:05:18,410] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 273
+[2022-11-12 23:05:18,411] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=106 request_id=350a2d8ea31aa8df98f3308171426a2e response_code=200
+[2022-11-12 23:05:18,420] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-12 23:05:18,420] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting topics relating to computer science theory and algorithms:\\n\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-12 23:05:18,904] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 399
+[2022-11-12 23:05:18,905] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=256 request_id=0ad5e15ebee064a94638240d04196ade response_code=200

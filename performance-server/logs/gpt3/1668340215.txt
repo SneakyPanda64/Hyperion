@@ -1,0 +1,3 @@
+Write a single unique and interesting keyword relating to basic computer science:
+==========================
+{"id": "cmpl-6C5n5RMFyv8ahdQoOO7ZvwoF9foZw", "object": "text_completion", "created": 1668340215, "model": "text-curie-001", "choices": [{"text": "\n\nApplied Cryptography\n\nApplied Cryptography is the study of algorithms and cryptographic systems for use in security and", "index": 0, "logprobs": null, "finish_reason": "length"}], "usage": {"prompt_tokens": 13, "completion_tokens": 25, "total_tokens": 38}}

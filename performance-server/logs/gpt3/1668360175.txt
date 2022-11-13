@@ -1,0 +1,11 @@
+Expand greatly upon the topic of "Algorithms: Predicting the Outcomes of Events" in the context of computer science summarised for a 9th grader:
+
+1. What is an algorithm?
+
+An algorithm is a set of step by step instructions for solving a problem.
+
+2. What are the types of algorithms?
+
+
+==========================
+{"id": "cmpl-6CAz1NEkjQblQ7qnyW58bxcXhBiOP", "object": "text_completion", "created": 1668360175, "model": "text-curie-001", "choices": [{"text": "\n\nThere are three main types of algorithms: deterministic, probabilistic, and symbolic.\n\n", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 73, "completion_tokens": 22, "total_tokens": 95}}

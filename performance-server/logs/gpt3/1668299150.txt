@@ -1,0 +1,3 @@
+Write a short but unique and interesting question relating to "Algorithms used in search engines":
+==========================
+{"id": "cmpl-6Bv6kOBpRuQ0gGmta0Flt5s0IDY3v", "object": "text_completion", "created": 1668299150, "model": "text-curie-001", "choices": [{"text": "\n\nWhat algorithm is used to rank website pages in a search engine?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 19, "completion_tokens": 15, "total_tokens": 34}}

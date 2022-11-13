@@ -1,0 +1,5 @@
+Write a list of 1 topics relating to computer science and ""Data mining: the new way to find information"":
+
+
+==========================
+{"id": "cmpl-6C5UmNryUGacv9TNYbud5fbrCQYfy", "object": "text_completion", "created": 1668339080, "model": "text-davinci-002", "choices": [{"text": "\n1. Data mining: the new way to find information\n2. The benefits of data mining\n3. The challenges of data mining\n4. The future of data mining", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 24, "completion_tokens": 36, "total_tokens": 60}}

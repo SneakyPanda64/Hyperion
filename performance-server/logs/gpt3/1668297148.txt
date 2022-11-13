@@ -1,0 +1,3 @@
+Write a single unique and interesting keyword relating to basic computer science:
+==========================
+{"id": "cmpl-6BuaSzmL5UEMGucpj2wJiocjMsaCk", "object": "text_completion", "created": 1668297148, "model": "text-curie-001", "choices": [{"text": "\n\nbinary search\n\n\nbinary search is a search algorithm that uses a sorted list to find a specific item in a sorted", "index": 0, "logprobs": null, "finish_reason": "length"}], "usage": {"prompt_tokens": 13, "completion_tokens": 25, "total_tokens": 38}}

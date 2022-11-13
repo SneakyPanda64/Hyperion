@@ -1,0 +1,14 @@
+[2022-11-13 00:38:11,014] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:38:11,015] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a single unique and interesting keyword relating to basic business:", "temperature": 0.7, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:38:11,016] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-13 00:38:11,024] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-13 00:38:11,908] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 297
+[2022-11-13 00:38:11,909] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=168 request_id=f66be094997109b0b17bb2ec28ffccb1 response_code=200
+[2022-11-13 00:38:11,919] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:38:11,919] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where algorithms is used in the context of \\"business\\":\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:38:12,628] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 465
+[2022-11-13 00:38:12,629] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=506 request_id=04972f44be5a533a46802df338dbc36f response_code=200
+[2022-11-13 00:38:12,632] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-13 00:38:12,632] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a short, unique and interesting answer title relating to the theory of \\"How algorithms are used in manufacturing \\":", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "echo": false}' message='Post details'
+[2022-11-13 00:38:13,036] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 321
+[2022-11-13 00:38:13,037] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=153 request_id=223fc102bcda577a6b2e5d27ed85f202 response_code=200

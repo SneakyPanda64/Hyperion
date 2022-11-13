@@ -1,6 +1,0 @@
-Write a list of 3 interesting topics relating to computer science:
-
-1. Why is Kafka fast?
-2. How does HTTPS work?
-==========================
-{"id": "cmpl-6BHo6F3Ui3WofUyYsBeViYQES9hBI", "object": "text_completion", "created": 1668148078, "model": "text-davinci-002", "choices": [{"text": "\n3. How do data structures work in computer science?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 29, "completion_tokens": 12, "total_tokens": 41}}
