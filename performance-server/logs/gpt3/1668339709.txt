@@ -1,7 +1,0 @@
-Expand greatly upon the topic of "How Algorithms are Taking Over artificial intelligence" in the context of computer science summarised for a 9th grader:
-
-1. How algorithms are used in artificial intelligence
-
-
-==========================
-{"id": "cmpl-6C5ev0ftBMN8Jwao0c4aUveYSmvSB", "object": "text_completion", "created": 1668339709, "model": "text-davinci-002", "choices": [{"text": "\nAlgorithms are at the heart of everything that happens in artificial intelligence. They are the set of instructions that tell a computer what to do in order to solve a problem or complete a task.\n\n", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 45, "completion_tokens": 42, "total_tokens": 87}}

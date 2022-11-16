@@ -1,5 +1,0 @@
-Write a list of 2 beginner topics relating to what is "Why Algorithm Analysis and Design Matters" in the context of computer science:
-
-
-==========================
-{"id": "cmpl-6C5oZrVQ3b415FAdXz0xZXzMO6bFC", "object": "text_completion", "created": 1668340307, "model": "text-davinci-002", "choices": [{"text": "\n1. What is an algorithm?\n2. What is the importance of algorithm analysis and design?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 28, "completion_tokens": 21, "total_tokens": 49}}

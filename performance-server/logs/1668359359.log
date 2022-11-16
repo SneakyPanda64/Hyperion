@@ -1,8 +1,0 @@
-[2022-11-13 17:09:19,191] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
-[2022-11-13 17:09:19,614] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/playlists?part=id&id=UC_x5XG1OV2P6uZZ5FSM9Ttw&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&maxResults=2 HTTP/1.1" 200 None
-[2022-11-13 17:09:19,619] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
-[2022-11-13 17:09:20,639] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/search?part=snippet&type=video&maxResults=50&order=relevance&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&q=Algorithms:%20The%20Key%20to%20Security%20and%20Cryptography&publishedAfter=2000-01-01T00:00:00Z&publishedBefore=3000-01-01T00:00:00Z HTTP/1.1" 200 None
-[2022-11-13 17:09:20,645] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
-[2022-11-13 17:09:20,923] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=5jpgMXt1Z9Y HTTP/1.1" 200 None
-[2022-11-13 17:09:20,928] DEBUG - Hashtags []
-[2022-11-13 17:09:20,928] DEBUG - Top Hashtags []

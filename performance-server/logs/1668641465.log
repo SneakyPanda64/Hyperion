@@ -1,0 +1,2 @@
+[2022-11-16 23:31:05,479] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-16 23:31:06,071] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=96 request_id=41690a0a480830d3a1e2513b4459a69e response_code=200

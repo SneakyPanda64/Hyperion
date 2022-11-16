@@ -4,12 +4,17 @@ import torch
 import torchaudio
 from time import time, sleep
 import os
+import tqdm
+import whisper
+import librosa
+
 from base64 import urlsafe_b64encode, urlsafe_b64decode
 import shutil
 from google.cloud import speech
 import json
 import openai
 from pydub import AudioSegment
+from torch.backends.mkl import verbose
 from tortoise.api import TextToSpeech, MODELS_DIR
 from tortoise.utils.audio import load_audio, load_voices
 from tortoise.utils.text import split_and_recombine_text
@@ -17,60 +22,77 @@ from tortoise.utils.text import split_and_recombine_text
 openai.api_key = "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"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "hyperion.json"
 
+logging.info("loading transcription model")
+model = whisper.load_model("tiny.en")
 def transcribe(path):
-    print("[TTS] Transcribing audio file")
-    client = speech.SpeechClient()
-    config = speech.RecognitionConfig(
-        encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
-        sample_rate_hertz=16000,
-        audio_channel_count = 1,
-        language_code="en-US",
-        enable_word_time_offsets=True,
-    )
-    with open(path, "rb") as audio_file:
-        content = audio_file.read()
-    audio = speech.RecognitionAudio(content=content)
-    results = (client.recognize(config=config, audio=audio))
-    return results
+    logging.debug(f"transcribing audio file in path {path}")
+    result = model.transcribe(os.path.join(path))
+    dict = None
+    for v in result['segments']:
+        start = 0
+        logging.debug(f"start, {v['start']}, end, {v['end']}, text, {v['text']}")
+        if dict is None:
+            dict = {
+                "text": [{
+                    "text": v["text"].strip(),
+                    "start": v["start"] + start,
+                    "end": v["end"] + start
+                }],
+                "start": v["start"] + start,
+                "end": v["end"] + start
+            }
+        else:
+            time = librosa.get_duration(filename=path)
+            new_dict = dict
+            end_time = v["end"] + new_dict["text"][0]["start"]
+            if end_time > time:
+                end_time = time
+            new_dict["text"].append({
+                "text": v["text"].strip(),
+                "start": v["start"] + new_dict["text"][0]["start"],
+                "end": end_time
+            })
+            new_dict["end"] = v["end"]
+            dict = new_dict
 
-def tts(text, voice, preset, path, mono=False):
-    total_time = int(time())
-    print("[TTS] Loading model")
-    tts = TextToSpeech(models_dir=MODELS_DIR)
-    model_time = int(time())-total_time
-    print(f"[TTS] Model loading time: {model_time} seconds")
+    return dict
+
+def tts(text, voice, preset, path):
+    tts = TextToSpeech(models_dir=MODELS_DIR, enable_redaction=False)
     seed = int(time())
     voice_sel = [voice]
     voice_samples, conditioning_latents = load_voices(voice_sel)
     all_parts = []
-    for i, text in enumerate(text):
-        print(f"[TTS] Text: {text}")
-        all_sub_parts = []
-        texts = text.split(".")
-        texts[:] = [x for x in texts if x]
-        for j, v in enumerate(texts):
-            v = v.strip()
-            if v[len(v)-1] != "?":
-                v += "."
-            print(f"#{j+1} Subtext -> {v}")
-            gen = tts.tts_with_preset(v, voice_samples=voice_samples, conditioning_latents=conditioning_latents,
-                                      preset=preset, k=1, use_deterministic_seed=seed)
-            gen = gen.squeeze(0).cpu()
-            all_sub_parts.append(gen)
-        all_parts += all_sub_parts
-        full_sub_audio = torch.cat(all_sub_parts, dim=-1)
-        torchaudio.save(os.path.join(path, f'audio-{i}.wav'), full_sub_audio, 24000)
-        if mono:
-            sound = (AudioSegment.from_wav(os.path.join(path, f'audio-{i}.wav'))).set_channels(1).set_frame_rate(16000)
-            sound.export(os.path.join(path, f"mono-{i}.wav"), format='s16le', bitrate='16k')
-    full_audio = torch.cat(all_parts, dim=-1)
-    torchaudio.save(os.path.join(path, "audio.wav"), full_audio, 24000)
-    if mono:
-        sound = (AudioSegment.from_wav(os.path.join(path, "audio.wav"))).set_channels(1).set_frame_rate(16000)
-        sound.export(os.path.join(path, "mono.wav"), format='s16le', bitrate='16k')
-    print(f"[TTS] Finished, total elapsed time: {int(time())-(total_time-model_time)} seconds.")
-    print(f"[TTS] Model loading took: {model_time} seconds")
-
+    length = 0 # len(str(text).split("."))
+    for v in text:
+        split = v.split(".")
+        split = [x for x in split if x]
+        if len(split) < 1:
+            length += 1
+        else:
+            length += len(split)
+    with tqdm.tqdm(total=length) as pbar:
+        for i, text in enumerate(text):
+            logging.debug(f"Text-to-speech: {text}")
+            all_sub_parts = []
+            texts = text.split(".")
+            texts[:] = [x for x in texts if x]
+            for j, v in enumerate(texts):
+                v = v.strip()
+                if v[len(v)-1] != "?":
+                    v += "."
+                logging.debug(f"[#{j+1}] Subsection: {text}")
+                gen = tts.tts_with_preset(v, voice_samples=voice_samples, conditioning_latents=conditioning_latents,
+                                          preset=preset, k=1, use_deterministic_seed=seed, verbose=False, cvvp_amount=0.5)
+                gen = gen.squeeze(0).cpu()
+                all_sub_parts.append(gen)
+                pbar.update(1)
+            all_parts += all_sub_parts
+            full_sub_audio = torch.cat(all_sub_parts, dim=-1)
+            torchaudio.save(os.path.join(path, f'audio-{i}.wav'), full_sub_audio, 24000)
+        full_audio = torch.cat(all_parts, dim=-1)
+        torchaudio.save(os.path.join(path, "audio.wav"), full_audio, 24000)
+    # logging.debug(f"audio finished total elapsed time: {int(time())-total_time} seconds.")
 def complete(prompt, model='text-davinci-002', temperature=0.7, max_tokens=256, top_p=1, frequency_penalty=0,
          presence_penalty=0, stop="", n=1, echo=False):
     response = openai.Completion.create(
@@ -85,8 +107,6 @@ def complete(prompt, model='text-davinci-002', temperature=0.7, max_tokens=256, 
         stop=stop,
         echo=echo
     )
-    with open(os.path.join(os.path.curdir, "logs", "gpt3", f"{response.created}.txt"), "w") as f:
-        f.write(prompt + "\n" + "=" * 26 + "\n" + json.dumps(response))
     return response
 def edit(text, instruction, temperature=0):
     try:
@@ -115,21 +135,7 @@ def mkdir(path):
     if os.path.exists(path):
         shutil.rmtree(path)
     os.mkdir(path)
-# def textwrap(text, max):
-#     sentences = []
-#     words = []
-#     chars = 0
-#     for v in text.split(" "):
-#         chars = chars + len(v)
-#         words.append(v)
-#         if chars >= max:
-#             sentences.append(" ".join(words))
-#             words = []
-#             chars = 0
-#             print(len(v))
-#     sentences.append(" ".join(words))
-#     sentences[:] = [x for x in sentences if x]
-#     return sentences
+
 def textwrap(text, max):
     sentences = []
     words = []

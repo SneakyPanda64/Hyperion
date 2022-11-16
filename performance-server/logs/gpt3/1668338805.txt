@@ -1,3 +1,0 @@
-Write a short, unique and interesting topic relating to the theory of "Algorithms in search engines":
-==========================
-{"id": "cmpl-6C5QLbrIZ03WLSSY1u7ZVH3bfcFUR", "object": "text_completion", "created": 1668338805, "model": "text-davinci-002", "choices": [{"text": "\n\nHow do search engines use algorithms to rank web pages?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 21, "completion_tokens": 13, "total_tokens": 34}}

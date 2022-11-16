@@ -1,3 +1,0 @@
-Write a single unique and interesting keyword relating to basic computer science:
-==========================
-{"id": "cmpl-6BuXzAdJBSiCLXwCYdXG11jkZ7vaV", "object": "text_completion", "created": 1668296995, "model": "text-curie-001", "choices": [{"text": "\n\nData structures\n\nData structures are a way to organize and store data in a computer.", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 13, "completion_tokens": 20, "total_tokens": 33}}

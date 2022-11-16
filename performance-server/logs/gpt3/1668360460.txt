@@ -1,3 +1,0 @@
-Write a short, unique and interesting title relating to the theory of "Algorithms in scientific computing" in the form of a video essay title:
-==========================
-{"id": "cmpl-6CB3cpZEypQgVrIdFSHevxk5vkwnG", "object": "text_completion", "created": 1668360460, "model": "text-davinci-002", "choices": [{"text": "\n\n\"Algorithms in Scientific Computing: A Video Essay\"", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 30, "completion_tokens": 15, "total_tokens": 45}}

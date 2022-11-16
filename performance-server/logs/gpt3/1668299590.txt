@@ -1,3 +1,0 @@
-Write a short, unique and interesting answer title relating to the theory of "Algorithms in data structure":
-==========================
-{"id": "cmpl-6BvDqtVROLxt8Nah28PM74EAf5Hjc", "object": "text_completion", "created": 1668299590, "model": "text-curie-001", "choices": [{"text": "\n\nThe ABCs of data structure", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 22, "completion_tokens": 8, "total_tokens": 30}}

@@ -1,3 +1,0 @@
-Write a list of 5 interesting beginner topics relating to algorithms in the context of  "computer science" in a JSON array format: [
-==========================
-{"id": "cmpl-6BuZDeET8Q6YkxWuH6wyjWt7pFkfR", "object": "text_completion", "created": 1668297071, "model": "text-curie-001", "choices": [{"text": "\n\n1. Algorithms and data structures\n2. Algorithms in Python\n3. Algorithms in Java\n4. Algorithms in C++\n5. Algorithms in JavaScript", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 27, "completion_tokens": 43, "total_tokens": 70}}

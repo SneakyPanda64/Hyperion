@@ -1,3 +1,0 @@
-Write a short, unique and interesting answer title relating to the theory of "Text mining":
-==========================
-{"id": "cmpl-6BvJflFHrEXdDsAeO8ioafaLg5eeh", "object": "text_completion", "created": 1668299951, "model": "text-curie-001", "choices": [{"text": "\n\nText Mining: A Powerful Tool for discovering key insights in large textual data sets", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 18, "completion_tokens": 17, "total_tokens": 35}}

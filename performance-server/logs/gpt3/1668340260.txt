@@ -1,7 +1,0 @@
-Extract tags that are directly related to "computer science" from the following passage of text in a comma seperated list format:
-
-passage: it into an incomprehensible format. This process is often done using complex algorithms, which makes it difficult for unauthorized people to access the data. While security and cryptography algorithms are extremely useful, they do have some challenges associated with them. One challenge is that they can be difficult to use. This is typically due to the fact that they are written in a specific language. This language must be understood by a computer, and it can be difficult to create these algorithms without the help of a professional. There are many future trends in security and cryptography algorithms. One trend is the increasing use of artificial intelligence (AI) in these areas. AI is a field of study that allows computer systems to plan, learn, and make decisions on their own. This could be a valuable tool in the future as it becomes more difficult to create complex algorithms.
-
-tags:
-==========================
-{"id": "cmpl-6C5no0R9Vbm6WhglSvVKXTgYCLnBf", "object": "text_completion", "created": 1668340260, "model": "text-babbage-001", "choices": [{"text": "\n-algorithms\n-computer science\n-security\n-cryptography", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 201, "completion_tokens": 16, "total_tokens": 217}}

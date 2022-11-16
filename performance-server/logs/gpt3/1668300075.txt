@@ -1,4 +1,0 @@
-Write a list of 5 interesting beginner topics on where algorithms is used in the context of "business":
--
-==========================
-{"id": "cmpl-6BvLffLqxj5uOpaRlgKOdBlF5Oe53", "object": "text_completion", "created": 1668300075, "model": "text-curie-001", "choices": [{"text": "Algorithms are used in business to make decisions. \n-Algorithms are used to improve the efficiency of business processes. \n-Algorithms are used to recommend products to customers. \n-Algorithms are used to predict the future behavior of customers. \n-Algorithms are used to optimize the performance of business systems.", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 22, "completion_tokens": 73, "total_tokens": 95}}

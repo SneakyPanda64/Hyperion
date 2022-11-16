@@ -1,3 +1,0 @@
-Write a list of 5 interesting beginner topics relating to algorithms in the context of  "computer science" in a JSON array format: [
-==========================
-{"id": "cmpl-6BuZhoijZJb9q2A45fOtArtrmODDM", "object": "text_completion", "created": 1668297101, "model": "text-davinci-002", "choices": [{"text": " \"topic 1\", \"topic 2\", ... ]\n\n-What are algorithms? \n-What are some common types of algorithms? \n-How are algorithms used in computer science? \n-What are some benefits and drawbacks of using algorithms? \n-How can I learn more about algorithms?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 27, "completion_tokens": 63, "total_tokens": 90}}

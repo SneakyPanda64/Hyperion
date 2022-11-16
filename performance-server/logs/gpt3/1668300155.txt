@@ -1,3 +1,0 @@
-Write a short, unique and interesting answer title relating to the theory of " Algorithms for forecasting sales":
-==========================
-{"id": "cmpl-6BvMxdnVIxtGhFkqjkq27B0ImcdEw", "object": "text_completion", "created": 1668300155, "model": "text-curie-001", "choices": [{"text": "\n\nThe Algorithm for Forecasting Sales", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 22, "completion_tokens": 9, "total_tokens": 31}}

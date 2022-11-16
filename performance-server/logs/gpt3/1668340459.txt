@@ -1,3 +1,0 @@
-Write a short, unique and interesting title relating to the theory of "Algorithms for sequence processing" in the form of a video essay title:
-==========================
-{"id": "cmpl-6C5r1jcTzJ793jlX9hXuY6p5x4YCz", "object": "text_completion", "created": 1668340459, "model": "text-davinci-002", "choices": [{"text": "\n\n\"Algorithms for Sequence Processing: A Video Essay\"", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 30, "completion_tokens": 15, "total_tokens": 45}}

@@ -1,0 +1,15 @@
+[2022-11-16 23:34:52,639] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-16 23:34:52,639] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of unique and interesting keywords relating to basic computer science:\\n\\n-", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-16 23:34:52,640] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-16 23:34:52,642] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-16 23:34:55,644] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 444
+[2022-11-16 23:34:55,644] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2614 request_id=f679a9f9ca1950ef5e994ac9ff88a303 response_code=200
+[2022-11-16 23:34:55,647] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-16 23:34:55,647] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where Web Technologies is used in the context of computer science:\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-16 23:34:56,044] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 320
+[2022-11-16 23:34:56,044] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=250 request_id=17e1f01f5575691619aae0806fe0c78b response_code=200
+[2022-11-16 23:34:56,045] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-16 23:34:56,045] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a short, unique and interesting title relating to the theory of CSS3 in the form of a video essay title without involving numbers:", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-16 23:34:56,519] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 282
+[2022-11-16 23:34:56,519] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=336 request_id=b08a53a4de2ff70fc0e911f76a9951fb response_code=200
+[2022-11-16 23:34:56,549] DEBUG - Keyword Web Technologies, Topics ['HTML5', 'CSS3', 'JavaScript', 'Web Applications', 'Web Standards'], Topic The Magic of CSS3

@@ -1,3 +1,0 @@
-Write a short but detailed single interesting and unique topic title relating to "Algorithms in data mining":
-==========================
-{"id": "cmpl-6BuzRA4x5bdgi187PtlLMwpG8imYV", "object": "text_completion", "created": 1668298697, "model": "text-curie-001", "choices": [{"text": "\n\nAlgorithms for Recommender Systems", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 21, "completion_tokens": 9, "total_tokens": 30}}

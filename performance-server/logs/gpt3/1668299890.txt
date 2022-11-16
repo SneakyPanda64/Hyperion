@@ -1,3 +1,0 @@
-Write a short, unique and interesting answer title relating to the theory of "How algorithms are used in manufacturing ":
-==========================
-{"id": "cmpl-6BvIg0FlfmOEsJ5dZu8oLVqmTqjC8", "object": "text_completion", "created": 1668299890, "model": "text-curie-001", "choices": [{"text": "\n\nAlgorithm Engineering in Manufacturing: A New Perspective", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 23, "completion_tokens": 11, "total_tokens": 34}}

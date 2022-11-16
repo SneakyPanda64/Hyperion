@@ -1,5 +1,0 @@
-Write a list of 1 topics relating to computer science and "The Art of Compressing Data with Algorithms":
-
-
-==========================
-{"id": "cmpl-6C5GGlNjdGyWAfEqSlNy0fKdUHRb5", "object": "text_completion", "created": 1668338180, "model": "text-davinci-002", "choices": [{"text": "\n1. Data compression algorithms\n2. Lossless data compression\n3. Lossy data compression\n4. Run-length encoding\n5. Huffman coding\n6. LZW compression\n7. Arithmetic coding\n8. Rice coding\n9. Wavelet compression", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 24, "completion_tokens": 57, "total_tokens": 81}}

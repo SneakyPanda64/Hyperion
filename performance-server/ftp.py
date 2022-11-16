@@ -57,20 +57,9 @@ def uploadScript(id):
     ftp.close()
     return True
 def login():
-    # host = 'localhost'
-    # port = 21
-    # usr = 'ubuntu'
-    # pwd = 'Sneaky202564'
-    # ftps = FTP()
-    # ftps.connect(host, port)
-    # ftps.login(usr, pwd)
-    # ftps.set_pasv(False)
-    # ftp = ftplib.FTP(host="localhost", source_address=("localhost", 3000), user='ubuntu', passwd='Sneaky202564')
-    # print(ftp.getwelcome())
-    #ftp.set_pasv(False)
-    #print(ftp.retrlines("LIST"))
-    ftp = ftplib.FTP(host=os.getenv("FTP_HOST"))
+
     try:
+        ftp = ftplib.FTP(host=os.getenv("FTP_HOST"), timeout=2)
         ftp.login(user=os.getenv("FTP_USER"), passwd=os.getenv("FTP_PASS"))
     except Exception as e:
         print(e)

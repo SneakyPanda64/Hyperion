@@ -1,3 +1,0 @@
-Write a short, unique and interesting title relating to the theory of "Algorithms are used to predict the outcomes of events." in the form of a video essay title:
-==========================
-{"id": "cmpl-6CAytlL6Gv8r8XPBvXc0BY84j4JQR", "object": "text_completion", "created": 1668360167, "model": "text-davinci-002", "choices": [{"text": "\n\n\"Algorithms: Predicting the Outcomes of Events\"", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 35, "completion_tokens": 15, "total_tokens": 50}}

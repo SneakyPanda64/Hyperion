@@ -1,5 +1,0 @@
-Write a list of 1 beginner topics relating to "Data Science Algorithms: The Power of Computation" in the context of computer science:
-
-
-==========================
-{"id": "cmpl-6C5h5on8HFJgNvjYYrb4GPlHRuuVq", "object": "text_completion", "created": 1668339843, "model": "text-davinci-002", "choices": [{"text": "\n1. Data Science Algorithms: The Power of Computation\n2. The Benefits of Data Science Algorithms\n3. The Types of Data Science Algorithms\n4. The Applications of Data Science Algorithms\n5. The Future of Data Science Algorithms", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 30, "completion_tokens": 58, "total_tokens": 88}}

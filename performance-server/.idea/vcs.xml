@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tortoise" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tortoise-tts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tortoise2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tts" vcs="Git" />
   </component>
 </project>

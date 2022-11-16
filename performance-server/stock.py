@@ -5,10 +5,11 @@ import time as time
 import util
 import shutil
 from tqdm.auto import tqdm
+import logging
 
-def SearchVideos(id, query, quantity):
+def GetFootage(path, query, quantity):
     headers = {
-        'Authorization': '563492ad6f91700001000001dee3131100234da996205fe67eaa5cbb',
+        'Authorization': os.getenv("PEXELS_API_KEY"),
     }
     params = {
         'query': query,
@@ -16,19 +17,18 @@ def SearchVideos(id, query, quantity):
         "size": "medium",
         "orientation": "landscape"
     }
+    logging.debug("Getting requests for stock footage")
     response = requests.get('https://api.pexels.com/videos/search', params=params, headers=headers)
-    VideosFromJSON(id, response.json())
-def VideosFromJSON(id, j):
+    VideosFromJSON(path, response.json())
+def VideosFromJSON(path, j):
     for v in j["videos"]:
         link = ""
         for b in v["video_files"]:
             link = b["link"]
             if b["quality"] == "hd" and b["width"] >= 1920:
                 break
-        GetVideoFromURL(id, link)
-def GetVideoFromURL(id, url):
-    path = os.path.join("scripts", id, "videos")
-    print(f"Downloading stock footage from {url}")
+        GetVideoFromURL(path, link)
+def GetVideoFromURL(path, url):
     with requests.get(url, stream=True) as r:
         total_length = int(r.headers.get("Content-Length"))
         with tqdm.wrapattr(r.raw, "read", total=total_length, desc="") as raw:

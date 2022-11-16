@@ -1,3 +1,0 @@
-Write a short, unique and interesting title relating to the theory of "Algorithms are used in the context of computer security and cryptography." in the form of a video essay title:
-==========================
-{"id": "cmpl-6C5n7xo2CL8o7LMsFIQwI1MXpmI9N", "object": "text_completion", "created": 1668340217, "model": "text-davinci-002", "choices": [{"text": "\n\n\"Algorithms: The Key to Security and Cryptography\"", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 37, "completion_tokens": 15, "total_tokens": 52}}

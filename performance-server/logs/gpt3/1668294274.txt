@@ -1,5 +1,0 @@
-Write a list of 5 interesting topics relating to computer science theory and abstract data types:
-
--
-==========================
-{"id": "cmpl-6Btq6ljIxQiHrXf1mzqZZuISYjFoC", "object": "text_completion", "created": 1668294274, "model": "text-curie-001", "choices": [{"text": "Theoretical foundations of computer science\n-Data structures and algorithms\n-Computer security\n-Big data\n-Artificial intelligence", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 20, "completion_tokens": 26, "total_tokens": 46}}

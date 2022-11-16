@@ -1,4 +1,0 @@
-Write a list of 5 interesting beginner topics on where algorithms is used in the context of "computer science":
--
-==========================
-{"id": "cmpl-6C5K3RLVHw0FT5A950qjexDH06yDV", "object": "text_completion", "created": 1668338415, "model": "text-curie-001", "choices": [{"text": "Algorithms are used to find the shortest path between two points in a graph.\n-Algorithms are used to predict the winner of a lottery.\n-Algorithms are used to determine how much money to charge for a product.\n-Algorithms are used to determine how likely a person is to respond to a question.\n-Algorithms are used to determine how likely a person is to buy a product.", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 23, "completion_tokens": 89, "total_tokens": 112}}

@@ -1,5 +1,0 @@
-Write a list of 5 interesting topics relating to computer science theory and 
-
-software engineering in the format of a comma separated list:
-==========================
-{"id": "cmpl-6Btn71d317NlhMzq7U61TEPxmbdyu", "object": "text_completion", "created": 1668294089, "model": "text-curie-001", "choices": [{"text": "\n\n1. Theoretical foundations of computer science\n2. Algorithms\n3. Programming languages\n4.", "index": 0, "logprobs": null, "finish_reason": "length"}], "usage": {"prompt_tokens": 27, "completion_tokens": 25, "total_tokens": 52}}

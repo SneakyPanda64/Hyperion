@@ -1,3 +1,0 @@
-Write a single unique and interesting keyword relating to basic computer science:
-==========================
-{"id": "cmpl-6But9Ck8UgYXkK3lf0BdThmuIvNjM", "object": "text_completion", "created": 1668298307, "model": "text-curie-001", "choices": [{"text": "\n\nprogramming languages", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 13, "completion_tokens": 5, "total_tokens": 18}}

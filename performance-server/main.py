@@ -12,35 +12,44 @@ import time
 import sys
 from dotenv import load_dotenv
 
-def logs():
-    print("[Logs] Resetting logs")
-    util.mkdir(os.path.join(os.path.curdir, "logs", "gpt3"))
 
-def main():
-    id = script.GetVideoScript(
-        genre="computer science",
-        subtopics=1 # around 30s per subtopic
-    )
-    if not id:
-        print("[Script] Conflict error")
-        return
-    audio.CreateAudio(
-        id=id,
-        speed="ultra_fast"
-    )
-    thumbnail.GenerateThumbnail(id)
-    video.CreateVideo(id)
-    if not ftp.uploadScript(id):
-        print("[FTP] Upload failed due to: conflict")
-        return
+def main(repeat=1, preset="standard"):
+    repeated = 0
+    while True:
+        if repeated >= repeat:
+            break
+        if not os.path.exists("stock-footage"):
+            os.mkdir("stock-footage")
+            for v in ["coding", "technology", "computers"]:
+                os.mkdir(os.path.join("stock-footage", v))
+                stock.GetFootage(os.path.join("stock-footage", v), v, 10)
+        id = script.GetVideoScript(
+            "computer science"
+        )
+        if not id:
+            logging.critical(f"Failed to generate video script")
+        else:
+            audio.CreateAudio(
+                id=id,
+                speed=preset
+            )
+            thumbnail.GenerateThumbnail(id)
+            video.CreateVideo(id)
+            if not ftp.uploadScript(id):
+                logging.critical(f"Failed to upload video to ftp server")
+                return
+            logging.info(f"Video finished id: {id}")
+            repeated += 1
+    logging.info(f"Finished video creation ({repeated}/{repeat})")
 
 if __name__ == '__main__':
-    load_dotenv()
-    logging.basicConfig(level=logging.DEBUG, format='[%(asctime)s] %(levelname)s - %(message)s', handlers=[
+    logging.basicConfig(level=logging.INFO, force=True, format='[%(asctime)s] %(levelname)s - %(message)s', handlers=[
         logging.FileHandler(filename=os.path.join("logs", f"{int(time.time())}.log"), encoding="utf-8"),
         logging.StreamHandler(sys.stdout)
     ])
+    load_dotenv()
+
     if not ftp.login():
-        logging.critical("FTP server could not be reached") # https://www.googleapis.com/youtube/v3/videos?key={API-key}&fields=items(snippet(title,description,tags))&part=snippet&id={video_id}
+        logging.critical("FTP server could not be reached")
     else:
-        print(script.GetVideoScript("computer science", 2))
+        print(script.GetRandomTopic("computer science"))

@@ -1,5 +1,0 @@
-Write a list of 2 beginner topics relating to what is "The fascinating world of algorithms for computer graphics" in the context of computer science:
-
-
-==========================
-{"id": "cmpl-6CB1kk6LVzbZy9EYLZObtLoJDdXnK", "object": "text_completion", "created": 1668360344, "model": "text-davinci-002", "choices": [{"text": "\n1. What are algorithms?\n2. What are some common algorithms used in computer graphics?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 29, "completion_tokens": 20, "total_tokens": 49}}

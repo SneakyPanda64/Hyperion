@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6df18682-13b1-4e48-84a8-bf747a1d7459" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/content/Intro.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/intro.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp.py" beforeDir="false" afterPath="$PROJECT_DIR$/ftp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668211644.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668212416.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668212476.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668212504.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668212591.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668212607.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668212749.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668212839.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668212899.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668213063.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668213099.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668213119.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668213141.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668213238.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668213249.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668213585.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668213925.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668213957.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668214225.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668214239.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668214557.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668214704.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668214743.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668214789.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668214805.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668214824.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668214887.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668214915.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668214943.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668215001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668215030.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668215117.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668215157.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668215194.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668215277.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668215303.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668215335.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668215353.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668278696.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668278762.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668278802.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668278825.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668293960.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668293968.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668293980.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668293997.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668294091.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668294122.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668294157.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668294185.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668294203.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668294275.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668294301.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668294317.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668294342.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668296518.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668296548.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668296588.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668296632.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668296678.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668296741.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668296759.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668296977.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668296997.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668297023.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668297073.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668297103.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668297124.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668297150.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668297178.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668297272.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668297382.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668297442.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668297497.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668298044.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668298309.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668298376.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668298402.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668298697.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668298959.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668298977.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668299007.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668299151.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668299423.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668299473.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668299486.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668299591.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668299813.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668299890.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668299925.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668299952.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668300076.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668300155.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668300230.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668300268.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668300335.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668300350.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668300384.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668300405.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668300492.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668300581.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668300622.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668300658.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334307.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334324.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334338.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334360.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334384.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334415.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334468.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334633.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334762.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334793.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334835.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334853.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334889.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668334926.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335178.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335199.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335217.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335234.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335308.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335343.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335441.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335495.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335517.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335635.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335641.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335672.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335718.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335806.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335914.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335952.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668335994.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336009.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336020.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336104.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336117.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336137.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336150.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336192.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336203.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336211.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336310.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336355.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336604.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336657.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336888.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668336920.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668337028.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668337053.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668337072.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668337148.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668337247.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668337403.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668337525.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668337537.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668338155.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668338181.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668338215.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668338417.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668338452.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668338521.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668338805.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668338859.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668338912.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668338932.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668339080.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668339576.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668339707.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668339843.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668340164.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668340217.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668340306.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668340459.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668341939.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668342393.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668342432.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668342454.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668342497.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668342519.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668342534.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668342566.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668342581.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346418.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346435.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346452.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346481.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346487.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346499.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346507.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346712.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346760.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346769.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346797.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346820.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346831.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668346845.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347014.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347092.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347106.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347116.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347245.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347256.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347285.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347298.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347315.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347375.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347417.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347482.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347536.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347552.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347654.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347739.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347842.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347877.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347892.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347909.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668347991.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668348030.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668348065.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668348095.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668348111.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668348121.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668348152.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668353466.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354024.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354266.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354389.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354434.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354546.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354579.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354642.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354655.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354701.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354739.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354753.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354894.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354918.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668354994.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668355080.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668355125.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668355279.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668355299.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668355368.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668355420.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668355488.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668355511.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668355526.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668355549.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668355807.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668356267.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668356304.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668356349.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668356386.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668356407.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668356538.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668356666.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668356702.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668356908.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668356973.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668358012.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668358035.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668358099.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668358521.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668358550.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668358754.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668358828.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668358866.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668358930.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668358953.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668359012.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668359061.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668359166.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668359282.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668359359.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668359399.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668359686.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668359731.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668359818.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668359918.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668359957.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668359974.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668360028.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668360145.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668360164.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668360339.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668360459.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668360540.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668360562.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668360580.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668360598.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668360619.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668360632.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1668360670.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668293978.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668293995.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294089.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294121.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294155.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294156.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294183.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294184.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294201.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294273.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294274.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294299.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294300.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294315.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294316.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668294340.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668296517.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668296546.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668296547.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668296586.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668296630.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668296631.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668296676.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668296677.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668296757.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668296758.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668296975.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668296995.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668296996.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297021.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297022.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297071.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297122.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297123.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297148.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297149.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297176.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297177.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297271.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297380.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297441.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668297495.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298042.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298043.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298307.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298308.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298374.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298375.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298695.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298696.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298697.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298958.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298959.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298975.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668298976.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299005.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299006.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299149.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299150.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299421.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299422.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299471.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299472.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299484.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299485.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299589.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299590.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299811.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299813.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299889.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299890.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299927.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299928.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299950.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668299951.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300074.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300075.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300076.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300154.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300155.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300348.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300350.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300382.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300383.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300403.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300404.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300490.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300491.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300620.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300621.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300656.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300657.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668300658.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668334305.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668334306.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668334322.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668334323.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668334466.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668334467.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668334791.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668337535.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668337536.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338179.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338180.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338212.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338213.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338214.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338236.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338247.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338261.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338306.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338314.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338315.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338415.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338417.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338450.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338451.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338519.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338803.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338804.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338805.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338857.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338858.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338860.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338911.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338912.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338930.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338932.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338934.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668338938.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339078.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339079.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339080.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339082.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339089.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339092.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339096.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339099.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339575.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339576.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339577.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339579.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339585.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339705.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339706.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339707.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339709.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339714.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339718.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339759.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339763.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339768.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339841.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339842.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339843.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339846.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339851.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339855.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339859.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339862.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668339866.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340162.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340163.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340164.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340215.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340217.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340218.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340223.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340226.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340230.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340234.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340237.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340241.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340249.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340252.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340256.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340259.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340260.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340305.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340306.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340307.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340308.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340312.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340316.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340457.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340458.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340459.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340460.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340461.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340464.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668340466.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360165.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360166.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360167.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360168.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360173.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360175.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360177.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360214.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360217.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360220.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360258.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360261.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360263.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360268.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360342.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360343.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360344.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360345.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360350.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360459.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360460.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360461.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360463.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360469.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360671.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360672.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360674.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360675.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360677.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gpt3/1668360684.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/script_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thumbnail_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/thumbnail_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tortoise/tortoise/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tortoise/tortoise/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/video_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yftp-server/credentials.storage" beforeDir="false" afterPath="$PROJECT_DIR$/../yftp-server/credentials.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yftp-server/logs/1668208501.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yftp-server/logs/1668210590.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yftp-server/logs/1668337218.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yftp-server/logs/1668337219.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yftp-server/logs/1668337226.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yftp-server/logs/1668337494.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yftp-server/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yftp-server/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yftp-server/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yftp-server/videos.json" beforeDir="false" afterPath="$PROJECT_DIR$/../yftp-server/videos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yftp-server/youtube.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yftp-server/youtube.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2H8kkKKCdG4Uc4IoCydRbVDmjgG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alexa/OneDrive/GitHub/Hyperion/yftp-server&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\OneDrive\GitHub\Hyperion\performance-server\content" />
+      <recent name="C:\Users\alexa\OneDrive\GitHub\Hyperion-V2\content" />
+      <recent name="C:\Users\alexa\OneDrive\GitHub\Hyperion-V2\temp" />
+      <recent name="C:\Users\alexa\OneDrive\GitHub\Hyperion-V2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Hyperion-V2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="thumbnail_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Hyperion-V2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thumbnail_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.thumbnail_generator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6df18682-13b1-4e48-84a8-bf747a1d7459" name="Changes" comment="" />
+      <created>1667674239829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667674239829</updated>
+      <workItem from="1667674244145" duration="1553000" />
+      <workItem from="1667675833403" duration="23000" />
+      <workItem from="1667675866837" duration="1217000" />
+      <workItem from="1667677125859" duration="2573000" />
+      <workItem from="1667681152887" duration="17095000" />
+      <workItem from="1667743419535" duration="148000" />
+      <workItem from="1667743578522" duration="180000" />
+      <workItem from="1667743769692" duration="8479000" />
+      <workItem from="1667753986263" duration="15931000" />
+      <workItem from="1667833913929" duration="339000" />
+      <workItem from="1667834265414" duration="4141000" />
+      <workItem from="1667839420043" duration="18924000" />
+      <workItem from="1668011824604" duration="2986000" />
+      <workItem from="1668027549157" duration="5415000" />
+      <workItem from="1668037869856" duration="8265000" />
+      <workItem from="1668100825880" duration="24290000" />
+      <workItem from="1668369432469" duration="4334000" />
+      <workItem from="1668457804300" duration="17348000" />
+      <workItem from="1668530317221" duration="5927000" />
+      <workItem from="1668615837330" duration="320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

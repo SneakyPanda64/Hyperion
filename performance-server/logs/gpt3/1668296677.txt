@@ -1,3 +1,0 @@
-Write a list of 5 interesting beginner topics relating to computer science and algorithms:
-==========================
-{"id": "cmpl-6BuSrHj7qiCfrsI45NiY0t1T3SVFo", "object": "text_completion", "created": 1668296677, "model": "text-curie-001", "choices": [{"text": "\n\n1. Algorithms in computer science\n2. Data structures and algorithms\n3. Graph algorithms\n4. Random algorithms\n5. Artificial intelligence", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 15, "completion_tokens": 32, "total_tokens": 47}}

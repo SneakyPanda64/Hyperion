@@ -1,5 +1,0 @@
-Write a list of 2 beginner topics relating to what is "Algorithms in Scientific Computing: A Video Essay" in the context of computer science:
-
-
-==========================
-{"id": "cmpl-6CB3dfO8NFQBpzOKrJIVJ4ZgB9hbj", "object": "text_completion", "created": 1668360461, "model": "text-davinci-002", "choices": [{"text": "\n1. What is an algorithm?\n2. What are some common algorithms used in scientific computing?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 32, "completion_tokens": 21, "total_tokens": 53}}

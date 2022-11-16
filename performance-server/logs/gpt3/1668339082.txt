@@ -1,7 +1,0 @@
-Expand greatly upon the topic of ""Data mining: the new way to find information"" in the context of computer science in british english:
-
-1. Data mining: the new way to find information
-
-
-==========================
-{"id": "cmpl-6C5Uo1gRZCzRKNxoyuiThPCc4QeAC", "object": "text_completion", "created": 1668339082, "model": "text-curie-001", "choices": [{"text": " computers are very good at finding information, but they can only find the information that is stored in their memory. They can't find information that is hidden in other computer files or on the internet.\n\n2.Data mining is a process of finding information that is hidden in computer data. It is used by computer scientists and other experts to find patterns and to make predictions about future events.\n\n3.Data mining has been used for a long time to find patterns in data. IBM developed the first computer data mining program in the early 1960s.\n\n4. Data mining is a very important tool for computer scientists and other experts", "index": 0, "logprobs": null, "finish_reason": "length"}], "usage": {"prompt_tokens": 44, "completion_tokens": 128, "total_tokens": 172}}

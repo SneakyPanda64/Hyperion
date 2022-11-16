@@ -1,3 +1,0 @@
-Write a short, unique and interesting title relating to the theory of "Algorithms in data analysis" in the form of a video essay title:
-==========================
-{"id": "cmpl-6C5SMQSrPbZUZBepJRcjoMGQew3oS", "object": "text_completion", "created": 1668338930, "model": "text-davinci-002", "choices": [{"text": "\n\nDeath by Algorithm: A Data Analysis Horror Story", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 30, "completion_tokens": 12, "total_tokens": 42}}

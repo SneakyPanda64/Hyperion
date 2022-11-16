@@ -1,5 +1,0 @@
-Write a list of 5 interesting topics relating to computer science and data structures:
-
--
-==========================
-{"id": "cmpl-6BtrAZma9dOQ88xFvZiGekxYZfczU", "object": "text_completion", "created": 1668294340, "model": "text-curie-001", "choices": [{"text": "Data structures: how to best organize data so that it can be accessed efficiently by a computer.\n-Algorithms: the steps that a computer takes to solve a problem.\n-Computer security: protecting data and systems from unauthorized access.\n-Computer graphics: creating images and animations on a computer.\n-Computer science theories: how computers work and how they can be improved.", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 18, "completion_tokens": 78, "total_tokens": 96}}

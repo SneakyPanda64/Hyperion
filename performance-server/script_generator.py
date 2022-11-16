@@ -5,25 +5,29 @@ import util
 import json
 import os
 import shutil
+import tqdm
 import logging
 from youtube_api import YouTubeDataAPI
 import requests
 import re
 def GetRandomTopic(genre):
-    keyword = (util.complete(
-        prompt=f"Write a single unique and interesting keyword relating to basic {genre}:",
-        max_tokens=25,
-        model="text-curie-001"
-    ).choices[0].text).strip()
-    keyword = "algorithms"
+    keywords = (util.complete(
+        prompt=f"Write a list of unique and interesting keywords relating to basic {genre}:\n\n-",
+        max_tokens=128,
+        temperature=1,
+        model="text-davinci-002"
+    ).choices[0].text).strip().split("-")
+    keywords = [i.strip() for i in keywords]
+    keyword = random.choice(keywords)
+
     topics = (util.complete(
         #prompt=f"Write a list of 5 interesting beginner topics relating to {genre} and {keyword}:",
-        prompt=f"Write a list of 5 interesting beginner topics on where {keyword} is used in the context of \"{genre}\":\n-",
+        prompt=f"Write a list of 5 interesting beginner topics on where {keyword} is used in the context of {genre}:\n-",
         max_tokens=256,
         model="text-curie-001"
     ).choices[0].text).replace("\n", "").split("-")
     topic = (util.complete(
-        prompt=f"Write a short, unique and interesting title relating to the theory of \"{topics[random.randint(0, len(topics)-1)]}\" in the form of a video essay title:",
+        prompt=f"Write a short, unique and interesting title relating to the theory of {topics[random.randint(0, len(topics)-1)]} in the form of a video essay title without involving numbers:",
         max_tokens=20,
         temperature=1,
         model="text-davinci-002"
@@ -33,17 +37,21 @@ def GetRandomTopic(genre):
         GetRandomTopic(genre)
     logging.debug(f"Keyword {keyword}, Topics {topics}, Topic {topic}")
     return topic
-def GetSubTopics(topic, quantity, genre):
+def GetSubTopics(topic, genre):
     text = util.complete(
-        prompt=f"Write a list of {quantity} beginner topics relating to what is \"{topic}\" in the context of {genre}:\n\n",
+        prompt=f"Write a list of beginner topics relating to what is {topic} in the context of {genre}:\n\n",
         temperature=0
     )
     texts = []
-    for i, v in enumerate(text.choices[0].text.strip().replace("\n\n", "\n").split("\n")):
-        texts.append(v.split(f"{i+1}. ")[1])
-    return texts
+    logging.debug(f"topic: {topic}, sub topics {text.choices[0].text}")
+    subtopics = text.choices[0].text.strip().split("-")
+    subtopics = [i.strip() for i in subtopics if i]
+    return subtopics
+    # for i, v in enumerate(text.choices[0].text.strip().replace("\n\n", "\n").split("\n")):
+    #     texts.append(v.split(f"{i+1}. ")[1])
+    # return texts
 def GetPassage(passages, topic, subtopics, genre):
-    text = f"Expand greatly upon the topic of \"{topic}\" in the context of {genre} summarised for a 9th grader:\n"
+    text = f"Expand greatly upon the topic of {topic} in the context of {genre} summarised for a 9th grader:\n"
     for i, v in enumerate(subtopics):
         prefix = text + "\n" + f"{i + 1}. {v}\n\n"
         if i < len(passages):
@@ -58,6 +66,8 @@ def GetPassage(passages, topic, subtopics, genre):
         max_tokens=128,
         stop=[f"{len(passages)+2}.", f"{len(passages)+1}."],
     )
+    if len(response_complete.choices[0].text.strip()) < 30:
+        return False
     response_edit = util.edit(
         response_complete.choices[0].text.strip(),
         "Replace all non-characters with their spoken counterpart. And fix grammar."
@@ -65,10 +75,11 @@ def GetPassage(passages, topic, subtopics, genre):
     return response_edit.choices[0].text.replace("-", "").replace("[", "").replace("]", "").strip()
 def GetScriptTags(topic):
     yt = YouTubeDataAPI(os.getenv("YOUTUBE_DATA_API_KEY"))
-    result = (yt.search(topic, max_results=25))
+    max_results = 25
+    result = (yt.search(topic, max_results=max_results))
     tags = []
     hashtags = []
-    for v in result:
+    for v in tqdm.tqdm(result):
         id = (str(v).split("\'")[3])
         r = requests.get(f"https://www.googleapis.com/youtube/v3/videos?key={os.getenv('YOUTUBE_DATA_API_KEY')}&fields=items(snippet(description,tags))&part=snippet&id={id}")
         try:
@@ -76,7 +87,7 @@ def GetScriptTags(topic):
             tags += (r.json()["items"][0]["snippet"]["tags"])
         except:
             pass
-    # Youtube Hashtags
+    # YouTube Hashtags
     tags = [x.lower().replace("\\", "").strip() for x in tags]
     hashtags = [x.lower().strip() for x in hashtags]
     logging.debug(f"Hashtags {hashtags}")
@@ -84,7 +95,7 @@ def GetScriptTags(topic):
     c = Counter(hashtags)
     top_hashtags = [x[0] for x in c.most_common()][:5]
     logging.debug(f"Top Hashtags {top_hashtags}")
-    # Youtube TAGS
+    # YouTube TAGS
     logging.debug(f"Tags {tags}")
     c = Counter(tags)
     chars = 0
@@ -99,21 +110,30 @@ def GetScriptTags(topic):
     #     j["tags"] = top_tags
     #     j["hashtags"] = top_hashtags
     #     json.dump(j, f)
-def GetVideoScript(genre, subtopics):
+def GetVideoScript(genre,):
     logging.info("Getting video script.")
     topic = GetRandomTopic(genre)
     subtopics = GetSubTopics(
         topic=topic,
-        quantity=subtopics,
         genre=genre
     )
+    logging.debug("getting summary for topic")
+    summary = (util.complete(
+        prompt=f"Write a summary for the following topic in the form of a youtube description in the context of {genre}:\n\ntopic: {topic}\n\nsummary:",
+        temperature=0,
+        model="text-curie-001"
+    )).choices[0].text.strip().replace("\"", "")
     passages = []
     for i in range(len(subtopics)):
         passage = GetPassage(passages, topic, subtopics, genre)
-        passages.append(passage)
+        if passage != False:
+            passages.append(passage)
+        else:
+            return False
     tags, hashtags = GetScriptTags(topic)
     script_dict = {
         "topic": topic,
+        "summary": summary,
         "genre": genre,
         "subTopics": subtopics,
         "passages": passages,

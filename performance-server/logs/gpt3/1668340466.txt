@@ -1,7 +1,0 @@
-Extract tags that are directly related to "computer science" from the following passage of text in a comma seperated list format:
-
-passage: An algorithm is a set of steps or instructions that is used to solve a problem. Algorithms can be written in a variety of different ways, but they all have in common the use of certain mathematical operations. There are a number of common algorithms used for sequence processing, including search algorithms, join algorithms, and scan algorithms.
-
-tags:
-==========================
-{"id": "cmpl-6C5r81rozPazw0rmU32gG1AkPyqA6", "object": "text_completion", "created": 1668340466, "model": "text-babbage-001", "choices": [{"text": " algorithms, computer science, sequence processing, search, join, scan", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 102, "completion_tokens": 13, "total_tokens": 115}}

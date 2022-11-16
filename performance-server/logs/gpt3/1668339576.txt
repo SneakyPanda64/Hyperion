@@ -1,3 +1,0 @@
-Write a short, unique and interesting title relating to the theory of "Algorithms in graph theory" in the form of a video essay title:
-==========================
-{"id": "cmpl-6C5cmoNKfEwCs0JGXpD0MJzNqF4LV", "object": "text_completion", "created": 1668339576, "model": "text-davinci-002", "choices": [{"text": "\n\nHow Algorithms in Graph Theory Can Help You Find the Shortest Path", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 30, "completion_tokens": 17, "total_tokens": 47}}

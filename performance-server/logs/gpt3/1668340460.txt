@@ -1,5 +1,0 @@
-Write a list of 2 beginner topics relating to what is "Algorithms for Sequence Processing: A Video Essay" in the context of computer science:
-
-
-==========================
-{"id": "cmpl-6C5r288rwKxS6sVbCJk5IM7bjzFo1", "object": "text_completion", "created": 1668340460, "model": "text-davinci-002", "choices": [{"text": "\n1. What is an algorithm?\n2. What are some common algorithms used for sequence processing?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 32, "completion_tokens": 21, "total_tokens": 53}}

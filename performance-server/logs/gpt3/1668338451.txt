@@ -1,3 +1,0 @@
-Write a short, unique and interesting answer title relating to the theory of "Algorithmic randomness":
-==========================
-{"id": "cmpl-6C5KdyNaBcLdTXbrImOi5jBIS9Pz8", "object": "text_completion", "created": 1668338451, "model": "text-davinci-002", "choices": [{"text": "\n\nAlgorithmic randomness: a short, unique and interesting answer title", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 21, "completion_tokens": 16, "total_tokens": 37}}

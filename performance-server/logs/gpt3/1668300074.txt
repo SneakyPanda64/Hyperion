@@ -1,3 +1,0 @@
-Write a single unique and interesting keyword relating to basic business:
-==========================
-{"id": "cmpl-6BvLe4z1zhCxLIjTuClgSI6Ivj0yP", "object": "text_completion", "created": 1668300074, "model": "text-curie-001", "choices": [{"text": "\n\nbusiness process automation", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 12, "completion_tokens": 5, "total_tokens": 17}}

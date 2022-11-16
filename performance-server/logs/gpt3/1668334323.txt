@@ -1,3 +1,0 @@
-Write a short, unique and interesting answer title relating to the theory of "Algorithms in Online Shopping ":
-==========================
-{"id": "cmpl-6C4G3K9bVnAV4KFI6hLOKIwRwBgfU", "object": "text_completion", "created": 1668334323, "model": "text-curie-001", "choices": [{"text": "\n\nThe Evolution of Algorithms in Online Shopping", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 23, "completion_tokens": 11, "total_tokens": 34}}

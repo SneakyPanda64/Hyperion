@@ -1,7 +1,0 @@
-[2022-11-12 00:07:24,307] INFO - Getting video script.
-[2022-11-12 00:07:24,319] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
-[2022-11-12 00:07:24,319] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of 3 interesting topics relating to computer science:\\n\\n1. Why is Kafka fast?\\n2. How does HTTPS work?", "temperature": 1, "max_tokens": 25, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
-[2022-11-12 00:07:24,320] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
-[2022-11-12 00:07:24,324] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
-[2022-11-12 00:07:25,949] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 317
-[2022-11-12 00:07:25,950] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=695 request_id=c90944b28e54b7ad6501db445532bc34 response_code=200

@@ -1,3 +1,0 @@
-Write a short, unique and interesting title relating to the theory of "Algorithms are used to determine how to pick a random number" in the form of a video essay title:
-==========================
-{"id": "cmpl-6C5mGQnU0wbxHJyaSOyxLyQREVwCE", "object": "text_completion", "created": 1668340164, "model": "text-davinci-002", "choices": [{"text": "\n\nHow to Pick a Random Number: The Algorithm Behind the Magic", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 37, "completion_tokens": 15, "total_tokens": 52}}

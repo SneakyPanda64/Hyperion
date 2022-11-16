@@ -1,5 +1,0 @@
-Write a list of 5 interesting topics relating to computer science theory and 
-
-Algorithms:
-==========================
-{"id": "cmpl-6BtoChOg7uIp2spkOlxKsrRaJhaXd", "object": "text_completion", "created": 1668294156, "model": "text-curie-001", "choices": [{"text": "\n-What are algorithms and how do they work?\n-What are the different types of algorithms and what are their benefits?\n-How do algorithms impact the speed of computer operations?\n-What are the different types of data structures used in computer science?\n-What are the different types of algorithms used to find solutions to problems?", "index": 0, "logprobs": null, "finish_reason": "stop"}], "usage": {"prompt_tokens": 20, "completion_tokens": 69, "total_tokens": 89}}

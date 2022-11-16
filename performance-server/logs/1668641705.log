@@ -1,0 +1,15 @@
+[2022-11-16 23:35:05,800] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-16 23:35:05,800] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of unique and interesting keywords relating to basic computer science:\\n\\n-", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-16 23:35:05,800] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-16 23:35:05,802] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-16 23:35:10,197] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 592
+[2022-11-16 23:35:10,197] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3972 request_id=c182cd15a9011f5a64fed09d0a1ceb5f response_code=200
+[2022-11-16 23:35:10,200] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-16 23:35:10,200] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where Database is used in the context of computer science:\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-16 23:35:10,602] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 359
+[2022-11-16 23:35:10,602] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=251 request_id=b09479d992b2c3e2daf9a3f5b9b34c7b response_code=200
+[2022-11-16 23:35:10,603] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-16 23:35:10,603] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a short, unique and interesting title relating to the theory of Relational database in the form of a video essay title without involving numbers:", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-16 23:35:11,516] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 303
+[2022-11-16 23:35:11,516] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=766 request_id=0d9ff743396f6bada80804c615f01576 response_code=200
+[2022-11-16 23:35:11,542] DEBUG - Keyword Database, Topics ['Data structure', 'Query language', 'Database management system', 'Relational database', 'NoSQL database'], Topic Relational Database Theory: The Basics

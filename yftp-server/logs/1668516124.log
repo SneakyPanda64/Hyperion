@@ -1,0 +1,72 @@
+[2022-11-15 12:42:04,015] INFO - concurrency model: async
+[2022-11-15 12:42:04,016] INFO - masquerade (NAT) address: None
+[2022-11-15 12:42:04,016] INFO - passive ports: None
+[2022-11-15 12:42:04,016] DEBUG - poller: 'pyftpdlib.ioloop.Select'
+[2022-11-15 12:42:04,016] DEBUG - authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+[2022-11-15 12:42:04,017] DEBUG - handler: 'pyftpdlib.handlers.type'
+[2022-11-15 12:42:04,017] DEBUG - max connections: 256
+[2022-11-15 12:42:04,017] DEBUG - max connections per ip: 5
+[2022-11-15 12:42:04,017] DEBUG - timeout: 300
+[2022-11-15 12:42:04,018] DEBUG - banner: 'pyftpdlib based ftpd ready.'
+[2022-11-15 12:42:04,018] DEBUG - max login attempts: 3
+[2022-11-15 12:42:04,018] INFO - >>> starting FTP server on :::21, pid=9016 <<<
+[2022-11-15 12:42:20,058] INFO - ::1:50258-[] FTP session opened (connect)
+[2022-11-15 12:42:20,058] DEBUG - ::1:50258-[] -> 220 pyftpdlib based ftpd ready.
+[2022-11-15 12:42:20,058] DEBUG - ::1:50258-[] <- USER ubuntu
+[2022-11-15 12:42:20,058] DEBUG - ::1:50258-[] -> 331 Username ok, send password.
+[2022-11-15 12:42:20,059] DEBUG - ::1:50258-[ubuntu] <- PASS ******
+[2022-11-15 12:42:20,059] DEBUG - ::1:50258-[ubuntu] -> 230 Login successful.
+[2022-11-15 12:42:20,059] INFO - ::1:50258-[ubuntu] USER 'ubuntu' logged in.
+[2022-11-15 12:42:20,059] DEBUG - [debug] call: close() (<FTPHandler(id=2249071897776, addr='::1:50258', user='ubuntu')>)
+[2022-11-15 12:42:20,059] INFO - ::1:50258-[ubuntu] FTP session closed (disconnect).
+[2022-11-15 12:42:22,980] INFO - ::1:50260-[] FTP session opened (connect)
+[2022-11-15 12:42:22,981] DEBUG - ::1:50260-[] -> 220 pyftpdlib based ftpd ready.
+[2022-11-15 12:42:22,981] DEBUG - ::1:50260-[] <- USER ubuntu
+[2022-11-15 12:42:22,982] DEBUG - ::1:50260-[] -> 331 Username ok, send password.
+[2022-11-15 12:42:22,982] DEBUG - ::1:50260-[ubuntu] <- PASS ******
+[2022-11-15 12:42:22,982] DEBUG - ::1:50260-[ubuntu] -> 230 Login successful.
+[2022-11-15 12:42:22,982] INFO - ::1:50260-[ubuntu] USER 'ubuntu' logged in.
+[2022-11-15 12:42:22,983] DEBUG - ::1:50260-[ubuntu] <- CWD scripts
+[2022-11-15 12:42:22,985] DEBUG - ::1:50260-[ubuntu] -> 250 "/scripts" is the current directory.
+[2022-11-15 12:42:22,986] DEBUG - ::1:50260-[ubuntu] <- TYPE A
+[2022-11-15 12:42:22,986] DEBUG - ::1:50260-[ubuntu] -> 200 Type set to: ASCII.
+[2022-11-15 12:42:22,986] DEBUG - ::1:50260-[ubuntu] <- EPSV
+[2022-11-15 12:42:22,995] DEBUG - ::1:50260-[ubuntu] -> 229 Entering extended passive mode (|||50262|).
+[2022-11-15 12:42:22,996] DEBUG - [debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening ::1:0 at 0x20ba721ae30>)
+[2022-11-15 12:42:22,997] DEBUG - [debug] call: close() (<pyftpdlib.handlers.PassiveDTP ::1:0 at 0x20ba721ae30>)
+[2022-11-15 12:42:22,997] DEBUG - ::1:50260-[ubuntu] <- NLST
+[2022-11-15 12:42:23,000] DEBUG - ::1:50260-[ubuntu] -> 125 Data connection already open. Transfer starting.
+[2022-11-15 12:42:23,000] DEBUG - [debug] call: close() (<DTPHandler(id=2249071897776, addr='::1:50260', user='ubuntu')>)
+[2022-11-15 12:42:23,001] DEBUG - ::1:50260-[ubuntu] -> 226 Transfer complete.
+[2022-11-15 12:42:23,001] DEBUG - [debug] call: close() (<FTPHandler(id=2249071897776, addr='::1:50260', user='ubuntu')>)
+[2022-11-15 12:42:23,002] INFO - ::1:50260-[ubuntu] FTP session closed (disconnect).
+[2022-11-15 12:43:26,698] INFO - ::1:50290-[] FTP session opened (connect)
+[2022-11-15 12:43:26,698] DEBUG - ::1:50290-[] -> 220 pyftpdlib based ftpd ready.
+[2022-11-15 12:43:26,698] DEBUG - ::1:50290-[] <- USER ubuntu
+[2022-11-15 12:43:26,698] DEBUG - ::1:50290-[] -> 331 Username ok, send password.
+[2022-11-15 12:43:26,699] DEBUG - ::1:50290-[ubuntu] <- PASS ******
+[2022-11-15 12:43:26,699] DEBUG - ::1:50290-[ubuntu] -> 230 Login successful.
+[2022-11-15 12:43:26,699] INFO - ::1:50290-[ubuntu] USER 'ubuntu' logged in.
+[2022-11-15 12:43:26,699] DEBUG - [debug] call: close() (<FTPHandler(id=2249071897776, addr='::1:50290', user='ubuntu')>)
+[2022-11-15 12:43:26,699] INFO - ::1:50290-[ubuntu] FTP session closed (disconnect).
+[2022-11-15 12:43:30,667] INFO - ::1:50293-[] FTP session opened (connect)
+[2022-11-15 12:43:30,668] DEBUG - ::1:50293-[] -> 220 pyftpdlib based ftpd ready.
+[2022-11-15 12:43:30,668] DEBUG - ::1:50293-[] <- USER ubuntu
+[2022-11-15 12:43:30,668] DEBUG - ::1:50293-[] -> 331 Username ok, send password.
+[2022-11-15 12:43:30,669] DEBUG - ::1:50293-[ubuntu] <- PASS ******
+[2022-11-15 12:43:30,669] DEBUG - ::1:50293-[ubuntu] -> 230 Login successful.
+[2022-11-15 12:43:30,669] INFO - ::1:50293-[ubuntu] USER 'ubuntu' logged in.
+[2022-11-15 12:43:30,669] DEBUG - ::1:50293-[ubuntu] <- CWD scripts
+[2022-11-15 12:43:30,672] DEBUG - ::1:50293-[ubuntu] -> 250 "/scripts" is the current directory.
+[2022-11-15 12:43:30,673] DEBUG - ::1:50293-[ubuntu] <- TYPE A
+[2022-11-15 12:43:30,673] DEBUG - ::1:50293-[ubuntu] -> 200 Type set to: ASCII.
+[2022-11-15 12:43:30,673] DEBUG - ::1:50293-[ubuntu] <- EPSV
+[2022-11-15 12:43:30,674] DEBUG - ::1:50293-[ubuntu] -> 229 Entering extended passive mode (|||50295|).
+[2022-11-15 12:43:30,675] DEBUG - [debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening ::1:0 at 0x20ba721ae30>)
+[2022-11-15 12:43:30,675] DEBUG - [debug] call: close() (<pyftpdlib.handlers.PassiveDTP ::1:0 at 0x20ba721ae30>)
+[2022-11-15 12:43:30,676] DEBUG - ::1:50293-[ubuntu] <- NLST
+[2022-11-15 12:43:30,678] DEBUG - ::1:50293-[ubuntu] -> 125 Data connection already open. Transfer starting.
+[2022-11-15 12:43:30,679] DEBUG - [debug] call: close() (<DTPHandler(id=2249071897776, addr='::1:50293', user='ubuntu')>)
+[2022-11-15 12:43:30,679] DEBUG - ::1:50293-[ubuntu] -> 226 Transfer complete.
+[2022-11-15 12:43:30,680] DEBUG - [debug] call: close() (<FTPHandler(id=2249071897776, addr='::1:50293', user='ubuntu')>)
+[2022-11-15 12:43:30,681] INFO - ::1:50293-[ubuntu] FTP session closed (disconnect).
