@@ -25,8 +25,9 @@ import os
 #             print("CWD", "..")
 #             ftp.cwd("..")
 def recursiveFolder(ftp, path):
-    for file in os.listdir(path):
-        if os.path.isdir(os.path.join(path, file)):
+
+    for file in os.listdir(os.path.join(os.path.curdir, path)):
+        if os.path.isdir(os.path.join(os.path.curdir, path, file)):
             if file not in ftp.nlst():
                 ftp.mkd(file)
                 ftp.cwd(file)
@@ -51,7 +52,7 @@ def listScripts():
 def uploadScript(id):
     ftp = login()
     if id not in listScripts():
-        copyFolder(ftp, os.path.join(os.path.curdir, "scripts", id))
+        copyFolder(ftp, os.path.join("scripts", id))
     else:
         return False
     ftp.close()

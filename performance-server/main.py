@@ -52,4 +52,5 @@ if __name__ == '__main__':
     if not ftp.login():
         logging.critical("FTP server could not be reached")
     else:
-        main(repeat=int(os.getenv("MAIN_REPEATS")), preset=os.getenv("TTS_PRESET"))
+        ftp.uploadScript("VGhlIFNlY3JldCBMaWZlIG9mIHBpeGVscw")
+        #main(repeat=int(os.getenv("MAIN_REPEATS")), preset=os.getenv("TTS_PRESET"))
