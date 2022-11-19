@@ -9,7 +9,8 @@ RUN python3 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 RUN apt-get -y update && apt-get install -y libsndfile1
-RUN apt install -y git
+RUN apt install -y git \
+    && apt install imagemagick
 RUN python3 -m pip install --upgrade pip setuptools wheel
 RUN python -m venv /opt/venv
 
