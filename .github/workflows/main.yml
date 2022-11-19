@@ -16,3 +16,6 @@ jobs:
     - name: docker build yftp-server
       run: |
         docker build ./yftp-server -t sneakypanda64/atlasservers:hyperion.yftp --progress=plain
+    - name: docker push
+      run: |
+        docker push sneakypanda64/atlasservers:hyperion.yftp
