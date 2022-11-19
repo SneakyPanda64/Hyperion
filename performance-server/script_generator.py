@@ -33,7 +33,7 @@ def GetRandomTopic(genre):
         model="text-davinci-002"
     )).choices[0].text.strip().replace("\"", "")
     encoded = util.base64UrlEncode(topic)
-    if (encoded in os.listdir("scripts")) or (encoded in ftp.listScripts()):
+    if (encoded in os.listdir(os.path.join(os.path.curdir, "scripts"))) or (encoded in ftp.listScripts()):
         GetRandomTopic(genre)
     logging.debug(f"Keyword {keyword}, Topics {topics}, Topic {topic}")
     return topic
@@ -51,7 +51,7 @@ def GetSubTopics(topic, genre):
     #     texts.append(v.split(f"{i+1}. ")[1])
     # return texts
 def GetPassage(passages, topic, subtopics, genre):
-    text = f"Expand greatly upon the topic of \"{topic.replace(':', '')}\" in the context of {genre} summarised for a 9th grader:\n"
+    text = f"Expand greatly upon the topic of {topic.replace(':', '')} in the context of {genre} summarised for a 9th grader:\n"
     for i, v in enumerate(subtopics):
         prefix = text + "\n" + f"{i + 1}. {v}\n\n"
         if i < len(passages):
@@ -60,13 +60,14 @@ def GetPassage(passages, topic, subtopics, genre):
             text = prefix
             break
     model = "text-davinci-002"
-    if os.getenv("DEBUGGING"):
+    if bool(os.getenv("DEBUGGING")):
         model = "text-curie-001"
     response_complete = util.complete(
         prompt=f"{text}",
         temperature=1,
         model=model,
         max_tokens=128,
+        stop=[f"\n\n{len(passages)+2}."]
     )
     response = response_complete.choices[0].text.strip()
     logging.debug(f"passage length {len(response)}")

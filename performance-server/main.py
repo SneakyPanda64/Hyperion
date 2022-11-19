@@ -22,7 +22,7 @@ def main(repeat=1, preset="standard"):
                 os.mkdir(os.path.join("stock-footage", v))
                 stock.GetFootage(os.path.join("stock-footage", v), v, 10)
         id = script.GetVideoScript(
-            "computer science"
+            "theory of computer science"
         )
         if not id:
             logging.critical(f"Failed to generate video script")

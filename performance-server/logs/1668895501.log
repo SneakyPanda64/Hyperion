@@ -1,0 +1,708 @@
+[2022-11-19 22:05:01,304] CRITICAL - GPU detected
+[2022-11-19 22:05:01,311] INFO - Getting video script.
+[2022-11-19 22:05:01,320] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:01,321] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of unique and interesting keywords relating to basic computer science:\\n\\n-", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-19 22:05:01,321] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-19 22:05:01,323] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-19 22:05:03,438] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 438
+[2022-11-19 22:05:03,438] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1719 request_id=a9dce4035ddc620614c1d46945cfdfbe response_code=200
+[2022-11-19 22:05:03,442] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:03,442] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where Artificial Intelligence is used in the context of computer science:\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-19 22:05:03,902] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 354
+[2022-11-19 22:05:03,902] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=223 request_id=a3906f64c6fb2914d71236e397e0acaa response_code=200
+[2022-11-19 22:05:03,902] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:03,903] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a short, unique and interesting title relating to the theory of Computer vision  in the form of a video essay title without involving numbers:", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-19 22:05:04,511] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 290
+[2022-11-19 22:05:04,511] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=469 request_id=a17f2b16a8fa8919248b4a830a8c49a5 response_code=200
+[2022-11-19 22:05:04,529] DEBUG - Keyword Artificial Intelligence, Topics ['Machine learning ', 'Natural language processing ', 'Computer vision ', ' Robotics ', 'Data mining'], Topic The Secret Life of pixels
+[2022-11-19 22:05:04,529] INFO - topic The Secret Life of pixels
+[2022-11-19 22:05:04,529] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:04,529] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of beginner topics relating to what is The Secret Life of pixels in the context of computer science:\\n\\n", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-19 22:05:09,920] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 673
+[2022-11-19 22:05:09,920] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4714 request_id=773f8ec38d80019c13f54f0ae341c311 response_code=200
+[2022-11-19 22:05:09,921] DEBUG - topic: The Secret Life of pixels, sub topics 
+-What are pixels?
+-What is the difference between a raster and vector image?
+-What is the difference between a bitmap and a jpeg? 
+-How do pixels work?
+-What is the difference between a pixel and a voxel?
+-What is the difference between a 2D and 3D image?
+-What is the difference between a raster and vector graphic?
+-What is the difference between a jpeg and a bitmap?
+-How do I create a pixel art?
+[2022-11-19 22:05:09,921] INFO - subtopics ['What are pixels?', 'What is the difference between a raster and vector image?', 'What is the difference between a bitmap and a jpeg?', 'How do pixels work?', 'What is the difference between a pixel and a voxel?', 'What is the difference between a 2D and 3D image?', 'What is the difference between a raster and vector graphic?', 'What is the difference between a jpeg and a bitmap?', 'How do I create a pixel art?']
+[2022-11-19 22:05:09,921] DEBUG - getting summary for topic
+[2022-11-19 22:05:09,921] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:09,921] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a summary for the following topic in the form of a youtube description in the context of computer science:\\n\\ntopic: The Secret Life of pixels\\n\\nsummary:", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-19 22:05:10,681] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 430
+[2022-11-19 22:05:10,682] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=405 request_id=3d1379a0b76159aed469feb4c6942c24 response_code=200
+[2022-11-19 22:05:10,682] INFO - summary In this video, computer scientist and author, Dr. David Patterson, discusses the secret life of pixels, and how they are used to create the images we see on our screens.
+[2022-11-19 22:05:10,682] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:10,682] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of \\"The Secret Life of pixels\\" in the context of computer science summarised for a 9th grader:\\n\\n1. What are pixels?\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n\\n2."], "echo": false}' message='Post details'
+[2022-11-19 22:05:11,378] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 509
+[2022-11-19 22:05:11,379] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=549 request_id=f6fae5a6eb663c0d6bd972c281c479fe response_code=200
+[2022-11-19 22:05:11,379] DEBUG - passage length 247
+[2022-11-19 22:05:11,379] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-19 22:05:11,379] DEBUG - api_version=None data='{"model": "text-davinci-edit-001", "input": "Pixels are tiny pieces ofpicture information that make up screenshots, images, and videos on computer screens. They can also be seen in some text editors and on some touch screens. In digital photography, each pixel represents one picture element.", "instruction": "Replace all non-characters with their spoken counterpart. And fix grammar.", "temperature": 0, "top_p": 1}' message='Post details'
+[2022-11-19 22:05:14,844] DEBUG - https://api.openai.com:443 "POST /v1/edits HTTP/1.1" 200 395
+[2022-11-19 22:05:14,844] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=3326 request_id=dcc5d9df144655fea93462c6917fe065 response_code=200
+[2022-11-19 22:05:14,844] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:14,844] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of \\"The Secret Life of pixels\\" in the context of computer science summarised for a 9th grader:\\n\\n1. What are pixels?\\n\\nPixels are tiny pieces of picture information that make up screenshots, images, and videos on computer screens. They can also be seen in some text editors and on some touch screens. In digital photography, each pixel represents one picture element.\\n\\n2. What is the difference between a raster and vector image?\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n\\n3."], "echo": false}' message='Post details'
+[2022-11-19 22:05:15,451] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 446
+[2022-11-19 22:05:15,451] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=460 request_id=7e861235497c3da115690538ab3ffeda response_code=200
+[2022-11-19 22:05:15,451] DEBUG - passage length 180
+[2022-11-19 22:05:15,451] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-19 22:05:15,451] DEBUG - api_version=None data='{"model": "text-davinci-edit-001", "input": "A raster image is one that is created by drawing pixels on a screen. A vector image is one that is created using mathematical formulas and is composed of lines, curves, and points.", "instruction": "Replace all non-characters with their spoken counterpart. And fix grammar.", "temperature": 0, "top_p": 1}' message='Post details'
+[2022-11-19 22:05:18,007] DEBUG - https://api.openai.com:443 "POST /v1/edits HTTP/1.1" 200 327
+[2022-11-19 22:05:18,007] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=2385 request_id=aa8b2a6e0736600fd5e6cda948ef3147 response_code=200
+[2022-11-19 22:05:18,007] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:18,007] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of \\"The Secret Life of pixels\\" in the context of computer science summarised for a 9th grader:\\n\\n1. What are pixels?\\n\\nPixels are tiny pieces of picture information that make up screenshots, images, and videos on computer screens. They can also be seen in some text editors and on some touch screens. In digital photography, each pixel represents one picture element.\\n\\n2. What is the difference between a raster and vector image?\\n\\nA raster image is one that is created by drawing pixels on a screen. A vector image is one that is created using mathematical formulas and is composed of lines, curves, and points.\\n\\n3. What is the difference between a bitmap and a jpeg?\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n\\n4."], "echo": false}' message='Post details'
+[2022-11-19 22:05:18,650] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 429
+[2022-11-19 22:05:18,650] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=496 request_id=81c10bbe3f579d846c788071da9c93c2 response_code=200
+[2022-11-19 22:05:18,650] DEBUG - passage length 163
+[2022-11-19 22:05:18,650] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-19 22:05:18,651] DEBUG - api_version=None data='{"model": "text-davinci-edit-001", "input": "Bitmap is an image that is saved as a series of bits, or small numbers. JPEG is a file format that is used to save images that are scalable up to 8,000x600 pixels.", "instruction": "Replace all non-characters with their spoken counterpart. And fix grammar.", "temperature": 0, "top_p": 1}' message='Post details'
+[2022-11-19 22:05:22,531] DEBUG - https://api.openai.com:443 "POST /v1/edits HTTP/1.1" 200 312
+[2022-11-19 22:05:22,531] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=3703 request_id=092c1cd0abb4ad972b57a10e4342ba9c response_code=200
+[2022-11-19 22:05:22,532] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:22,532] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of \\"The Secret Life of pixels\\" in the context of computer science summarised for a 9th grader:\\n\\n1. What are pixels?\\n\\nPixels are tiny pieces of picture information that make up screenshots, images, and videos on computer screens. They can also be seen in some text editors and on some touch screens. In digital photography, each pixel represents one picture element.\\n\\n2. What is the difference between a raster and vector image?\\n\\nA raster image is one that is created by drawing pixels on a screen. A vector image is one that is created using mathematical formulas and is composed of lines, curves, and points.\\n\\n3. What is the difference between a bitmap and a jpeg?\\n\\nBitmap is an image that is saved as a series of bits, or small numbers. JPEG is a file format that is used to save images that are scalable up to 8,000 by 600 pixels.\\n\\n4. How do pixels work?\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n\\n5."], "echo": false}' message='Post details'
+[2022-11-19 22:05:23,399] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 631
+[2022-11-19 22:05:23,399] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=719 request_id=aa1fce0c92effd76fb8c1976871d3c21 response_code=200
+[2022-11-19 22:05:23,400] DEBUG - passage length 367
+[2022-11-19 22:05:23,400] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-19 22:05:23,400] DEBUG - api_version=None data='{"model": "text-davinci-edit-001", "input": "Each pixel on a computer screen has its own color, brightness, and position. When you write something on a piece of paper, the ink molecules are spread out so that every place on the paper can receive an ink deposit. The same is true for pixels on a computer screen. When you press the mouse button, the pixel information is sent to the computer\'s graphics processor.", "instruction": "Replace all non-characters with their spoken counterpart. And fix grammar.", "temperature": 0, "top_p": 1}' message='Post details'
+[2022-11-19 22:05:31,097] DEBUG - https://api.openai.com:443 "POST /v1/edits HTTP/1.1" 200 718
+[2022-11-19 22:05:31,097] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=7553 request_id=69c7351c762020684f7349505b1adeab response_code=200
+[2022-11-19 22:05:31,097] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:31,098] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of \\"The Secret Life of pixels\\" in the context of computer science summarised for a 9th grader:\\n\\n1. What are pixels?\\n\\nPixels are tiny pieces of picture information that make up screenshots, images, and videos on computer screens. They can also be seen in some text editors and on some touch screens. In digital photography, each pixel represents one picture element.\\n\\n2. What is the difference between a raster and vector image?\\n\\nA raster image is one that is created by drawing pixels on a screen. A vector image is one that is created using mathematical formulas and is composed of lines, curves, and points.\\n\\n3. What is the difference between a bitmap and a jpeg?\\n\\nBitmap is an image that is saved as a series of bits, or small numbers. JPEG is a file format that is used to save images that are scalable up to 8,000 by 600 pixels.\\n\\n4. How do pixels work?\\n\\nEach pixel on a computer screen has its own color, brightness, and position. When you write something on a piece of paper, the ink molecules are spread out so that every place on the paper can receive an ink deposit. The same is true for pixels on a computer screen. When you press the mouse button, the pixel information is sent to the computer\'s graphics processor. \\n\\nThe graphics processor is a special chip that is designed to handle the complex calculations needed to display images on the screen. It is also responsible for the 3D graphics that you see in games.\\n\\n5. What is the difference between a pixel and a voxel?\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n\\n6."], "echo": false}' message='Post details'
+[2022-11-19 22:05:31,741] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 455
+[2022-11-19 22:05:31,742] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=463 request_id=b60446187c4c6fe4d8242371958265e4 response_code=200
+[2022-11-19 22:05:31,742] DEBUG - passage length 189
+[2022-11-19 22:05:31,742] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-19 22:05:31,742] DEBUG - api_version=None data='{"model": "text-davinci-edit-001", "input": "A pixel is a tiny piece of picture information that makes up screenshots, images, and videos on computer screens. A voxel is a three-dimensional object that is composed of many tiny pieces.", "instruction": "Replace all non-characters with their spoken counterpart. And fix grammar.", "temperature": 0, "top_p": 1}' message='Post details'
+[2022-11-19 22:05:35,100] DEBUG - https://api.openai.com:443 "POST /v1/edits HTTP/1.1" 200 335
+[2022-11-19 22:05:35,101] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=3183 request_id=373027591df2bcff9bda579af1979e3f response_code=200
+[2022-11-19 22:05:35,101] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:35,101] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of \\"The Secret Life of pixels\\" in the context of computer science summarised for a 9th grader:\\n\\n1. What are pixels?\\n\\nPixels are tiny pieces of picture information that make up screenshots, images, and videos on computer screens. They can also be seen in some text editors and on some touch screens. In digital photography, each pixel represents one picture element.\\n\\n2. What is the difference between a raster and vector image?\\n\\nA raster image is one that is created by drawing pixels on a screen. A vector image is one that is created using mathematical formulas and is composed of lines, curves, and points.\\n\\n3. What is the difference between a bitmap and a jpeg?\\n\\nBitmap is an image that is saved as a series of bits, or small numbers. JPEG is a file format that is used to save images that are scalable up to 8,000 by 600 pixels.\\n\\n4. How do pixels work?\\n\\nEach pixel on a computer screen has its own color, brightness, and position. When you write something on a piece of paper, the ink molecules are spread out so that every place on the paper can receive an ink deposit. The same is true for pixels on a computer screen. When you press the mouse button, the pixel information is sent to the computer\'s graphics processor. \\n\\nThe graphics processor is a special chip that is designed to handle the complex calculations needed to display images on the screen. It is also responsible for the 3D graphics that you see in games.\\n\\n5. What is the difference between a pixel and a voxel?\\n\\nA pixel is a tiny piece of picture information that makes up screenshots, images, and videos on computer screens. A voxel is a threedimensional object that is composed of many tiny pixels.\\n\\n6. What is the difference between a 2D and 3D image?\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n\\n7."], "echo": false}' message='Post details'
+[2022-11-19 22:05:35,584] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 399
+[2022-11-19 22:05:35,584] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=335 request_id=324abbec2534add228634c4fc37b76bf response_code=200
+[2022-11-19 22:05:35,584] DEBUG - passage length 137
+[2022-11-19 22:05:35,584] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-19 22:05:35,584] DEBUG - api_version=None data='{"model": "text-davinci-edit-001", "input": "A 2D image is one that is displayed on a flat screen. A 3D image is one that is displayed on a screen that has a third dimension (depth).", "instruction": "Replace all non-characters with their spoken counterpart. And fix grammar.", "temperature": 0, "top_p": 1}' message='Post details'
+[2022-11-19 22:05:38,952] DEBUG - https://api.openai.com:443 "POST /v1/edits HTTP/1.1" 200 370
+[2022-11-19 22:05:38,952] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=3229 request_id=172e9ab2de0acc96c4289784904f63bb response_code=200
+[2022-11-19 22:05:38,953] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:38,953] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of \\"The Secret Life of pixels\\" in the context of computer science summarised for a 9th grader:\\n\\n1. What are pixels?\\n\\nPixels are tiny pieces of picture information that make up screenshots, images, and videos on computer screens. They can also be seen in some text editors and on some touch screens. In digital photography, each pixel represents one picture element.\\n\\n2. What is the difference between a raster and vector image?\\n\\nA raster image is one that is created by drawing pixels on a screen. A vector image is one that is created using mathematical formulas and is composed of lines, curves, and points.\\n\\n3. What is the difference between a bitmap and a jpeg?\\n\\nBitmap is an image that is saved as a series of bits, or small numbers. JPEG is a file format that is used to save images that are scalable up to 8,000 by 600 pixels.\\n\\n4. How do pixels work?\\n\\nEach pixel on a computer screen has its own color, brightness, and position. When you write something on a piece of paper, the ink molecules are spread out so that every place on the paper can receive an ink deposit. The same is true for pixels on a computer screen. When you press the mouse button, the pixel information is sent to the computer\'s graphics processor. \\n\\nThe graphics processor is a special chip that is designed to handle the complex calculations needed to display images on the screen. It is also responsible for the 3D graphics that you see in games.\\n\\n5. What is the difference between a pixel and a voxel?\\n\\nA pixel is a tiny piece of picture information that makes up screenshots, images, and videos on computer screens. A voxel is a threedimensional object that is composed of many tiny pixels.\\n\\n6. What is the difference between a 2D and 3D image?\\n\\nA 2D image is one that is displayed on a flat screen.\\nA 3D image is one that is displayed on a screen that has a third dimension (depth).\\nA 3D image is one that is displayed on a screen that has a third dimension (depth).\\n\\n7. What is the difference between a raster and vector graphic?\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n\\n8."], "echo": false}' message='Post details'
+[2022-11-19 22:05:39,576] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 446
+[2022-11-19 22:05:39,577] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=476 request_id=5a56a068a4d59855b0852c6920bf7ac6 response_code=200
+[2022-11-19 22:05:39,577] DEBUG - passage length 184
+[2022-11-19 22:05:39,577] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-19 22:05:39,577] DEBUG - api_version=None data='{"model": "text-davinci-edit-001", "input": "A raster graphic is one that is created by drawing pixels on a screen. A vector graphic is one that is created using mathematical formulas and is composed of lines, curves, and points.", "instruction": "Replace all non-characters with their spoken counterpart. And fix grammar.", "temperature": 0, "top_p": 1}' message='Post details'
+[2022-11-19 22:05:42,655] DEBUG - https://api.openai.com:443 "POST /v1/edits HTTP/1.1" 200 377
+[2022-11-19 22:05:42,655] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=2938 request_id=e3340a30b071fdc55d57938b1b7a8fc4 response_code=200
+[2022-11-19 22:05:42,656] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:42,656] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of \\"The Secret Life of pixels\\" in the context of computer science summarised for a 9th grader:\\n\\n1. What are pixels?\\n\\nPixels are tiny pieces of picture information that make up screenshots, images, and videos on computer screens. They can also be seen in some text editors and on some touch screens. In digital photography, each pixel represents one picture element.\\n\\n2. What is the difference between a raster and vector image?\\n\\nA raster image is one that is created by drawing pixels on a screen. A vector image is one that is created using mathematical formulas and is composed of lines, curves, and points.\\n\\n3. What is the difference between a bitmap and a jpeg?\\n\\nBitmap is an image that is saved as a series of bits, or small numbers. JPEG is a file format that is used to save images that are scalable up to 8,000 by 600 pixels.\\n\\n4. How do pixels work?\\n\\nEach pixel on a computer screen has its own color, brightness, and position. When you write something on a piece of paper, the ink molecules are spread out so that every place on the paper can receive an ink deposit. The same is true for pixels on a computer screen. When you press the mouse button, the pixel information is sent to the computer\'s graphics processor. \\n\\nThe graphics processor is a special chip that is designed to handle the complex calculations needed to display images on the screen. It is also responsible for the 3D graphics that you see in games.\\n\\n5. What is the difference between a pixel and a voxel?\\n\\nA pixel is a tiny piece of picture information that makes up screenshots, images, and videos on computer screens. A voxel is a threedimensional object that is composed of many tiny pixels.\\n\\n6. What is the difference between a 2D and 3D image?\\n\\nA 2D image is one that is displayed on a flat screen.\\nA 3D image is one that is displayed on a screen that has a third dimension (depth).\\nA 3D image is one that is displayed on a screen that has a third dimension (depth).\\n\\n7. What is the difference between a raster and vector graphic?\\n\\nA raster graphic is one that is created by drawing pixels on a screen.\\nA vector graphic is one that is created using mathematical formulas and is composed of lines, curves, and points.\\nA raster graphic is also known as a bitmap.\\n\\n8. What is the difference between a jpeg and a bitmap?\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n\\n9."], "echo": false}' message='Post details'
+[2022-11-19 22:05:43,387] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 437
+[2022-11-19 22:05:43,387] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=558 request_id=84c48dbb371aaea1c3ffcbfbcf0e4f64 response_code=200
+[2022-11-19 22:05:43,388] DEBUG - passage length 170
+[2022-11-19 22:05:43,388] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-19 22:05:43,388] DEBUG - api_version=None data='{"model": "text-davinci-edit-001", "input": "A jpeg is a file format that is used to save images that are scalable up to 8,000 by 600 pixels.\\nA bitmap is an image that is saved as a series of bits, or small numbers.", "instruction": "Replace all non-characters with their spoken counterpart. And fix grammar.", "temperature": 0, "top_p": 1}' message='Post details'
+[2022-11-19 22:05:46,623] DEBUG - https://api.openai.com:443 "POST /v1/edits HTTP/1.1" 200 387
+[2022-11-19 22:05:46,624] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=3098 request_id=adbce59f93f6a4c9684eb6499c4276f5 response_code=200
+[2022-11-19 22:05:46,624] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:05:46,624] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of \\"The Secret Life of pixels\\" in the context of computer science summarised for a 9th grader:\\n\\n1. What are pixels?\\n\\nPixels are tiny pieces of picture information that make up screenshots, images, and videos on computer screens. They can also be seen in some text editors and on some touch screens. In digital photography, each pixel represents one picture element.\\n\\n2. What is the difference between a raster and vector image?\\n\\nA raster image is one that is created by drawing pixels on a screen. A vector image is one that is created using mathematical formulas and is composed of lines, curves, and points.\\n\\n3. What is the difference between a bitmap and a jpeg?\\n\\nBitmap is an image that is saved as a series of bits, or small numbers. JPEG is a file format that is used to save images that are scalable up to 8,000 by 600 pixels.\\n\\n4. How do pixels work?\\n\\nEach pixel on a computer screen has its own color, brightness, and position. When you write something on a piece of paper, the ink molecules are spread out so that every place on the paper can receive an ink deposit. The same is true for pixels on a computer screen. When you press the mouse button, the pixel information is sent to the computer\'s graphics processor. \\n\\nThe graphics processor is a special chip that is designed to handle the complex calculations needed to display images on the screen. It is also responsible for the 3D graphics that you see in games.\\n\\n5. What is the difference between a pixel and a voxel?\\n\\nA pixel is a tiny piece of picture information that makes up screenshots, images, and videos on computer screens. A voxel is a threedimensional object that is composed of many tiny pixels.\\n\\n6. What is the difference between a 2D and 3D image?\\n\\nA 2D image is one that is displayed on a flat screen.\\nA 3D image is one that is displayed on a screen that has a third dimension (depth).\\nA 3D image is one that is displayed on a screen that has a third dimension (depth).\\n\\n7. What is the difference between a raster and vector graphic?\\n\\nA raster graphic is one that is created by drawing pixels on a screen.\\nA vector graphic is one that is created using mathematical formulas and is composed of lines, curves, and points.\\nA raster graphic is also known as a bitmap.\\n\\n8. What is the difference between a jpeg and a bitmap?\\n\\nA jpeg is a file format that is used to save images that are scalable up to eight thousand by six hundred pixels.\\nA bitmap is an image that is saved as a series of bits, or small numbers, that are used to represent the color of each pixel.\\n\\n9. How do I create a pixel art?\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n\\n10."], "echo": false}' message='Post details'
+[2022-11-19 22:05:47,429] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 580
+[2022-11-19 22:05:47,429] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=656 request_id=258685c101a4e3b3010f9fb832ece26b response_code=200
+[2022-11-19 22:05:47,429] DEBUG - passage length 316
+[2022-11-19 22:05:47,429] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-19 22:05:47,430] DEBUG - api_version=None data='{"model": "text-davinci-edit-001", "input": "To create pixel art, you will need to use a graphics program that has pixel-based editing capabilities. Once you have opened the file, you will need to zoom in on the parts of the image that you want to use for your art. You can then use the editing tools to change the brightness, color, and position of the pixels.", "instruction": "Replace all non-characters with their spoken counterpart. And fix grammar.", "temperature": 0, "top_p": 1}' message='Post details'
+[2022-11-19 22:05:52,821] DEBUG - https://api.openai.com:443 "POST /v1/edits HTTP/1.1" 200 464
+[2022-11-19 22:05:52,822] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=5253 request_id=79818da8768c9353e33635c59960b065 response_code=200
+[2022-11-19 22:05:52,823] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:52,988] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/playlists?part=id&id=UC_x5XG1OV2P6uZZ5FSM9Ttw&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&maxResults=2 HTTP/1.1" 200 None
+[2022-11-19 22:05:52,990] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:53,537] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/search?part=snippet&type=video&maxResults=50&order=relevance&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&q=What%20are%20pixels?%20in%20computer%20science&publishedAfter=2000-01-01T00:00:00Z&publishedBefore=3000-01-01T00:00:00Z HTTP/1.1" 200 None
+[2022-11-19 22:05:53,541] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:53,603] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=wsFROq2jVSQ HTTP/1.1" 200 None
+[2022-11-19 22:05:53,605] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:53,666] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=15aqFQQVBWU HTTP/1.1" 200 None
+[2022-11-19 22:05:53,668] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:53,739] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=DR2dRWfr7m0 HTTP/1.1" 200 None
+[2022-11-19 22:05:53,741] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:53,809] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=suRHQvX8oTo HTTP/1.1" 200 None
+[2022-11-19 22:05:53,811] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:53,898] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=0B79dGR19Tg HTTP/1.1" 200 None
+[2022-11-19 22:05:53,900] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:53,957] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=TEAtmCYYKZA HTTP/1.1" 200 None
+[2022-11-19 22:05:53,959] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,033] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=1ptJaJT8jAM HTTP/1.1" 200 None
+[2022-11-19 22:05:54,036] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,090] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=7Jr0SFMQ4Rs HTTP/1.1" 200 None
+[2022-11-19 22:05:54,092] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,144] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=06OHflWNCOE HTTP/1.1" 200 None
+[2022-11-19 22:05:54,146] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,216] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=rJOa5Q5a1WM HTTP/1.1" 200 None
+[2022-11-19 22:05:54,218] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,281] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=cmF4H10koag HTTP/1.1" 200 None
+[2022-11-19 22:05:54,283] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,345] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=6P03CGoo5UU HTTP/1.1" 200 None
+[2022-11-19 22:05:54,348] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,443] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=QBvqpMeArdk HTTP/1.1" 200 None
+[2022-11-19 22:05:54,446] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,495] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=B_u-gQtIIuk HTTP/1.1" 200 None
+[2022-11-19 22:05:54,498] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,570] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=VMQnV7-2Tjc HTTP/1.1" 200 None
+[2022-11-19 22:05:54,572] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,657] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=0xdhn-qz-gc HTTP/1.1" 200 None
+[2022-11-19 22:05:54,661] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,719] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=KN8YgJnShPM HTTP/1.1" 200 None
+[2022-11-19 22:05:54,721] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,784] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=p7nGcY73epw HTTP/1.1" 200 None
+[2022-11-19 22:05:54,786] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,832] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=OtDxDvCpPL4 HTTP/1.1" 200 None
+[2022-11-19 22:05:54,834] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,880] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=LUjXAoP5GG0 HTTP/1.1" 200 None
+[2022-11-19 22:05:54,883] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:54,953] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=XIGSJshYb90 HTTP/1.1" 200 None
+[2022-11-19 22:05:54,955] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:55,001] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=wgbV6DLVezo HTTP/1.1" 200 None
+[2022-11-19 22:05:55,003] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:55,073] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=d9alWZRzBWk HTTP/1.1" 200 None
+[2022-11-19 22:05:55,076] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:55,123] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=KuH0ZLSd_vQ HTTP/1.1" 200 None
+[2022-11-19 22:05:55,125] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-19 22:05:55,177] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=DuDz6B4cqVc HTTP/1.1" 200 None
+[2022-11-19 22:05:55,178] DEBUG - Hashtags ['#askleo', '#image', '#size', '#youcanlearnanything']
+[2022-11-19 22:05:55,178] DEBUG - Top Hashtags []
+[2022-11-19 22:05:55,178] DEBUG - Tags ['pixel', 'resolution', 'display', 'image', 'picture', 'display resolution', 'what is pixel', 'hexadecimal', 'binary code', 'rgb colors', 'rgb transistors', 'rgb pixels', '0s and 1s', 'full hd', '4k', '8k', '1920x1080', 'pixels', 'pc', 'how pc understands image', 'how pc stores image', 'how pc saves image', 'images', 'rgb', 'transistors', 'red', 'blue', 'green', 'binary', 'binary numbers', 'display pixels', 'display pixel resoultion', 'screen resolution', 'screen pixel resolution', 'how pixels work', 'how pixels form image or video', 'how computer understands image', 'code.org', 'computer science', 'code', 'rgb', 'pixels', 'bits', 'binary', 'how screens work', 'how computers work', 'screen resolution', 'screen density', 'piper hanson', 'kevin systrom', 'instagram', 'photo sharing', 'photography', 'digital imagery', 'digital images', 'russel kirsch', 'first digital image', 'pixel', 'what is a pixel', 'computer science principles', 'pixel', 'rgb', 'crt', 'lcd', 'led', 'plasma', 'explained', 'pixels', 'what is pixel', 'pixel', 'what is a pixel', 'what is pixels', 'what is pixel resolution', 'pixels movie', 'what is ppi?', 'what is pixels?', 'pixels per inch', 'what is mega pixel', 'what is photo pixel', 'what is image pixel', 'what is pixel array', 'what are pixels', 'what is pixel density', 'what is pixel in image', 'what is facebook pixel', 'what is ppi', 'what is a facebook pixel', 'lcd tv (product category)', 'computer monitor (product category)', 'liquid-crystal display (invention)', 'computer hardware (industry)', 'tv', 'screen', 'display', 'monitor', 'laptop (product category)', 'lcds', 'animation', 'john green', 'hank green', 'vlogbrothers', 'crash course', 'crashcourse', 'education', 'computing', 'computers', 'crash course computer science', 'compsci', 'computation', 'graphics', '3d graphics', 'wireframe', 'rendering', 'projection', 'polygons', 'mesh', 'polygon count', 'scanline rendering', 'antialiasing', 'painter’s algorithm', 'z-buffer', 'z-fighting', 'glitches', 'back-face culling', 'shading', 'lighting', 'texture', 'teapot', 'texture mapping', 'gpu', 'graphics card', 'science kids', 'pixel movie', 'pixel', 'megapixel', 'tv resolutions', 'what are pixels', 'eye resolution', 'computers', 'cell phones', 'smart phones', 'nexus5', 'pixels (film)', 'pac man', 'high def vs standard def', 'john green', 'hank green', 'vlogbrothers', 'crash course', 'crashcourse', 'education', 'computing', 'computers', 'crash course computer science', 'compsci', 'computation', 'graphics', 'monitor', 'screens', 'sketchpad', 'ivan sutherland', 'cad', 'spacewar!', 'crt', 'cathode ray tubes', 'raster scanning', 'pixels', 'vector scanning', 'liquid crystal displays', 'lcd', 'rom', 'character generator', 'ascii art', 'ibm cp437', 'vectrex', 'light pen', 'gui', 'computers', 'computerphile', 'digital image', 'university of nottingham', 'computer vision', 'digital data', 'computer science', 'pixels', '32bit', 'rgba', 'code.org', 'computer science', 'code', 'hour of code', '#education #computerlesson #videos #oxford', 'picture size and file size', 'askleo', 'ask leo', 'image resolution', 'image dpi', 'image pixels', 'pixel size', 'photo too large', 'photo too small', 'picture size', 'picture resolution', 'picture pixels', 'resolution size', 'resolution image size', 'pixels in image', 'image size in bytes', 'size of image file', 'compressed image', 'smaller compressed image', 'small printed picture', 'dpi and resolution', 'resize image', 'crop image', 'crop image size', 'picture size', 'and file size', 'programming', 'python', 'intro', 'csci100', 'howard', 'engineering', 'education', 'learn to code', 'google', 'coding', 'xlights', 'rgb', 'pixel', 'power', 'brightness', 'analysed', 'virtual', 'christmas', 'summit', 'mistapotta', 'mistapottaohs', 'mistapotta ohs', 'apcs', 'apcsa', 'ap cs', 'ap computer science', 'computer science ap', 'computer science', 'cs', 'ap', 'advanced placement', 'advanced placement exam', 'advance placement', 'advance placement exam', 'computer science ap', 'cs ap', 'java', 'java programming', 'java program', 'apcs picturelab', 'apcs picutre lab', 'ap cs picturelab', 'ap cs picture lab', 'picturelab', 'picture lab', 'exemplar lab', 'exemplar', 'exemplar picturelab', 'exemplar picture lab', 'exemplar picture', 'pixel2d', 'john green', 'hank green', 'vlogbrothers', 'crash course', 'crashcourse', 'education', 'computer', 'computer science', 'compsci', 'file formats', 'file systems', 'txt', 'wave', 'wav', 'bitmap', 'bmp', 'root directory', 'file path', 'defrag', 'defragmentation', 'magnetic tape', 'fragmentation', 'computers', 'abstraction', 'computer science', 'john green', 'hank green', 'vlogbrothers', 'crash course', 'crashcourse', 'education', 'compression', 'jpeg', 'jpg', 'lossless', 'lossy', 'mp3', 'mpeg-4', 'flac', 'wav', 'compressed', 'huffman tree', 'perceptual coding', 'psychophysics', 'video compression', 'temporal redundancy', 'inter-frame similarity', 'bitmap', 'attachments', 'txt', 'music', 'pixels', 'noodle the schnoodle', 'computers', 'computerphile', 'john green', 'hank green', 'vlogbrothers', 'crash course', 'crashcourse', 'education', 'computers', 'computer science', 'graphical user interface', 'macintosh', 'apple', 'xerox', 'alto', 'douglas englebart', 'mother of all demos', 'xerox parc', 'wimp', 'interface', 'gui', 'wysiwyg', 'ibm pc', 'apple lisa', 'windows', 'microsoft', 'windows 95', 'microsoft bob', 'ted', 'ted-ed', 'ted ed', 'teded', 'ted education', 'josé américo n l f de freitas', "qa'ed mai", 'binary', 'code', 'internet', 'numbers', 'language', 'technology', 'string', 'data', 'john green', 'hank green', 'vlogbrothers', 'crash course', 'crashcourse', 'education', 'computer science', 'computers', 'compsci', 'data structures', 'arrays', 'vectors', 'index', 'variables', 'strings', 'characters', 'matrix', 'struct', 'pointer', 'node', 'fifo', 'queue', 'stacks', 'trees', 'lifo', 'root', 'children node', 'parent node', 'red-black trees', 'heaps']
+[2022-11-19 22:05:55,181] DEBUG - Top Tags ['computer science', 'computers', 'education', 'pixel', 'pixels', 'john green', 'hank green', 'vlogbrothers', 'crash course', 'crashcourse', 'rgb', 'compsci', 'binary', 'code', 'display', 'what is pixel', 'screen resolution', 'code.org', 'what is a pixel', 'crt', 'lcd']
+[2022-11-19 22:06:06,336] DEBUG - processing 35 tts sections
+[2022-11-19 22:06:06,336] DEBUG - Text-to-speech: What are pixels?
+[2022-11-19 22:06:06,336] DEBUG - [#1] Subsection: What are pixels?
+[2022-11-19 22:06:23,704] DEBUG - Text-to-speech: Pixels are tiny pieces of picture information that make up screenshots, images, and videos on computer screens. They can also be seen in some text editors and on some touch screens. In digital photography, each pixel represents one picture element.
+[2022-11-19 22:06:23,705] DEBUG - [#1] Subsection: Pixels are tiny pieces of picture information that make up screenshots, images, and videos on computer screens.
+[2022-11-19 22:07:03,320] DEBUG - [#2] Subsection: They can also be seen in some text editors and on some touch screens.
+[2022-11-19 22:07:28,485] DEBUG - [#3] Subsection: In digital photography, each pixel represents one picture element.
+[2022-11-19 22:07:54,606] DEBUG - Text-to-speech: What is the difference between a raster and vector image?
+[2022-11-19 22:07:54,606] DEBUG - [#1] Subsection: What is the difference between a raster and vector image?
+[2022-11-19 22:08:15,868] DEBUG - Text-to-speech: A raster image is one that is created by drawing pixels on a screen. A vector image is one that is created using mathematical formulas and is composed of lines, curves, and points.
+[2022-11-19 22:08:15,868] DEBUG - [#1] Subsection: A raster image is one that is created by drawing pixels on a screen.
+[2022-11-19 22:08:42,640] DEBUG - [#2] Subsection: A vector image is one that is created using mathematical formulas and is composed of lines, curves, and points.
+[2022-11-19 22:09:20,184] DEBUG - Text-to-speech: What is the difference between a bitmap and a jpeg?
+[2022-11-19 22:09:20,184] DEBUG - [#1] Subsection: What is the difference between a bitmap and a jpeg?
+[2022-11-19 22:09:39,600] DEBUG - Text-to-speech: Bitmap is an image that is saved as a series of bits, or small numbers. JPEG is a file format that is used to save images that are scalable up to 8,000 by 600 pixels.
+[2022-11-19 22:09:39,600] DEBUG - [#1] Subsection: Bitmap is an image that is saved as a series of bits, or small numbers.
+[2022-11-19 22:10:06,239] DEBUG - [#2] Subsection: JPEG is a file format that is used to save images that are scalable up to 8,000 by 600 pixels.
+[2022-11-19 22:10:42,473] DEBUG - Text-to-speech: How do pixels work?
+[2022-11-19 22:10:42,473] DEBUG - [#1] Subsection: How do pixels work?
+[2022-11-19 22:10:57,651] DEBUG - Text-to-speech: Each pixel on a computer screen has its own color, brightness, and position. When you write something on a piece of paper, the ink molecules are spread out so that every place on the paper can receive an ink deposit. The same is true for pixels on a computer screen. When you press the mouse button, the pixel information is sent to the computer's graphics processor. 
+
+The graphics processor is a special chip that is designed to handle the complex calculations needed to display images on the screen. It is also responsible for the 3D graphics that you see in games.
+[2022-11-19 22:10:57,651] DEBUG - [#1] Subsection: Each pixel on a computer screen has its own color, brightness, and position.
+[2022-11-19 22:11:26,044] DEBUG - [#2] Subsection: When you write something on a piece of paper, the ink molecules are spread out so that every place on the paper can receive an ink deposit.
+[2022-11-19 22:12:02,112] DEBUG - [#3] Subsection: The same is true for pixels on a computer screen.
+[2022-11-19 22:12:20,542] DEBUG - [#4] Subsection: When you press the mouse button, the pixel information is sent to the computer's graphics processor.
+[2022-11-19 22:12:47,458] DEBUG - [#5] Subsection: The graphics processor is a special chip that is designed to handle the complex calculations needed to display images on the screen.
+[2022-11-19 22:13:24,830] DEBUG - [#6] Subsection: It is also responsible for the 3D graphics that you see in games.
+[2022-11-19 22:13:48,264] DEBUG - Text-to-speech: What is the difference between a pixel and a voxel?
+[2022-11-19 22:13:48,264] DEBUG - [#1] Subsection: What is the difference between a pixel and a voxel?
+[2022-11-19 22:14:06,979] DEBUG - Text-to-speech: A pixel is a tiny piece of picture information that makes up screenshots, images, and videos on computer screens. A voxel is a threedimensional object that is composed of many tiny pixels.
+[2022-11-19 22:14:06,979] DEBUG - [#1] Subsection: A pixel is a tiny piece of picture information that makes up screenshots, images, and videos on computer screens.
+[2022-11-19 22:14:42,261] DEBUG - [#2] Subsection: A voxel is a threedimensional object that is composed of many tiny pixels.
+[2022-11-19 22:15:07,017] DEBUG - Text-to-speech: What is the difference between a 2D and 3D image?
+[2022-11-19 22:15:07,017] DEBUG - [#1] Subsection: What is the difference between a 2D and 3D image?
+[2022-11-19 22:15:25,059] DEBUG - Text-to-speech: A 2D image is one that is displayed on a flat screen.
+A 3D image is one that is displayed on a screen that has a third dimension (depth).
+A 3D image is one that is displayed on a screen that has a third dimension (depth).
+[2022-11-19 22:15:25,059] DEBUG - [#1] Subsection: A 2D image is one that is displayed on a flat screen.
+[2022-11-19 22:15:45,098] DEBUG - [#2] Subsection: A 3D image is one that is displayed on a screen that has a third dimension (depth).
+[2022-11-19 22:16:12,005] DEBUG - [#3] Subsection: A 3D image is one that is displayed on a screen that has a third dimension (depth).
+[2022-11-19 22:16:38,271] DEBUG - Text-to-speech: What is the difference between a raster and vector graphic?
+[2022-11-19 22:16:38,272] DEBUG - [#1] Subsection: What is the difference between a raster and vector graphic?
+[2022-11-19 22:16:57,690] DEBUG - Text-to-speech: A raster graphic is one that is created by drawing pixels on a screen.
+A vector graphic is one that is created using mathematical formulas and is composed of lines, curves, and points.
+A raster graphic is also known as a bitmap.
+[2022-11-19 22:16:57,690] DEBUG - [#1] Subsection: A raster graphic is one that is created by drawing pixels on a screen.
+[2022-11-19 22:17:20,549] DEBUG - [#2] Subsection: A vector graphic is one that is created using mathematical formulas and is composed of lines, curves, and points.
+[2022-11-19 22:17:59,757] DEBUG - [#3] Subsection: A raster graphic is also known as a bitmap.
+[2022-11-19 22:18:21,203] DEBUG - Text-to-speech: What is the difference between a jpeg and a bitmap?
+[2022-11-19 22:18:21,204] DEBUG - [#1] Subsection: What is the difference between a jpeg and a bitmap?
+[2022-11-19 22:18:42,626] DEBUG - Text-to-speech: A jpeg is a file format that is used to save images that are scalable up to eight thousand by six hundred pixels.
+A bitmap is an image that is saved as a series of bits, or small numbers, that are used to represent the color of each pixel.
+[2022-11-19 22:18:42,626] DEBUG - [#1] Subsection: A jpeg is a file format that is used to save images that are scalable up to eight thousand by six hundred pixels.
+[2022-11-19 22:19:21,383] DEBUG - [#2] Subsection: A bitmap is an image that is saved as a series of bits, or small numbers, that are used to represent the color of each pixel.
+[2022-11-19 22:20:00,396] DEBUG - Text-to-speech: How do I create a pixel art?
+[2022-11-19 22:20:00,397] DEBUG - [#1] Subsection: How do I create a pixel art?
+[2022-11-19 22:20:17,319] DEBUG - Text-to-speech: To create pixel art, you will need to use a graphics program that has pixelbased editing capabilities. Once you have opened the file, you will need to zoom in on the parts of the image that you want to use for your art. You can then use the editing tools to change the brightness, color, and position of the pixels.
+[2022-11-19 22:20:17,319] DEBUG - [#1] Subsection: To create pixel art, you will need to use a graphics program that has pixelbased editing capabilities.
+[2022-11-19 22:20:50,407] DEBUG - [#2] Subsection: Once you have opened the file, you will need to zoom in on the parts of the image that you want to use for your art.
+[2022-11-19 22:21:22,210] DEBUG - [#3] Subsection: You can then use the editing tools to change the brightness, color, and position of the pixels.
+[2022-11-19 22:21:50,680] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 22:21:50,680] DEBUG - api_version=None data='{"model": "text-babbage-001", "prompt": "Extract keywords from the following sentences:\\n\\nThe Secret Life of pixels\\n\\nkeywords:", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-19 22:21:50,681] DEBUG - Resetting dropped connection: api.openai.com
+[2022-11-19 22:21:51,106] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 282
+[2022-11-19 22:21:51,106] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=68 request_id=99ff1c694489be97fddaee2bfa1392ac response_code=200
+[2022-11-19 22:21:51,107] DEBUG - Getting requests for icons
+[2022-11-19 22:21:51,107] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-19 22:21:51,217] DEBUG - https://www.flaticon.com:443 "GET /search?word=pixels&color=color&shape=outline&order_by=4 HTTP/1.1" 200 None
+[2022-11-19 22:21:51,414] DEBUG - https://cdn-icons-png.flaticon.com/256/6837/6837789.png
+[2022-11-19 22:21:51,415] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-19 22:21:51,549] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/6837/6837789.png HTTP/1.1" 200 2215
+[2022-11-19 22:21:51,568] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:21:51,568] DEBUG - STREAM b'pHYs' 41 9
+[2022-11-19 22:21:51,569] DEBUG - STREAM b'tEXt' 62 25
+[2022-11-19 22:21:51,569] DEBUG - STREAM b'IDAT' 99 2100
+[2022-11-19 22:21:51,572] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:21:51,572] DEBUG - STREAM b'pHYs' 41 9
+[2022-11-19 22:21:51,572] DEBUG - STREAM b'IDAT' 62 13353
+[2022-11-19 22:22:01,507] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:01,507] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:01,507] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:01,507] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:01,508] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:01,508] DEBUG - STREAM b'IDAT' 119 8731
+[2022-11-19 22:22:01,508] DEBUG - STREAM b'tEXt' 8862 37
+[2022-11-19 22:22:01,508] DEBUG - STREAM b'tEXt' 8911 37
+[2022-11-19 22:22:01,508] DEBUG - STREAM b'tEXt' 8960 40
+[2022-11-19 22:22:01,508] DEBUG - STREAM b'tEXt' 9012 22
+[2022-11-19 22:22:01,509] DEBUG - transcribing audio file in path .\scripts\VGhlIFNlY3JldCBMaWZlIG9mIHBpeGVscw\audio\audio-1.wav
+[2022-11-19 22:22:03,527] DEBUG - start, 0.0, end, 5.66, text,  Pixels are tiny pieces of picture information that make up screenshots, images, and videos
+[2022-11-19 22:22:03,528] DEBUG - start, 5.66, end, 7.3, text,  on computer screens.
+[2022-11-19 22:22:03,528] DEBUG - start, 7.3, end, 11.18, text,  They can also be seen in some text editors and some touch screens.
+[2022-11-19 22:22:03,528] DEBUG - start, 11.18, end, 37.54, text,  In digital photography, each pixel represents one picture element.
+[2022-11-19 22:22:03,620] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:03,620] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:03,620] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:03,620] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:03,620] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:03,620] DEBUG - STREAM b'IDAT' 119 30254
+[2022-11-19 22:22:03,621] DEBUG - STREAM b'tEXt' 30385 37
+[2022-11-19 22:22:03,621] DEBUG - STREAM b'tEXt' 30434 37
+[2022-11-19 22:22:03,621] DEBUG - STREAM b'tEXt' 30483 40
+[2022-11-19 22:22:03,621] DEBUG - STREAM b'tEXt' 30535 96
+[2022-11-19 22:22:03,694] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:03,695] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:03,695] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:03,695] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:03,695] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:03,695] DEBUG - STREAM b'IDAT' 119 7409
+[2022-11-19 22:22:03,695] DEBUG - STREAM b'tEXt' 7540 37
+[2022-11-19 22:22:03,695] DEBUG - STREAM b'tEXt' 7589 37
+[2022-11-19 22:22:03,696] DEBUG - STREAM b'tEXt' 7638 40
+[2022-11-19 22:22:03,696] DEBUG - STREAM b'tEXt' 7690 26
+[2022-11-19 22:22:03,787] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:03,788] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:03,788] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:03,788] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:03,788] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:03,788] DEBUG - STREAM b'IDAT' 119 23077
+[2022-11-19 22:22:03,789] DEBUG - STREAM b'tEXt' 23208 37
+[2022-11-19 22:22:03,789] DEBUG - STREAM b'tEXt' 23257 37
+[2022-11-19 22:22:03,789] DEBUG - STREAM b'tEXt' 23306 40
+[2022-11-19 22:22:03,789] DEBUG - STREAM b'tEXt' 23358 72
+[2022-11-19 22:22:03,885] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:03,886] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:03,886] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:03,886] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:03,886] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:03,886] DEBUG - STREAM b'IDAT' 119 21690
+[2022-11-19 22:22:03,886] DEBUG - STREAM b'tEXt' 21821 37
+[2022-11-19 22:22:03,887] DEBUG - STREAM b'tEXt' 21870 37
+[2022-11-19 22:22:03,887] DEBUG - STREAM b'tEXt' 21919 40
+[2022-11-19 22:22:03,887] DEBUG - STREAM b'tEXt' 21971 72
+[2022-11-19 22:22:04,690] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:04,691] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:04,691] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:04,691] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:04,691] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:04,691] DEBUG - STREAM b'IDAT' 119 28681
+[2022-11-19 22:22:04,693] DEBUG - STREAM b'tEXt' 28812 37
+[2022-11-19 22:22:04,693] DEBUG - STREAM b'tEXt' 28861 37
+[2022-11-19 22:22:04,693] DEBUG - STREAM b'tEXt' 28910 40
+[2022-11-19 22:22:04,693] DEBUG - STREAM b'tEXt' 28962 63
+[2022-11-19 22:22:04,696] DEBUG - transcribing audio file in path .\scripts\VGhlIFNlY3JldCBMaWZlIG9mIHBpeGVscw\audio\audio-3.wav
+[2022-11-19 22:22:05,403] DEBUG - start, 0.0, end, 4.54, text,  A raster image is one that is created by drawing pixels on a screen.
+[2022-11-19 22:22:05,403] DEBUG - start, 4.54, end, 9.64, text,  A vector image is one that is created using mathematical formulas and is composed of lines,
+[2022-11-19 22:22:05,403] DEBUG - start, 9.64, end, 16.64, text,  curves, and points.
+[2022-11-19 22:22:05,499] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:05,499] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:05,499] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:05,499] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:05,499] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:05,500] DEBUG - STREAM b'IDAT' 119 23723
+[2022-11-19 22:22:05,501] DEBUG - STREAM b'tEXt' 23854 37
+[2022-11-19 22:22:05,501] DEBUG - STREAM b'tEXt' 23903 37
+[2022-11-19 22:22:05,501] DEBUG - STREAM b'tEXt' 23952 40
+[2022-11-19 22:22:05,501] DEBUG - STREAM b'tEXt' 24004 74
+[2022-11-19 22:22:05,596] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:05,596] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:05,596] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:05,596] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:05,596] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:05,596] DEBUG - STREAM b'IDAT' 119 29808
+[2022-11-19 22:22:05,597] DEBUG - STREAM b'tEXt' 29939 37
+[2022-11-19 22:22:05,597] DEBUG - STREAM b'tEXt' 29988 37
+[2022-11-19 22:22:05,598] DEBUG - STREAM b'tEXt' 30037 40
+[2022-11-19 22:22:05,598] DEBUG - STREAM b'tEXt' 30089 97
+[2022-11-19 22:22:05,667] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:05,668] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:05,668] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:05,668] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:05,668] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:05,668] DEBUG - STREAM b'IDAT' 119 6576
+[2022-11-19 22:22:05,668] DEBUG - STREAM b'tEXt' 6707 37
+[2022-11-19 22:22:05,668] DEBUG - STREAM b'tEXt' 6756 37
+[2022-11-19 22:22:05,668] DEBUG - STREAM b'tEXt' 6805 40
+[2022-11-19 22:22:05,668] DEBUG - STREAM b'tEXt' 6857 25
+[2022-11-19 22:22:06,462] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:06,462] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:06,463] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:06,463] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:06,463] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:06,463] DEBUG - STREAM b'IDAT' 119 22853
+[2022-11-19 22:22:06,464] DEBUG - STREAM b'tEXt' 22984 37
+[2022-11-19 22:22:06,464] DEBUG - STREAM b'tEXt' 23033 37
+[2022-11-19 22:22:06,464] DEBUG - STREAM b'tEXt' 23082 40
+[2022-11-19 22:22:06,464] DEBUG - STREAM b'tEXt' 23134 57
+[2022-11-19 22:22:06,466] DEBUG - transcribing audio file in path .\scripts\VGhlIFNlY3JldCBMaWZlIG9mIHBpeGVscw\audio\audio-5.wav
+[2022-11-19 22:22:07,544] DEBUG - start, 0.0, end, 5.0, text,  Bitmap is an image that is saved as a series of bits or small numbers.
+[2022-11-19 22:22:07,544] DEBUG - start, 5.0, end, 12.0, text,  JPEG is a file format that is used to save images that are scalable up to 8,000 by 600 pixels.
+[2022-11-19 22:22:07,631] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:07,631] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:07,631] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:07,631] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:07,631] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:07,631] DEBUG - STREAM b'IDAT' 119 23890
+[2022-11-19 22:22:07,632] DEBUG - STREAM b'tEXt' 24021 37
+[2022-11-19 22:22:07,632] DEBUG - STREAM b'tEXt' 24070 37
+[2022-11-19 22:22:07,632] DEBUG - STREAM b'tEXt' 24119 40
+[2022-11-19 22:22:07,632] DEBUG - STREAM b'tEXt' 24171 76
+[2022-11-19 22:22:07,726] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:07,726] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:07,726] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:07,726] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:07,726] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:07,726] DEBUG - STREAM b'IDAT' 119 31829
+[2022-11-19 22:22:07,727] DEBUG - STREAM b'tEXt' 31960 37
+[2022-11-19 22:22:07,727] DEBUG - STREAM b'tEXt' 32009 37
+[2022-11-19 22:22:07,727] DEBUG - STREAM b'tEXt' 32058 40
+[2022-11-19 22:22:07,727] DEBUG - STREAM b'tEXt' 32110 100
+[2022-11-19 22:22:08,325] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:08,326] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:08,326] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:08,326] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:08,326] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:08,326] DEBUG - STREAM b'IDAT' 119 12826
+[2022-11-19 22:22:08,326] DEBUG - STREAM b'tEXt' 12957 37
+[2022-11-19 22:22:08,326] DEBUG - STREAM b'tEXt' 13006 37
+[2022-11-19 22:22:08,326] DEBUG - STREAM b'tEXt' 13055 40
+[2022-11-19 22:22:08,326] DEBUG - STREAM b'tEXt' 13107 25
+[2022-11-19 22:22:08,327] DEBUG - transcribing audio file in path .\scripts\VGhlIFNlY3JldCBMaWZlIG9mIHBpeGVscw\audio\audio-7.wav
+[2022-11-19 22:22:09,893] DEBUG - start, 0.0, end, 4.72, text,  Each pixel on a computer screen has its own color, brightness, and position.
+[2022-11-19 22:22:09,893] DEBUG - start, 4.72, end, 8.68, text,  When you write something on a piece of paper, the ink molecules are spread out so that
+[2022-11-19 22:22:09,893] DEBUG - start, 8.68, end, 11.76, text,  every place on the paper can receive an ink deposit.
+[2022-11-19 22:22:09,893] DEBUG - start, 11.76, end, 14.44, text,  The same is true for pixels on a computer screen.
+[2022-11-19 22:22:09,893] DEBUG - start, 14.44, end, 18.400000000000002, text,  When you press the mouse button, the pixel information is sent to the computer's graphics
+[2022-11-19 22:22:09,893] DEBUG - start, 18.400000000000002, end, 19.56, text,  processor.
+[2022-11-19 22:22:09,893] DEBUG - start, 19.56, end, 24.240000000000002, text,  The graphics processor is a special chip that is designed to handle the complex calculations
+[2022-11-19 22:22:09,893] DEBUG - start, 24.240000000000002, end, 26.96, text,  needed to display images on the screen.
+[2022-11-19 22:22:09,893] DEBUG - start, 26.96, end, 33.96, text,  It is also responsible for the three graphics that you see in games.
+[2022-11-19 22:22:09,988] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:09,988] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:09,988] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:09,989] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:09,989] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:09,989] DEBUG - STREAM b'IDAT' 119 25512
+[2022-11-19 22:22:09,990] DEBUG - STREAM b'tEXt' 25643 37
+[2022-11-19 22:22:09,990] DEBUG - STREAM b'tEXt' 25692 37
+[2022-11-19 22:22:09,990] DEBUG - STREAM b'tEXt' 25741 40
+[2022-11-19 22:22:09,990] DEBUG - STREAM b'tEXt' 25793 82
+[2022-11-19 22:22:10,095] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:10,095] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:10,095] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:10,095] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:10,095] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:10,095] DEBUG - STREAM b'IDAT' 119 29291
+[2022-11-19 22:22:10,096] DEBUG - STREAM b'tEXt' 29422 37
+[2022-11-19 22:22:10,096] DEBUG - STREAM b'tEXt' 29471 37
+[2022-11-19 22:22:10,096] DEBUG - STREAM b'tEXt' 29520 40
+[2022-11-19 22:22:10,097] DEBUG - STREAM b'tEXt' 29572 92
+[2022-11-19 22:22:10,174] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:10,174] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:10,174] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:10,174] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:10,174] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:10,174] DEBUG - STREAM b'IDAT' 119 17111
+[2022-11-19 22:22:10,175] DEBUG - STREAM b'tEXt' 17242 37
+[2022-11-19 22:22:10,175] DEBUG - STREAM b'tEXt' 17291 37
+[2022-11-19 22:22:10,175] DEBUG - STREAM b'tEXt' 17340 40
+[2022-11-19 22:22:10,175] DEBUG - STREAM b'tEXt' 17392 58
+[2022-11-19 22:22:10,249] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:10,249] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:10,249] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:10,249] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:10,250] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:10,250] DEBUG - STREAM b'IDAT' 119 15048
+[2022-11-19 22:22:10,250] DEBUG - STREAM b'tEXt' 15179 37
+[2022-11-19 22:22:10,251] DEBUG - STREAM b'tEXt' 15228 37
+[2022-11-19 22:22:10,251] DEBUG - STREAM b'tEXt' 15277 40
+[2022-11-19 22:22:10,251] DEBUG - STREAM b'tEXt' 15329 55
+[2022-11-19 22:22:10,342] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:10,342] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:10,342] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:10,342] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:10,342] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:10,342] DEBUG - STREAM b'IDAT' 119 29307
+[2022-11-19 22:22:10,343] DEBUG - STREAM b'tEXt' 29438 37
+[2022-11-19 22:22:10,343] DEBUG - STREAM b'tEXt' 29487 37
+[2022-11-19 22:22:10,343] DEBUG - STREAM b'tEXt' 29536 40
+[2022-11-19 22:22:10,343] DEBUG - STREAM b'tEXt' 29588 95
+[2022-11-19 22:22:10,409] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:10,410] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:10,410] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:10,410] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:10,410] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:10,410] DEBUG - STREAM b'IDAT' 119 4242
+[2022-11-19 22:22:10,410] DEBUG - STREAM b'tEXt' 4373 37
+[2022-11-19 22:22:10,410] DEBUG - STREAM b'tEXt' 4422 37
+[2022-11-19 22:22:10,410] DEBUG - STREAM b'tEXt' 4471 40
+[2022-11-19 22:22:10,410] DEBUG - STREAM b'tEXt' 4523 16
+[2022-11-19 22:22:10,504] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:10,504] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:10,504] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:10,504] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:10,504] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:10,505] DEBUG - STREAM b'IDAT' 119 31522
+[2022-11-19 22:22:10,506] DEBUG - STREAM b'tEXt' 31653 37
+[2022-11-19 22:22:10,506] DEBUG - STREAM b'tEXt' 31702 37
+[2022-11-19 22:22:10,506] DEBUG - STREAM b'tEXt' 31751 40
+[2022-11-19 22:22:10,507] DEBUG - STREAM b'tEXt' 31803 98
+[2022-11-19 22:22:10,583] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:10,583] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:10,583] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:10,583] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:10,583] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:10,583] DEBUG - STREAM b'IDAT' 119 13472
+[2022-11-19 22:22:10,584] DEBUG - STREAM b'tEXt' 13603 37
+[2022-11-19 22:22:10,584] DEBUG - STREAM b'tEXt' 13652 37
+[2022-11-19 22:22:10,584] DEBUG - STREAM b'tEXt' 13701 40
+[2022-11-19 22:22:10,584] DEBUG - STREAM b'tEXt' 13753 45
+[2022-11-19 22:22:10,779] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:10,779] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:10,779] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:10,779] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:10,779] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:10,779] DEBUG - STREAM b'IDAT' 119 22934
+[2022-11-19 22:22:10,780] DEBUG - STREAM b'tEXt' 23065 37
+[2022-11-19 22:22:10,780] DEBUG - STREAM b'tEXt' 23114 37
+[2022-11-19 22:22:10,780] DEBUG - STREAM b'tEXt' 23163 40
+[2022-11-19 22:22:10,780] DEBUG - STREAM b'tEXt' 23215 74
+[2022-11-19 22:22:11,583] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:11,583] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:11,583] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:11,583] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:11,584] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:11,584] DEBUG - STREAM b'IDAT' 119 22610
+[2022-11-19 22:22:11,585] DEBUG - STREAM b'tEXt' 22741 37
+[2022-11-19 22:22:11,585] DEBUG - STREAM b'tEXt' 22790 37
+[2022-11-19 22:22:11,585] DEBUG - STREAM b'tEXt' 22839 40
+[2022-11-19 22:22:11,586] DEBUG - STREAM b'tEXt' 22891 57
+[2022-11-19 22:22:11,588] DEBUG - transcribing audio file in path .\scripts\VGhlIFNlY3JldCBMaWZlIG9mIHBpeGVscw\audio\audio-9.wav
+[2022-11-19 22:22:12,592] DEBUG - start, 0.0, end, 5.64, text,  A pixel is a tiny piece of picture information that makes up screenshots, images, and videos
+[2022-11-19 22:22:12,592] DEBUG - start, 5.64, end, 7.28, text,  on computer screens.
+[2022-11-19 22:22:12,592] DEBUG - start, 7.28, end, 34.4, text,  A Vauxhall is a three-dimensional object that is composed of many tiny pixels.
+[2022-11-19 22:22:12,793] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:12,793] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:12,793] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:12,793] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:12,793] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:12,793] DEBUG - STREAM b'IDAT' 119 30584
+[2022-11-19 22:22:12,794] DEBUG - STREAM b'tEXt' 30715 37
+[2022-11-19 22:22:12,794] DEBUG - STREAM b'tEXt' 30764 37
+[2022-11-19 22:22:12,794] DEBUG - STREAM b'tEXt' 30813 40
+[2022-11-19 22:22:12,794] DEBUG - STREAM b'tEXt' 30865 98
+[2022-11-19 22:22:12,862] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:12,862] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:12,862] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:12,862] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:12,862] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:12,862] DEBUG - STREAM b'IDAT' 119 7409
+[2022-11-19 22:22:12,862] DEBUG - STREAM b'tEXt' 7540 37
+[2022-11-19 22:22:12,863] DEBUG - STREAM b'tEXt' 7589 37
+[2022-11-19 22:22:12,863] DEBUG - STREAM b'tEXt' 7638 40
+[2022-11-19 22:22:12,863] DEBUG - STREAM b'tEXt' 7690 26
+[2022-11-19 22:22:12,950] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:12,951] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:12,951] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:12,951] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:12,951] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:12,951] DEBUG - STREAM b'IDAT' 119 25855
+[2022-11-19 22:22:12,952] DEBUG - STREAM b'tEXt' 25986 37
+[2022-11-19 22:22:12,952] DEBUG - STREAM b'tEXt' 26035 37
+[2022-11-19 22:22:12,952] DEBUG - STREAM b'tEXt' 26084 40
+[2022-11-19 22:22:12,952] DEBUG - STREAM b'tEXt' 26136 84
+[2022-11-19 22:22:13,720] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:13,720] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:13,720] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:13,720] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:13,721] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:13,721] DEBUG - STREAM b'IDAT' 119 22416
+[2022-11-19 22:22:13,722] DEBUG - STREAM b'tEXt' 22547 37
+[2022-11-19 22:22:13,722] DEBUG - STREAM b'tEXt' 22596 37
+[2022-11-19 22:22:13,722] DEBUG - STREAM b'tEXt' 22645 40
+[2022-11-19 22:22:13,722] DEBUG - STREAM b'tEXt' 22697 55
+[2022-11-19 22:22:13,724] DEBUG - transcribing audio file in path .\scripts\VGhlIFNlY3JldCBMaWZlIG9mIHBpeGVscw\audio\audio-11.wav
+[2022-11-19 22:22:17,368] DEBUG - start, 0.0, end, 3.7600000000000002, text,  A two-figure of one that is displayed on a flat screen.
+[2022-11-19 22:22:17,368] DEBUG - start, 3.7600000000000002, end, 17.12, text,  A three-
+[2022-11-19 22:22:17,451] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:17,451] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:17,451] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:17,451] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:17,451] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:17,451] DEBUG - STREAM b'IDAT' 119 18551
+[2022-11-19 22:22:17,452] DEBUG - STREAM b'tEXt' 18682 37
+[2022-11-19 22:22:17,452] DEBUG - STREAM b'tEXt' 18731 37
+[2022-11-19 22:22:17,452] DEBUG - STREAM b'tEXt' 18780 40
+[2022-11-19 22:22:17,452] DEBUG - STREAM b'tEXt' 18832 61
+[2022-11-19 22:22:17,631] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:17,631] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:17,631] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:17,631] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:17,631] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:17,631] DEBUG - STREAM b'IDAT' 119 2642
+[2022-11-19 22:22:17,632] DEBUG - STREAM b'tEXt' 2773 37
+[2022-11-19 22:22:17,632] DEBUG - STREAM b'tEXt' 2822 37
+[2022-11-19 22:22:17,632] DEBUG - STREAM b'tEXt' 2871 40
+[2022-11-19 22:22:17,632] DEBUG - STREAM b'tEXt' 2923 14
+[2022-11-19 22:22:18,458] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:18,458] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:18,458] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:18,458] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:18,458] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:18,458] DEBUG - STREAM b'IDAT' 119 30154
+[2022-11-19 22:22:18,461] DEBUG - STREAM b'tEXt' 30285 37
+[2022-11-19 22:22:18,461] DEBUG - STREAM b'tEXt' 30334 37
+[2022-11-19 22:22:18,461] DEBUG - STREAM b'tEXt' 30383 40
+[2022-11-19 22:22:18,461] DEBUG - STREAM b'tEXt' 30435 65
+[2022-11-19 22:22:18,464] DEBUG - transcribing audio file in path .\scripts\VGhlIFNlY3JldCBMaWZlIG9mIHBpeGVscw\audio\audio-13.wav
+[2022-11-19 22:22:19,520] DEBUG - start, 0.0, end, 4.36, text,  A raster graphic is one that is created by drawing pixels on a screen.
+[2022-11-19 22:22:19,521] DEBUG - start, 4.36, end, 10.200000000000001, text,  A vector graphic is one that is created using mathematical formulas and is composed of lines,
+[2022-11-19 22:22:19,521] DEBUG - start, 10.200000000000001, end, 12.120000000000001, text,  curves, and points.
+[2022-11-19 22:22:19,521] DEBUG - start, 12.12, end, 39.12, text,  A raster graphic is also known as a bitmap.
+[2022-11-19 22:22:19,727] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:19,727] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:19,727] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:19,727] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:19,727] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:19,727] DEBUG - STREAM b'IDAT' 119 24551
+[2022-11-19 22:22:19,728] DEBUG - STREAM b'tEXt' 24682 37
+[2022-11-19 22:22:19,728] DEBUG - STREAM b'tEXt' 24731 37
+[2022-11-19 22:22:19,728] DEBUG - STREAM b'tEXt' 24780 40
+[2022-11-19 22:22:19,728] DEBUG - STREAM b'tEXt' 24832 76
+[2022-11-19 22:22:19,844] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:19,844] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:19,844] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:19,845] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:19,845] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:19,845] DEBUG - STREAM b'IDAT' 119 30889
+[2022-11-19 22:22:19,846] DEBUG - STREAM b'tEXt' 31020 37
+[2022-11-19 22:22:19,847] DEBUG - STREAM b'tEXt' 31069 37
+[2022-11-19 22:22:19,847] DEBUG - STREAM b'tEXt' 31118 40
+[2022-11-19 22:22:19,847] DEBUG - STREAM b'tEXt' 31170 99
+[2022-11-19 22:22:19,916] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:19,916] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:19,916] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:19,917] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:19,917] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:19,917] DEBUG - STREAM b'IDAT' 119 6576
+[2022-11-19 22:22:19,917] DEBUG - STREAM b'tEXt' 6707 37
+[2022-11-19 22:22:19,917] DEBUG - STREAM b'tEXt' 6756 37
+[2022-11-19 22:22:19,917] DEBUG - STREAM b'tEXt' 6805 40
+[2022-11-19 22:22:19,917] DEBUG - STREAM b'tEXt' 6857 25
+[2022-11-19 22:22:19,991] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:19,991] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:19,991] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:19,991] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:19,991] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:19,991] DEBUG - STREAM b'IDAT' 119 15094
+[2022-11-19 22:22:19,992] DEBUG - STREAM b'tEXt' 15225 37
+[2022-11-19 22:22:19,992] DEBUG - STREAM b'tEXt' 15274 37
+[2022-11-19 22:22:19,992] DEBUG - STREAM b'tEXt' 15323 40
+[2022-11-19 22:22:19,992] DEBUG - STREAM b'tEXt' 15375 49
+[2022-11-19 22:22:20,743] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:20,743] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:20,743] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:20,743] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:20,743] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:20,744] DEBUG - STREAM b'IDAT' 119 22534
+[2022-11-19 22:22:20,745] DEBUG - STREAM b'tEXt' 22665 37
+[2022-11-19 22:22:20,746] DEBUG - STREAM b'tEXt' 22714 37
+[2022-11-19 22:22:20,746] DEBUG - STREAM b'tEXt' 22763 40
+[2022-11-19 22:22:20,746] DEBUG - STREAM b'tEXt' 22815 57
+[2022-11-19 22:22:20,748] DEBUG - transcribing audio file in path .\scripts\VGhlIFNlY3JldCBMaWZlIG9mIHBpeGVscw\audio\audio-15.wav
+[2022-11-19 22:22:21,784] DEBUG - start, 0.0, end, 7.0, text,  A G-PEG is a file format that is used to save images that are scalable up to 8,000 by 600 pixels.
+[2022-11-19 22:22:21,784] DEBUG - start, 7.0, end, 14.0, text,  A bitmap is an image that is saved as a series of bits or small numbers that are used to represent the color of each pixel.
+[2022-11-19 22:22:21,884] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:21,884] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:21,884] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:21,885] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:21,885] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:21,885] DEBUG - STREAM b'IDAT' 119 32768
+[2022-11-19 22:22:21,887] DEBUG - STREAM b'tEXt' 33433 37
+[2022-11-19 22:22:21,887] DEBUG - STREAM b'tEXt' 33482 37
+[2022-11-19 22:22:21,887] DEBUG - STREAM b'tEXt' 33531 40
+[2022-11-19 22:22:21,887] DEBUG - STREAM b'tEXt' 33583 103
+[2022-11-19 22:22:22,020] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:22,020] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:22,020] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:22,021] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:22,021] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:22,021] DEBUG - STREAM b'IDAT' 119 32768
+[2022-11-19 22:22:22,022] DEBUG - STREAM b'tEXt' 40239 37
+[2022-11-19 22:22:22,022] DEBUG - STREAM b'tEXt' 40288 37
+[2022-11-19 22:22:22,022] DEBUG - STREAM b'tEXt' 40337 40
+[2022-11-19 22:22:22,022] DEBUG - STREAM b'tEXt' 40389 129
+[2022-11-19 22:22:22,632] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:22,632] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:22,632] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:22,632] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:22,633] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:22,633] DEBUG - STREAM b'IDAT' 119 14543
+[2022-11-19 22:22:22,634] DEBUG - STREAM b'tEXt' 14674 37
+[2022-11-19 22:22:22,634] DEBUG - STREAM b'tEXt' 14723 37
+[2022-11-19 22:22:22,634] DEBUG - STREAM b'tEXt' 14772 40
+[2022-11-19 22:22:22,634] DEBUG - STREAM b'tEXt' 14824 34
+[2022-11-19 22:22:22,636] DEBUG - transcribing audio file in path .\scripts\VGhlIFNlY3JldCBMaWZlIG9mIHBpeGVscw\audio\audio-17.wav
+[2022-11-19 22:22:23,784] DEBUG - start, 0.0, end, 6.0, text,  To create pixel art, you will need to use a graphics program that has pixel based editing capabilities.
+[2022-11-19 22:22:23,784] DEBUG - start, 6.0, end, 11.5, text,  Once you have opened the file, you will need to zoom in on the parts of the image that you want to use for your art.
+[2022-11-19 22:22:23,784] DEBUG - start, 11.5, end, 24.5, text,  You can then use the editing tools to change the brightness, color and position of the pixels.
+[2022-11-19 22:22:23,880] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:23,880] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:23,880] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:23,880] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:23,880] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:23,880] DEBUG - STREAM b'IDAT' 119 32768
+[2022-11-19 22:22:23,881] DEBUG - STREAM b'tEXt' 33146 37
+[2022-11-19 22:22:23,882] DEBUG - STREAM b'tEXt' 33195 37
+[2022-11-19 22:22:23,882] DEBUG - STREAM b'tEXt' 33244 40
+[2022-11-19 22:22:23,882] DEBUG - STREAM b'tEXt' 33296 109
+[2022-11-19 22:22:23,991] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:23,991] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:23,991] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:23,991] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:23,991] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:23,991] DEBUG - STREAM b'IDAT' 119 32768
+[2022-11-19 22:22:23,993] DEBUG - STREAM b'tEXt' 35723 37
+[2022-11-19 22:22:23,993] DEBUG - STREAM b'tEXt' 35772 37
+[2022-11-19 22:22:23,993] DEBUG - STREAM b'tEXt' 35821 40
+[2022-11-19 22:22:23,993] DEBUG - STREAM b'tEXt' 35873 122
+[2022-11-19 22:22:24,110] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-19 22:22:24,110] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-19 22:22:24,110] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-19 22:22:24,110] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-19 22:22:24,110] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-19 22:22:24,110] DEBUG - STREAM b'IDAT' 119 29816
+[2022-11-19 22:22:24,112] DEBUG - STREAM b'tEXt' 29947 37
+[2022-11-19 22:22:24,112] DEBUG - STREAM b'tEXt' 29996 37
+[2022-11-19 22:22:24,112] DEBUG - STREAM b'tEXt' 30045 40
+[2022-11-19 22:22:24,112] DEBUG - STREAM b'tEXt' 30097 100
