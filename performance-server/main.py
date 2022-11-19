@@ -41,6 +41,10 @@ def main(repeat=1, preset="standard"):
 
 if __name__ == '__main__':
     load_dotenv()
+    if not os.path.exists(os.path.join(os.path.curdir, "logs")):
+        os.mkdir(os.path.join(os.path.curdir, "logs"))
+    if not os.path.exists(os.path.join(os.path.curdir, "scripts")):
+        os.mkdir(os.path.join(os.path.curdir, "scripts"))
     logging.basicConfig(level=os.getenv("LOGGING_LEVEL"), force=True, format='[%(asctime)s] %(levelname)s - %(message)s', handlers=[
         logging.FileHandler(filename=os.path.join("logs", f"{int(time.time())}.log"), encoding="utf-8"),
         logging.StreamHandler(sys.stdout)
