@@ -51,7 +51,7 @@ def listScripts():
 def uploadScript(id):
     ftp = login()
     if id not in listScripts():
-        copyFolder(ftp, os.path.join("scripts", id))
+        copyFolder(ftp, os.path.join(os.path.curdir, "scripts", id))
     else:
         return False
     ftp.close()

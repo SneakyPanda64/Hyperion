@@ -13,11 +13,11 @@ import util
 import logging
 import requests
 def GenerateThumbnail(id):
-    path = os.path.join("scripts", id)
+    path = os.path.join(os.path.curdir, "scripts", id)
     j = json.load(open(os.path.join(path, "script.json")))
     SearchIcons(j["topic"])
-    icon = Image.open(os.path.join("content", "thumbnail-icon.png")).convert("RGBA")
-    img = Image.open(os.path.join("content", "thumbnail.png")) # Image.new('RGB', (1920, 1080), (47, 47, 47))
+    icon = Image.open(os.path.join(os.path.curdir, "content", "thumbnail-icon.png")).convert("RGBA")
+    img = Image.open(os.path.join(os.path.curdir, "content", "thumbnail.png")) # Image.new('RGB', (1920, 1080), (47, 47, 47))
     d = ImageDraw.Draw(img)
     textwrap = util.textwrap(j["topic"], 15)
     fontsize = 65
@@ -41,7 +41,7 @@ def SearchIcons(query):
             break
     logging.debug(image)
     img_data = requests.get(image).content
-    with open(os.path.join("content", "thumbnail-icon.png"), 'wb') as handler:
+    with open(os.path.join(os.path.curdir, "content", "thumbnail-icon.png"), 'wb') as handler:
         handler.write(img_data)
 def GetIcon(keyword):
     logging.debug("Getting requests for icons")

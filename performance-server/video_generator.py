@@ -15,7 +15,7 @@ def CreateVideo(id):
         contents = json.loads(f.read())
     start_time = 3
     full_duration = (mp.AudioFileClip(os.path.join(path, "audio", "audio.wav"))).duration + start_time
-    clips = [(mp.VideoFileClip(os.path.join("content", "intro.mp4")).set_duration(3))]
+    clips = [(mp.VideoFileClip(os.path.join(os.path.curdir, "content", "intro.mp4")).set_duration(3))]
     clips += CreateStockClips(id, start_time, full_duration)
     audio_clips = []
     timeline = []
@@ -42,7 +42,7 @@ def CreateVideo(id):
     final.close()
     return True
 def CreateSectionSubtitles(id, index, global_start_time, cap):
-    transcription = util.transcribe(os.path.join("scripts", id, "audio", f"audio-{(index * 2) + 1}.wav"))
+    transcription = util.transcribe(os.path.join(os.path.curdir, "scripts", id, "audio", f"audio-{(index * 2) + 1}.wav"))
     clips = []
     for text in transcription["text"]:
         print(text)
@@ -66,7 +66,7 @@ def CreateSectionSubtitles(id, index, global_start_time, cap):
         clips.append(txt_clip)
     return clips
 def CreateSectionAudio(id, index, start_time):
-    path = os.path.join("scripts", id, "audio")
+    path = os.path.join(os.path.curdir, "scripts", id, "audio")
     audio_clips = []
     topic_audio = (mp.AudioFileClip(os.path.join(path, f"audio-{index*2}.wav"))).set_start(start_time)
     passage_audio = (mp.AudioFileClip(os.path.join(path, f"audio-{(index*2)+1}.wav"))).set_start(start_time + topic_audio.duration)
@@ -96,7 +96,7 @@ def CreateSectionText(id, index, subtopic, start_time, duration, cap):
 
     return txt_clips
 def CreateStockClips(id, start_time, duration):
-    path = ("stock-footage")
+    path = os.path.join(os.path.curdir, "stock-footage")
     stock_clips = []
     for directory in os.listdir(path):
         for file in os.listdir(os.path.join(path, directory)):
