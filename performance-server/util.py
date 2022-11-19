@@ -1,18 +1,18 @@
 import logging
 
+import mutagen
 import torch
 import torchaudio
 from time import time, sleep
 import os
 import tqdm
 import whisper
-import librosa
-
 from base64 import urlsafe_b64encode, urlsafe_b64decode
 import shutil
 from google.cloud import speech
 import json
 import openai
+import librosa
 from pydub import AudioSegment
 from torch.backends.mkl import verbose
 from tortoise.api import TextToSpeech, MODELS_DIR
@@ -27,6 +27,7 @@ model = whisper.load_model("tiny.en")
 def transcribe(path):
     logging.debug(f"transcribing audio file in path {path}")
     result = model.transcribe(os.path.join(path))
+    time = librosa.get_duration(filename=path)
     dict = None
     for v in result['segments']:
         start = 0
@@ -42,7 +43,7 @@ def transcribe(path):
                 "end": v["end"] + start
             }
         else:
-            time = librosa.get_duration(filename=path)
+
             new_dict = dict
             end_time = v["end"] + new_dict["text"][0]["start"]
             if end_time > time:
@@ -61,7 +62,7 @@ def tts(text, voice, preset, path):
     tts = TextToSpeech(models_dir=MODELS_DIR, enable_redaction=False)
     seed = int(time())
     voice_sel = [voice]
-    voice_samples, conditioning_latents = load_voices(voice_sel)
+    voice_samples, conditioning_latents = load_voices(voice_sel, ["voices"])
     all_parts = []
     length = 0 # len(str(text).split("."))
     for v in text:
@@ -71,6 +72,9 @@ def tts(text, voice, preset, path):
             length += 1
         else:
             length += len(split)
+    if length > 40:
+        return False
+    logging.debug(f"processing {length} tts sections")
     with tqdm.tqdm(total=length) as pbar:
         for i, text in enumerate(text):
             logging.debug(f"Text-to-speech: {text}")
@@ -81,7 +85,7 @@ def tts(text, voice, preset, path):
                 v = v.strip()
                 if v[len(v)-1] != "?":
                     v += "."
-                logging.debug(f"[#{j+1}] Subsection: {text}")
+                logging.debug(f"[#{j+1}] Subsection: {v}")
                 gen = tts.tts_with_preset(v, voice_samples=voice_samples, conditioning_latents=conditioning_latents,
                                           preset=preset, k=1, use_deterministic_seed=seed, verbose=False, cvvp_amount=0.5)
                 gen = gen.squeeze(0).cpu()
@@ -92,6 +96,7 @@ def tts(text, voice, preset, path):
             torchaudio.save(os.path.join(path, f'audio-{i}.wav'), full_sub_audio, 24000)
         full_audio = torch.cat(all_parts, dim=-1)
         torchaudio.save(os.path.join(path, "audio.wav"), full_audio, 24000)
+    return True
     # logging.debug(f"audio finished total elapsed time: {int(time())-total_time} seconds.")
 def complete(prompt, model='text-davinci-002', temperature=0.7, max_tokens=256, top_p=1, frequency_penalty=0,
          presence_penalty=0, stop="", n=1, echo=False):
@@ -117,9 +122,9 @@ def edit(text, instruction, temperature=0):
             temperature=temperature,
             top_p=1
         )
-    except Exception as e:
-        logging.debug("[Edit/Openai] Rate limited retrying in 3s", e)
-        sleep(3)
+    except:
+        logging.debug("[Edit/Openai] Rate limited retrying in 7s")
+        sleep(7)
         return edit(text, instruction, temperature)
     return response
 def base64UrlEncode(data):

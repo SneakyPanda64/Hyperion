@@ -12,4 +12,6 @@ def CreateAudio(id, speed):
         tts_texts.append(contents["passages"][i])
     print(tts_texts)
     util.mkdir(os.path.join(path, "audio"))
-    util.tts(tts_texts, "rslash", speed, os.path.join(path, "audio"))
+    if not util.tts(tts_texts, "rslash", speed, os.path.join(path, "audio")):
+        return False
+    return True

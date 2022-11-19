@@ -1,0 +1,16 @@
+[2022-11-19 14:50:56,062] INFO - Getting video script.
+[2022-11-19 14:50:56,071] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:50:58,926] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2385 request_id=75037fb4d665f8405d212ae0535cd9c2 response_code=200
+[2022-11-19 14:50:58,929] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:50:59,525] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=353 request_id=7dd8b80eca18e70f7b1cf4bab0c288fd response_code=200
+[2022-11-19 14:50:59,525] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:51:00,569] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=667 request_id=88ba4b956179236f3ddb9d47fb8d450b response_code=200
+[2022-11-19 14:51:00,607] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:51:04,145] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3390 request_id=57b27fce5e025916cce6223dc239614f response_code=200
+[2022-11-19 14:51:04,145] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:51:05,027] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=729 request_id=380dd49d7c41a00816940767ecf3875d response_code=200
+[2022-11-19 14:51:05,028] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:51:05,929] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=750 request_id=9f4dcf07d23a52bfb1196d61e02c5267 response_code=200
+[2022-11-19 14:51:05,930] CRITICAL - Failed to generate video script
+[2022-11-19 14:51:05,930] INFO - Getting video script.
+[2022-11-19 14:51:05,930] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions

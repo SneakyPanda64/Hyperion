@@ -1,0 +1,19 @@
+[2022-11-19 14:52:40,628] INFO - Getting video script.
+[2022-11-19 14:52:40,637] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:52:40,638] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of unique and interesting keywords relating to basic computer science:\\n\\n-", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-19 14:52:40,638] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-19 14:52:40,640] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-19 14:52:43,688] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 446
+[2022-11-19 14:52:43,688] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2568 request_id=936c23bf8616aafc470bb2fbad26c01d response_code=200
+[2022-11-19 14:52:43,690] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:52:43,690] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where CSS is used in the context of computer science:\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-19 14:52:44,393] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 457
+[2022-11-19 14:52:44,393] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=546 request_id=3ee42ff44b89eecf21c21d9382ac2fa9 response_code=200
+[2022-11-19 14:52:44,393] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:52:44,393] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a short, unique and interesting title relating to the theory of CSS is used to style the user interface of a web application in the form of a video essay title without involving numbers:", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-19 14:52:45,305] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 295
+[2022-11-19 14:52:45,305] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=748 request_id=d6e1e5e1f3e747e3d4ba44044eac83c6 response_code=200
+[2022-11-19 14:52:45,339] DEBUG - Keyword CSS, Topics ['CSS is used to style HTML', 'CSS is used to style web pages', 'CSS is used to style the user interface of a web application', 'CSS is used to style the presentation of data', 'CSS is used to style text'], Topic The Power of CSS in Web Design
+[2022-11-19 14:52:45,339] INFO - topic The Power of CSS in Web Design
+[2022-11-19 14:52:45,339] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:52:45,339] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of beginner topics relating to what is The Power of CSS in Web Design in the context of computer science:\\n\\n", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'

@@ -13,7 +13,6 @@ def CreateVideo(id):
     path = os.path.join(os.path.curdir, "scripts", id)
     with open(os.path.join(path, "script.json"), "r") as f:
         contents = json.loads(f.read())
-    logging.debug(f"creating thumbnail..")
     start_time = 3
     full_duration = (mp.AudioFileClip(os.path.join(path, "audio", "audio.wav"))).duration + start_time
     clips = [(mp.VideoFileClip(os.path.join("content", "intro.mp4")).set_duration(3))]
@@ -41,6 +40,7 @@ def CreateVideo(id):
     final.write_videofile(os.path.join(path, "video.mp4"),
                           fps=25)
     final.close()
+    return True
 def CreateSectionSubtitles(id, index, global_start_time, cap):
     transcription = util.transcribe(os.path.join("scripts", id, "audio", f"audio-{(index * 2) + 1}.wav"))
     clips = []

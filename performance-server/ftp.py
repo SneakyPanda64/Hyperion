@@ -57,7 +57,6 @@ def uploadScript(id):
     ftp.close()
     return True
 def login():
-
     try:
         ftp = ftplib.FTP(host=os.getenv("FTP_HOST"), timeout=2)
         ftp.login(user=os.getenv("FTP_USER"), passwd=os.getenv("FTP_PASS"))

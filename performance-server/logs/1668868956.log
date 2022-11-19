@@ -1,0 +1,262 @@
+[2022-11-19 14:42:36,261] INFO - Getting video script.
+[2022-11-19 14:42:36,270] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:42:38,712] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1966 request_id=fd92061ba7f6187e080abb0457f25d2a response_code=200
+[2022-11-19 14:42:38,716] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:42:39,155] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=268 request_id=420a8ef798269cfd1a35655ed7021999 response_code=200
+[2022-11-19 14:42:39,155] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:42:39,734] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=415 request_id=98413d4bc3dffa93b353833bb63a6743 response_code=200
+[2022-11-19 14:42:39,738] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:42:42,898] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3011 request_id=760bbaa032a289bfa982e776c397fc44 response_code=200
+[2022-11-19 14:42:42,898] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:42:43,514] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=444 request_id=4f5e5aae897257eae961fa425d5ea9a6 response_code=200
+[2022-11-19 14:42:43,515] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:42:45,971] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2185 request_id=3c4ae2cf98856bdff24bb9afd4ef6257 response_code=200
+[2022-11-19 14:42:45,971] CRITICAL - Failed to generate video script
+[2022-11-19 14:42:45,971] INFO - Getting video script.
+[2022-11-19 14:42:45,972] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:42:49,226] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3085 request_id=5e880d1d5a07235c4ba13e7a6c64311b response_code=200
+[2022-11-19 14:42:49,226] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:42:49,762] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=356 request_id=adc7307b89889440ef4a572f5f30ad4f response_code=200
+[2022-11-19 14:42:49,762] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:42:50,825] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=922 request_id=a68d814fe31ee26e0b9ee06154c48fac response_code=200
+[2022-11-19 14:42:50,853] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:42:53,851] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2858 request_id=c76bbdae4051be223ed62f3c58417d9d response_code=200
+[2022-11-19 14:42:53,851] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:42:54,470] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=463 request_id=7501a645d3b804b189842b1fbcb44203 response_code=200
+[2022-11-19 14:42:54,470] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:42:57,299] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2679 request_id=1e23841350cbcc30e2c22ba5fe9062bb response_code=200
+[2022-11-19 14:42:57,299] CRITICAL - Failed to generate video script
+[2022-11-19 14:42:57,299] INFO - Getting video script.
+[2022-11-19 14:42:57,299] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:00,121] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2674 request_id=eae42ab001b087807c662ef5cdb3ac69 response_code=200
+[2022-11-19 14:43:00,122] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:00,503] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=234 request_id=da231a0906471e0240ac2fbd3cdb4268 response_code=200
+[2022-11-19 14:43:00,503] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:01,574] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=927 request_id=cdbcc000b20be83657f36fd8bdab928e response_code=200
+[2022-11-19 14:43:01,604] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:04,439] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2693 request_id=db4588fe53aa121c6fc3937b619ff08c response_code=200
+[2022-11-19 14:43:04,439] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:04,988] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=371 request_id=26512f1891630c890463836754d039e5 response_code=200
+[2022-11-19 14:43:04,989] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:05,900] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=772 request_id=87ebae3e5a79ea85b4773f0fd37586c4 response_code=200
+[2022-11-19 14:43:05,900] CRITICAL - Failed to generate video script
+[2022-11-19 14:43:05,900] INFO - Getting video script.
+[2022-11-19 14:43:05,900] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:08,659] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2618 request_id=96fa37e62ba741e8d9bac2c8902ae26d response_code=200
+[2022-11-19 14:43:08,659] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:09,095] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=288 request_id=fc15ccbb8548017b5e8d9c57154aa421 response_code=200
+[2022-11-19 14:43:09,096] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:10,432] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1196 request_id=e99cd7f9a20fa122a669c02a4e500625 response_code=200
+[2022-11-19 14:43:10,460] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:13,640] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3027 request_id=0bade8163fc78d3138f6a3500424d046 response_code=200
+[2022-11-19 14:43:13,640] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:14,068] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=280 request_id=82122b9bc71e5eb412ecfec5f726fd04 response_code=200
+[2022-11-19 14:43:14,068] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:16,340] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2132 request_id=2cdd4b6e24dc6e47c59651b8811b8554 response_code=200
+[2022-11-19 14:43:16,341] CRITICAL - Failed to generate video script
+[2022-11-19 14:43:16,341] INFO - Getting video script.
+[2022-11-19 14:43:16,341] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:19,119] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2633 request_id=b0fbec7b401f37ea9d902fceffd2f4c5 response_code=200
+[2022-11-19 14:43:19,119] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:19,468] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=204 request_id=88503526a14114e0ef7cc50c355a409a response_code=200
+[2022-11-19 14:43:19,469] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:20,572] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=964 request_id=1968a3d18c9e9571d1542ec50ecee8aa response_code=200
+[2022-11-19 14:43:20,604] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:23,376] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2632 request_id=4837ef95fa8772dc7d8f530618bb215d response_code=200
+[2022-11-19 14:43:23,376] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:24,201] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=678 request_id=10d3c8c9ccb4322a998ea522814eed59 response_code=200
+[2022-11-19 14:43:24,201] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:26,740] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2397 request_id=0ad4e2c93899487b142e9acb0642c97c response_code=200
+[2022-11-19 14:43:26,740] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-19 14:43:29,932] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=3012 request_id=cb5558295969d6d78a5a9e3e208ead77 response_code=200
+[2022-11-19 14:43:29,932] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:32,877] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2708 request_id=345b35f56c9fd0fbf6104269646682ef response_code=200
+[2022-11-19 14:43:32,877] CRITICAL - Failed to generate video script
+[2022-11-19 14:43:32,877] INFO - Getting video script.
+[2022-11-19 14:43:32,877] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:34,452] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1433 request_id=7c721d4bc2e23545e07db1d4eae5ddbd response_code=200
+[2022-11-19 14:43:34,452] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:34,833] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=224 request_id=a1495468b5e073a2dfca9cf21d9f5221 response_code=200
+[2022-11-19 14:43:34,833] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:35,641] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=668 request_id=54a182e31454f27645a743b40c30f72f response_code=200
+[2022-11-19 14:43:35,645] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:38,155] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2360 request_id=600d9c8e669d53339fb140327b2f9892 response_code=200
+[2022-11-19 14:43:38,156] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:38,732] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=430 request_id=3e98eb4d460b4b5bc80256fc86c30819 response_code=200
+[2022-11-19 14:43:38,733] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:40,925] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2051 request_id=7a6fedd928a41bcde7568ebecf15c71d response_code=200
+[2022-11-19 14:43:40,925] CRITICAL - Failed to generate video script
+[2022-11-19 14:43:40,925] INFO - Getting video script.
+[2022-11-19 14:43:40,925] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:42,627] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1558 request_id=4a787fe2ae5cc1584854820aded9530f response_code=200
+[2022-11-19 14:43:42,627] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:43,015] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=239 request_id=c9a7fc4e4d4886a478a1e20e7989685b response_code=200
+[2022-11-19 14:43:43,015] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:43,487] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=330 request_id=5e14cfd0732ec18f2f668ab394d5725d response_code=200
+[2022-11-19 14:43:43,523] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:46,230] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2566 request_id=43d3654131fe6b83b86f8ea78cd72517 response_code=200
+[2022-11-19 14:43:46,230] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:46,816] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=439 request_id=fb80e4dc7a3a459fea2f44a22e4d18fe response_code=200
+[2022-11-19 14:43:46,817] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:49,164] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2208 request_id=15092ce45ce851f5e69fdaac031813ab response_code=200
+[2022-11-19 14:43:49,164] CRITICAL - Failed to generate video script
+[2022-11-19 14:43:49,164] INFO - Getting video script.
+[2022-11-19 14:43:49,164] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:52,949] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3630 request_id=5a1018358697ec0d991a0c97339d81ff response_code=200
+[2022-11-19 14:43:52,949] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:53,560] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=462 request_id=bee185c43d809e83faca0e0ca051f53b response_code=200
+[2022-11-19 14:43:53,560] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:55,527] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1827 request_id=32725ded4714624c516657f380b8692d response_code=200
+[2022-11-19 14:43:55,547] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:57,289] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1600 request_id=c57a2f99d79b36ea1341889b11536b03 response_code=200
+[2022-11-19 14:43:57,289] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:57,744] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=306 request_id=db29653b843db66ce23d70a384d0fb36 response_code=200
+[2022-11-19 14:43:57,744] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:43:59,313] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1429 request_id=09f3e3ae931ca1db41fe4fed9a306344 response_code=200
+[2022-11-19 14:43:59,314] CRITICAL - Failed to generate video script
+[2022-11-19 14:43:59,314] INFO - Getting video script.
+[2022-11-19 14:43:59,314] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:01,447] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1993 request_id=493fe01b0070e7510e130d75af77e5c1 response_code=200
+[2022-11-19 14:44:01,447] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:01,884] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=290 request_id=61ce531557f1b21594502020401d143b response_code=200
+[2022-11-19 14:44:01,884] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:02,716] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=686 request_id=01f8890a5241b7a870453fd4ec6f3e20 response_code=200
+[2022-11-19 14:44:02,747] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:06,671] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3783 request_id=d4f409087615a199711a8749d5ac1772 response_code=200
+[2022-11-19 14:44:06,671] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:07,404] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=586 request_id=66941d78e62a39873fa3320d5acbf37f response_code=200
+[2022-11-19 14:44:07,404] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:09,945] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2386 request_id=f3f031379a105be3fb1e1e5a2c73e79d response_code=200
+[2022-11-19 14:44:09,945] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-19 14:44:15,286] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=5174 request_id=d5ed9be6ea240cd2310a023bc9a043bd response_code=200
+[2022-11-19 14:44:15,286] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:18,732] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3305 request_id=09cc80e3b1458f9c48d004b313da9e64 response_code=200
+[2022-11-19 14:44:18,733] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-19 14:44:24,096] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=5224 request_id=f1f18613cabd4f0994197021f7156bd3 response_code=200
+[2022-11-19 14:44:24,096] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:27,370] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3125 request_id=9ec859b9d289b8b05f45c9b80a87c068 response_code=200
+[2022-11-19 14:44:27,370] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-19 14:44:31,284] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=3753 request_id=80635a6b56822025f3acc2609d4b9edd response_code=200
+[2022-11-19 14:44:31,285] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:32,917] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1492 request_id=e48f05b67c2f658c669a7dd79bff6367 response_code=200
+[2022-11-19 14:44:32,917] CRITICAL - Failed to generate video script
+[2022-11-19 14:44:32,917] INFO - Getting video script.
+[2022-11-19 14:44:32,917] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:35,215] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2146 request_id=b058028e417dcecafd5f67bad9d65828 response_code=200
+[2022-11-19 14:44:35,215] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:35,912] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=550 request_id=ef3766fc7bc44a7ede3769077d836340 response_code=200
+[2022-11-19 14:44:35,912] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:36,761] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=710 request_id=e66ba885646891631d32169efad827df response_code=200
+[2022-11-19 14:44:36,795] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:39,314] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2377 request_id=c4675c34d16fa7abfa55d27bf539ea15 response_code=200
+[2022-11-19 14:44:39,314] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:39,960] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=500 request_id=d46147dd070c1dcd61a84bc03b630e28 response_code=200
+[2022-11-19 14:44:39,960] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:42,032] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1932 request_id=76f4fcc88e14e4b4da0bec4defd4dc94 response_code=200
+[2022-11-19 14:44:42,032] CRITICAL - Failed to generate video script
+[2022-11-19 14:44:42,032] INFO - Getting video script.
+[2022-11-19 14:44:42,032] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:43,568] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1395 request_id=0fc8ff120770f0d015245794ff19aeec response_code=200
+[2022-11-19 14:44:43,568] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:44,059] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=344 request_id=a50d679b0794988d6cc1b20b6aa98910 response_code=200
+[2022-11-19 14:44:44,059] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:44,877] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=661 request_id=b0b2f94fd3a2f9b6f7f64453084cc2be response_code=200
+[2022-11-19 14:44:44,915] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:47,859] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2801 request_id=27be8f0f42d74c95d849a54384e5a9d4 response_code=200
+[2022-11-19 14:44:47,860] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:48,380] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=372 request_id=fbcbbb35fc577874cdf2d14768b5a45c response_code=200
+[2022-11-19 14:44:48,381] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:50,799] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2273 request_id=86ad8ce5245b0d52c583b657fb5cd277 response_code=200
+[2022-11-19 14:44:50,799] CRITICAL - Failed to generate video script
+[2022-11-19 14:44:50,799] INFO - Getting video script.
+[2022-11-19 14:44:50,799] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:52,270] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1330 request_id=abd0490a7a6613bcdde9fd08618b15aa response_code=200
+[2022-11-19 14:44:52,270] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:52,634] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=216 request_id=08e9568ba0b082e73874c14b808a95ed response_code=200
+[2022-11-19 14:44:52,634] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:53,521] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=747 request_id=291bc96656257434666219cab1a5025f response_code=200
+[2022-11-19 14:44:53,561] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:57,190] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3477 request_id=6414f56f16536de8e2fe4bab27be0c3b response_code=200
+[2022-11-19 14:44:57,191] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:57,974] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=639 request_id=3ba199fc5e3963ec714a142a8a030461 response_code=200
+[2022-11-19 14:44:57,974] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:44:58,636] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=523 request_id=619a7363d45494676a63e213e441b494 response_code=200
+[2022-11-19 14:44:58,636] CRITICAL - Failed to generate video script
+[2022-11-19 14:44:58,636] INFO - Getting video script.
+[2022-11-19 14:44:58,637] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:00,653] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1873 request_id=ee9c04122a5e6052b58dda2254bdf6f8 response_code=200
+[2022-11-19 14:45:00,654] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:02,019] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1220 request_id=36ee74750c3574463ab5b662ba2ac98a response_code=200
+[2022-11-19 14:45:02,019] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:02,613] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=453 request_id=2ab04917b6e7253e9aa8241476557aeb response_code=200
+[2022-11-19 14:45:02,617] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:06,097] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3339 request_id=aa53297c951567341bad28ddb56bbf87 response_code=200
+[2022-11-19 14:45:06,097] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:06,812] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=571 request_id=88c1e9f580c4e2e0fc31417eea51e709 response_code=200
+[2022-11-19 14:45:06,813] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:10,000] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3041 request_id=7f6b9bdbd58afc7be00d2e9145b94de9 response_code=200
+[2022-11-19 14:45:10,001] CRITICAL - Failed to generate video script
+[2022-11-19 14:45:10,001] INFO - Getting video script.
+[2022-11-19 14:45:10,001] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:13,225] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3084 request_id=57048046435a17554be1baa2b89be8fa response_code=200
+[2022-11-19 14:45:13,226] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:14,066] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=687 request_id=93d0d754f6a1ac02316a4a877d672b65 response_code=200
+[2022-11-19 14:45:14,066] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:15,382] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1173 request_id=367a422c7c26a4715e83b251e561ae1d response_code=200
+[2022-11-19 14:45:15,415] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:19,531] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3950 request_id=1710a96b1393f61e902c88681137a73d response_code=200
+[2022-11-19 14:45:19,531] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:20,115] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=434 request_id=102fa51e717094347752e2e0faa40c48 response_code=200
+[2022-11-19 14:45:20,115] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:22,644] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2390 request_id=fd9feaa57a040125ea8cff7abe122b69 response_code=200
+[2022-11-19 14:45:22,645] CRITICAL - Failed to generate video script
+[2022-11-19 14:45:22,645] INFO - Getting video script.
+[2022-11-19 14:45:22,645] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:24,556] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1770 request_id=22b08a7b2f0e55f55f3cd756af309459 response_code=200
+[2022-11-19 14:45:24,556] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:25,118] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=414 request_id=168d2fac7047b2c9844fa0b9e6ced690 response_code=200
+[2022-11-19 14:45:25,118] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:26,145] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=887 request_id=d761bdad5100298e7b62e676da6d43cb response_code=200
+[2022-11-19 14:45:26,169] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:31,196] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4887 request_id=1e727df24c5a42cc3804236d8bab88e4 response_code=200
+[2022-11-19 14:45:31,197] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:31,828] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=486 request_id=d940b9332f8da6a156c002f9c2866c97 response_code=200
+[2022-11-19 14:45:31,828] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:32,255] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=288 request_id=7d0e2d8b1804767b3fea8ac351cbeefb response_code=200
+[2022-11-19 14:45:32,256] CRITICAL - Failed to generate video script
+[2022-11-19 14:45:32,256] INFO - Getting video script.
+[2022-11-19 14:45:32,256] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:35,609] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3213 request_id=b4d151b3d071264429bb9c1f5802eaf4 response_code=200
+[2022-11-19 14:45:35,609] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:36,100] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=344 request_id=fca18bf7532526bda9ea8a424037c1ef response_code=200
+[2022-11-19 14:45:36,100] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:37,373] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=737 request_id=6809ec3106084f2f0350c4a836e403b7 response_code=200
+[2022-11-19 14:45:37,401] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:38,953] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1412 request_id=7375af1c2f66971829b9a2a5ad449f63 response_code=200
+[2022-11-19 14:45:38,954] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:39,347] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=248 request_id=9e973585fe6650b3fd6b7a518ac137ff response_code=200
+[2022-11-19 14:45:39,347] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:41,988] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2499 request_id=f1937843722cc975f7b14e26be9b1868 response_code=200
+[2022-11-19 14:45:41,988] CRITICAL - Failed to generate video script
+[2022-11-19 14:45:41,988] INFO - Getting video script.
+[2022-11-19 14:45:41,988] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:43,853] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1725 request_id=86a095bd5fc9c9a9d30ac914fbea70bb response_code=200
+[2022-11-19 14:45:43,853] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:44,391] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=392 request_id=4d34e9f1b43574350dcc7f8e920bfd6d response_code=200
+[2022-11-19 14:45:44,392] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:45,228] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=697 request_id=e82f55316524d38411315e17af13db55 response_code=200
+[2022-11-19 14:45:45,259] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:47,970] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2570 request_id=d6ff74e81683582e9ace8bc7c4273b67 response_code=200
+[2022-11-19 14:45:47,970] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:48,554] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=409 request_id=78c8e374369f16f9e18c311416c63a44 response_code=200
+[2022-11-19 14:45:48,554] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:50,828] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2126 request_id=867cfeef31d8630e2ce895d7ebb135f7 response_code=200
+[2022-11-19 14:45:50,828] CRITICAL - Failed to generate video script
+[2022-11-19 14:45:50,828] INFO - Getting video script.
+[2022-11-19 14:45:50,828] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:52,819] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1840 request_id=433cf061515f9f8033a5b71b7c5240bc response_code=200
+[2022-11-19 14:45:52,819] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:53,721] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=667 request_id=41cce8e17228d0eee42df83d043a729c response_code=200
+[2022-11-19 14:45:53,722] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-19 14:45:54,806] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=934 request_id=7636f6e4816a42a26f9578ee9db81aed response_code=200
+[2022-11-19 14:45:54,838] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions

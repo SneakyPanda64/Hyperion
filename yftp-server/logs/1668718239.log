@@ -1,0 +1,4 @@
+[2022-11-17 20:50:39,304] INFO - file_cache is only supported with oauth2client<4.0.0
+[2022-11-17 20:50:39,419] DEBUG - URL being requested: POST https://youtube.googleapis.com/upload/youtube/v3/videos?part=snippet%2Cstatus&alt=json&uploadType=resumable
+[2022-11-17 20:50:39,486] INFO - Refreshing due to a 401 (attempt 1/2)
+[2022-11-17 20:50:39,487] INFO - Refreshing access_token

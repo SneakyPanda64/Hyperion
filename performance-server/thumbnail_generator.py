@@ -20,19 +20,13 @@ def GenerateThumbnail(id):
     img = Image.open(os.path.join("content", "thumbnail.png")) # Image.new('RGB', (1920, 1080), (47, 47, 47))
     d = ImageDraw.Draw(img)
     textwrap = util.textwrap(j["topic"], 15)
-
     fontsize = 65
     fnt = ImageFont.truetype("fonts/Roboto-Bold.ttf", fontsize)
     text = "\n".join(textwrap)
-    size = (d.multiline_textbbox(
-        xy=(0, 0),
-        text=text,
-        font=fnt
-    ))
-    #center = util.GetCenter(1280, 720, size[2], size[3])
     d.multiline_text((75, 25), text=text, font=fnt, fill=(68, 68, 68), align="left")
     img.paste(icon, (500, 250), icon)
     img.save(os.path.join(path, "thumbnail.png"))
+    return True
 def SearchIcons(query):
     keywords = util.complete(
         prompt=f"Extract keywords from the following sentences:\n\n{query}\n\nkeywords:",
@@ -58,7 +52,7 @@ def GetIcon(keyword):
     if response.status_code == 200:
         content = response.content
         soup = BeautifulSoup(content, "html.parser")
-        icons = int(soup.find('p', id="total_icon_badge").string)
+        icons = int((soup.find('p', id="total_icon_badge").string).replace(",", ""))
         upper_bound = 96
         if icons < 96:
             upper_bound = icons

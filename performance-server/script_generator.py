@@ -51,7 +51,7 @@ def GetSubTopics(topic, genre):
     #     texts.append(v.split(f"{i+1}. ")[1])
     # return texts
 def GetPassage(passages, topic, subtopics, genre):
-    text = f"Expand greatly upon the topic of {topic} in the context of {genre} summarised for a 9th grader:\n"
+    text = f"Expand greatly upon the topic of \"{topic.replace(':', '')}\" in the context of {genre} summarised for a 9th grader:\n"
     for i, v in enumerate(subtopics):
         prefix = text + "\n" + f"{i + 1}. {v}\n\n"
         if i < len(passages):
@@ -59,17 +59,21 @@ def GetPassage(passages, topic, subtopics, genre):
         else:
             text = prefix
             break
+    model = "text-davinci-002"
+    if os.getenv("DEBUGGING"):
+        model = "text-curie-001"
     response_complete = util.complete(
         prompt=f"{text}",
         temperature=1,
-        model="text-davinci-002",
+        model=model,
         max_tokens=128,
-        stop=[f"{len(passages)+2}.", f"{len(passages)+1}."],
     )
-    if len(response_complete.choices[0].text.strip()) < 30:
+    response = response_complete.choices[0].text.strip()
+    logging.debug(f"passage length {len(response)}")
+    if len(response) > 750:
         return False
     response_edit = util.edit(
-        response_complete.choices[0].text.strip(),
+        response,
         "Replace all non-characters with their spoken counterpart. And fix grammar."
     )
     return response_edit.choices[0].text.replace("-", "").replace("[", "").replace("]", "").strip()
@@ -91,9 +95,11 @@ def GetScriptTags(topic):
     tags = [x.lower().replace("\\", "").strip() for x in tags]
     hashtags = [x.lower().strip() for x in hashtags]
     logging.debug(f"Hashtags {hashtags}")
-    hashtags = [x.strip() for x in hashtags]
+    hashtags = [x.strip() for x in hashtags if not re.search('short', x)]
     c = Counter(hashtags)
     top_hashtags = [x[0] for x in c.most_common()][:5]
+    if len(hashtags) < 8:
+        top_hashtags = []
     logging.debug(f"Top Hashtags {top_hashtags}")
     # YouTube TAGS
     logging.debug(f"Tags {tags}")
@@ -113,16 +119,18 @@ def GetScriptTags(topic):
 def GetVideoScript(genre,):
     logging.info("Getting video script.")
     topic = GetRandomTopic(genre)
-    subtopics = GetSubTopics(
-        topic=topic,
-        genre=genre
-    )
+    logging.info(f"topic {topic}")
+    subtopics = GetSubTopics(topic=topic, genre=genre)
+    logging.info(f"subtopics {subtopics}")
+    if len(subtopics) > 10:
+        return False
     logging.debug("getting summary for topic")
     summary = (util.complete(
         prompt=f"Write a summary for the following topic in the form of a youtube description in the context of {genre}:\n\ntopic: {topic}\n\nsummary:",
         temperature=0,
         model="text-curie-001"
     )).choices[0].text.strip().replace("\"", "")
+    logging.info(f"summary {summary}")
     passages = []
     for i in range(len(subtopics)):
         passage = GetPassage(passages, topic, subtopics, genre)
@@ -130,7 +138,7 @@ def GetVideoScript(genre,):
             passages.append(passage)
         else:
             return False
-    tags, hashtags = GetScriptTags(topic)
+    tags, hashtags = GetScriptTags(f"{subtopics[0]} in {genre}")
     script_dict = {
         "topic": topic,
         "summary": summary,

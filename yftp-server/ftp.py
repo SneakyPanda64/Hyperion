@@ -3,7 +3,7 @@ import os
 from pyftpdlib.authorizers import DummyAuthorizer
 from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
-
+import socket
 def initialise_connection():
     # Instantiate a dummy authorizer for managing 'virtual' users
     authorizer = DummyAuthorizer()
@@ -26,7 +26,9 @@ def initialise_connection():
     #handler.passive_ports = range(60000, 65535)
 
     # Instantiate FTP server class and listen on 0.0.0.0:2121
-    address = ('', 21)
+    hostname = socket.gethostname()
+    ip = socket.gethostbyname(hostname)
+    address = (ip, 21)
     server = FTPServer(address, handler)
     # set a limit for connections
     server.max_cons = 256

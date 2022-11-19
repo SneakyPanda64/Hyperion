@@ -41,7 +41,6 @@ def uploadVideo(id):
         video.set_public_stats_viewable(True)
         video.set_made_for_kids(False)
         video.set_thumbnail_path(os.path.join(path, "thumbnail.png"))
-
         #video = channel.upload_video(video)
         logging.info(f"Video has been uploaded to youtube")
 def upload():

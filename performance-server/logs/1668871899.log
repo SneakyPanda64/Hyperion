@@ -1,0 +1,4 @@
+[2022-11-19 15:31:39,102] CRITICAL - GPU detected
+[2022-11-19 15:31:39,103] DEBUG - transcribing audio file in path scripts\SG93IHRvIG1ha2UgeW91ciBBSSBwcm9ncmFtIHRhbGsgdG8gaHVtYW5z\audio\audio.wav
+[2022-11-19 15:32:06,577] DEBUG - start, 0.0, end, 4.16, text,  How to design an AI program that can communicate with humans.
+[2022-11-19 15:32:06,578] DEBUG - start, 4.16, end, 6.76, text,  The first step in designing an AI program
