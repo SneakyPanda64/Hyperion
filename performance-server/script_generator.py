@@ -39,7 +39,7 @@ def GetRandomTopic(genre):
     return topic
 def GetSubTopics(topic, genre):
     text = util.complete(
-        prompt=f"Write a list of beginner topics relating to what is {topic} in the context of {genre}:\n\n",
+        prompt=f"Write a list of beginner topics relating to what is {topic} in the context of {genre}:\n\n-",
         temperature=0
     )
     texts = []
