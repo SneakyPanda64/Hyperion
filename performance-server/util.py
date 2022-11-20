@@ -113,7 +113,7 @@ def complete(prompt, model='text-davinci-002', temperature=0.7, max_tokens=256, 
         echo=echo
     )
     return response
-def edit(text, instruction, temperature=0):
+def edit(text, instruction, temperature=0.7):
     try:
         response = openai.Edit.create(
             model="text-davinci-edit-001",
@@ -126,6 +126,8 @@ def edit(text, instruction, temperature=0):
         logging.debug("[Edit/Openai] Rate limited retrying in 7s")
         sleep(7)
         return edit(text, instruction, temperature)
+    if len(response) > len(text) * 1.1:
+        return text
     return response
 def base64UrlEncode(data):
     return urlsafe_b64encode(data.encode("utf-8")).rstrip(b'=').decode("utf-8")

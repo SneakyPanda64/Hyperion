@@ -75,7 +75,7 @@ def GetPassage(passages, topic, subtopics, genre):
         return False
     response_edit = util.edit(
         response,
-        "Replace all non-characters with their spoken counterpart. And fix grammar."
+        "Replace all non-characters with their spoken counterpart. And fix grammar.",
     )
     return response_edit.choices[0].text.replace("-", "").replace("[", "").replace("]", "").strip()
 def GetScriptTags(topic):
