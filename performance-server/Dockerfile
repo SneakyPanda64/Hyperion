@@ -13,7 +13,7 @@ RUN apt install -y apt-utils \
     && apt install -y git \
     && apt install -y libmagick++-dev \
     && apt install -y imagemagick
-RUN sed -i 's/policy domain="coder" rights="none" pattern="PDF"/policy domain="coder" rights="read|write" pattern="PDF"/' /etc/ImageMagick-7/policy.xml
+RUN sed -i 's/.*domain="path".*rights.*/<!--& -->/' /etc/ImageMagick-6/policy.xml
 RUN python3 -m pip install --no-cache-dir --upgrade pip setuptools wheel
 RUN python -m venv /opt/venv
 
