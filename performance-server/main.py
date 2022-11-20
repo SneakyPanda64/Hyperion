@@ -1,5 +1,6 @@
 import script_generator as script
 import audio_generator as audio
+import thumbnail_generator
 import video_generator as video
 import thumbnail_generator as thumbnail
 import stock as stock
@@ -56,5 +57,4 @@ if __name__ == '__main__':
     if not ftp.login():
         logging.critical("FTP server could not be reached")
     else:
-        #ftp.uploadScript("VGhlIFNlY3JldCBMaWZlIG9mIHBpeGVscw")
         main(repeat=int(os.getenv("MAIN_REPEATS")), preset=os.getenv("TTS_PRESET"))

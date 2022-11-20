@@ -56,8 +56,8 @@ def GetIcon(keyword):
         upper_bound = 96
         if icons < 96:
             upper_bound = icons
-        images = ([v["data-src"].replace("com/128", "com/256") for v in soup.findAll('img')[10:upper_bound]]) #  if re.search("^http.*\/hello$", v)
-        return random.choice(images[:10])
+        images = ([v["data-src"].replace("com/128", "com/256") for v in soup.findAll('img')[10:upper_bound+10]]) #  if re.search("^http.*\/hello$", v)
+        return random.choice(images[:5])
     else:
         return False
     #VideosFromJSON(path, response.json())

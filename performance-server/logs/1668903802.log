@@ -1,0 +1,4 @@
+[2022-11-20 00:23:22,147] CRITICAL - GPU detected
+[2022-11-20 00:23:22,149] DEBUG - Getting requests for icons
+[2022-11-20 00:23:22,152] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-20 00:23:22,240] DEBUG - https://www.flaticon.com:443 "GET /search?word=compiler&color=color&shape=outline&order_by=4 HTTP/1.1" 200 None
