@@ -67,7 +67,7 @@ def GetPassage(passages, topic, subtopics, genre):
         temperature=1,
         model=model,
         max_tokens=128,
-        stop=[f"\n\n{len(passages)+2}."]
+        stop=[f"\n{len(passages)+2}.", f"\n\n{len(passages)+2}.", f"\n\n\n{len(passages)+2}."]
     )
     response = response_complete.choices[0].text.strip()
     logging.debug(f"passage length {len(response)}")

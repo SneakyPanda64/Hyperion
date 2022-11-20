@@ -1,6 +1,7 @@
 import stock
 import random
 import moviepy.editor as mp
+import moviepy.video.fx.all as vfx
 import numpy as np
 import os
 import json
@@ -16,7 +17,7 @@ def CreateVideo(id):
     start_time = 3
     full_duration = (mp.AudioFileClip(os.path.join(path, "audio", "audio.wav"))).duration + start_time
     clips = [(mp.VideoFileClip(os.path.join(os.path.curdir, "content", "intro.mp4")).set_duration(3))]
-    clips += CreateStockClips(id, start_time, full_duration)
+    clips += CreateStockClips(start_time, full_duration)
     audio_clips = []
     timeline = []
     for i, v in enumerate(contents["subTopics"]):
@@ -45,10 +46,8 @@ def CreateSectionSubtitles(id, index, global_start_time, cap):
     transcription = util.transcribe(os.path.join(os.path.curdir, "scripts", id, "audio", f"audio-{(index * 2) + 1}.wav"))
     clips = []
     for text in transcription["text"]:
-        print(text)
         start_time = text["start"] + global_start_time
         end_time = text["end"] + global_start_time
-        print(start_time, end_time, cap)
         if end_time > cap:
             end_time = cap
         duration = end_time - start_time
@@ -61,8 +60,8 @@ def CreateSectionSubtitles(id, index, global_start_time, cap):
         ).set_start(start_time).set_duration(duration))
         x = GetXCenter(txt_clip, 1920)
         w, h = txt_clip.size
-        txt_clip = txt_clip.set_pos((x, (1080-h)-50))
-        clips.append(mp.ColorClip(size=[w+30, h+30], color=np.array([0, 0, 0]).astype(np.uint8)).set_start(start_time).set_duration(duration).set_opacity(0.5).set_pos((x-15, ((1080-h)-50)-15)))
+        txt_clip = txt_clip.set_position((x, (1080-h)-50))
+        clips.append(mp.ColorClip(size=[w+30, h+30], color=np.array([0, 0, 0]).astype(np.uint8)).set_start(start_time).set_duration(duration).set_opacity(0.5).set_position((x-15, ((1080-h)-50)-15)))
         clips.append(txt_clip)
     return clips
 def CreateSectionAudio(id, index, start_time):
@@ -86,23 +85,23 @@ def CreateSectionText(id, index, subtopic, start_time, duration, cap):
         align="center"
     ).set_start(start_time).set_duration(duration))
     x = GetXCenter(txt_clip, 1920)
-    txt_clip = txt_clip.set_pos((x, 460))
+    txt_clip = txt_clip.set_position((x, 460))
     txt_clips += CreateSectionSubtitles(id, index, start_time+duration, cap)
     w, h = txt_clip.size
     txt_clips.append(mp.ColorClip(size=[w + 30, h + 30], color=np.array([0, 0, 0]).astype(np.uint8)).set_start(
         start_time).set_duration(duration).set_opacity(
-        0.7).set_pos((x - 15, 460 - 15)))
+        0.7).set_position((x - 15, 460 - 15)))
     txt_clips.append(txt_clip)
 
     return txt_clips
-def CreateStockClips(id, start_time, duration):
+def CreateStockClips(start_time, duration):
     path = os.path.join(os.path.curdir, "stock-footage")
     stock_clips = []
     for directory in os.listdir(path):
         for file in os.listdir(os.path.join(path, directory)):
             clip = mp.VideoFileClip(os.path.join(os.path.join(path, directory), file), audio=False)
             if clip.duration > 10:
-                clip = clip.resize((1920, 1080)).set_duration(10)
+                clip = clip.resize(width=1920, height=1080).set_duration(10)
             stock_clips.append(clip)
     clips = []
     total_duration = start_time
