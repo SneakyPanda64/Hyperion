@@ -72,10 +72,9 @@ def tts(text, voice, preset, path):
             length += 1
         else:
             length += len(split)
-    logging.debug(f"length of tts sentences {length}")
+    logging.info(f"processing {length} tts sections")
     if length > 45:
         return False
-    logging.debug(f"processing {length} tts sections")
     with tqdm.tqdm(total=length) as pbar:
         for i, text in enumerate(text):
             logging.debug(f"Text-to-speech: {text}")
@@ -127,9 +126,9 @@ def edit(text, instruction, temperature=0.7):
         logging.debug("[Edit/Openai] Rate limited retrying in 7s")
         sleep(7)
         return edit(text, instruction, temperature)
-    if len(response) > len(text) * 1.1:
-        response.choices[0].text = text
-    return response
+    if len(response) > len(text) * 1.2:
+        return text
+    return response.choices[0].text
 def base64UrlEncode(data):
     return urlsafe_b64encode(data.encode("utf-8")).rstrip(b'=').decode("utf-8")
 

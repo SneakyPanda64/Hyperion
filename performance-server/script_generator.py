@@ -77,7 +77,7 @@ def GetPassage(passages, topic, subtopics, genre):
         response,
         "Replace all non-characters with their spoken counterpart. And fix grammar.",
     )
-    return response_edit.choices[0].text.replace("-", "").replace("[", "").replace("]", "").strip()
+    return response_edit.replace("-", "").replace("[", "").replace("]", "").strip()
 def GetScriptTags(topic):
     yt = YouTubeDataAPI(os.getenv("YOUTUBE_DATA_API_KEY"))
     max_results = 25
