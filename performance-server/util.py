@@ -72,7 +72,7 @@ def tts(text, voice, preset, path):
             length += 1
         else:
             length += len(split)
-    logging.debug("length of tts sentences:", length)
+    logging.debug(f"length of tts sentences {length}")
     if length > 45:
         return False
     logging.debug(f"processing {length} tts sections")
