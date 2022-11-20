@@ -11,7 +11,8 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 RUN apt-get -y update && apt-get install -y libsndfile1
 RUN apt install -y git \
     && apt install -y libmagick++-dev \
-    && apt install -y imagemagick
+    && apt install -y imagemagick \
+RUN sed -i 's/^.*policy.*coder.*none.*PDF.*//' /etc/ImageMagick-7/policy.xml
 RUN python3 -m pip install --no-cache-dir --upgrade pip setuptools wheel
 RUN python -m venv /opt/venv
 
