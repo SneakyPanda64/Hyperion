@@ -57,5 +57,4 @@ if __name__ == '__main__':
     if not ftp.login():
         logging.critical("FTP server could not be reached")
     else:
-        video.CreateVideo("VGhlb3J5IGJlaGluZCBEYXRhIHN0cnVjdHVyZXM6IEFuIGV4cGxvcmF0aW9u")
-        #main(repeat=int(os.getenv("MAIN_REPEATS")), preset=os.getenv("TTS_PRESET"))
+        main(repeat=int(os.getenv("MAIN_REPEATS")), preset=os.getenv("TTS_PRESET"))
