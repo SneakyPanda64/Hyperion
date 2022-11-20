@@ -72,7 +72,8 @@ def tts(text, voice, preset, path):
             length += 1
         else:
             length += len(split)
-    if length > 40:
+    logging.debug("length of tts sentences:", length)
+    if length > 45:
         return False
     logging.debug(f"processing {length} tts sections")
     with tqdm.tqdm(total=length) as pbar:
@@ -127,7 +128,7 @@ def edit(text, instruction, temperature=0.7):
         sleep(7)
         return edit(text, instruction, temperature)
     if len(response) > len(text) * 1.1:
-        return text
+        response.choices[0].text = text
     return response
 def base64UrlEncode(data):
     return urlsafe_b64encode(data.encode("utf-8")).rstrip(b'=').decode("utf-8")
