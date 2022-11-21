@@ -31,7 +31,7 @@ def uploadVideo(id):
             file_path=video_path,
             title=j["topic"],
             description=description,
-            category=27,
+            category=28,
             tags=j["tags"],
             default_language="en-US",
         )
