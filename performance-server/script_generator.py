@@ -71,7 +71,7 @@ def GetPassage(passages, topic, subtopics, genre):
     )
     response = response_complete.choices[0].text.strip()
     logging.debug(f"passage length {len(response)}")
-    if len(response) > 750:
+    if len(response) > 750 or len(response) < 10:
         return False
     response_edit = util.edit(
         response,

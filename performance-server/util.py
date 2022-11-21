@@ -23,7 +23,7 @@ openai.api_key = "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"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "hyperion.json"
 
 logging.info("loading transcription model")
-model = whisper.load_model("tiny.en")
+model = whisper.load_model("base.en")
 def transcribe(path):
     logging.debug(f"transcribing audio file in path {path}")
     result = model.transcribe(os.path.join(path))
