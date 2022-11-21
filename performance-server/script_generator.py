@@ -31,7 +31,7 @@ def GetRandomTopic(genre):
         max_tokens=20,
         temperature=1,
         model="text-davinci-002"
-    )).choices[0].text.strip().replace("\"", "")
+    )).choices[0].text.strip().replace("\"", "").replace("\'", "")
     encoded = util.base64UrlEncode(topic)
     if (encoded in os.listdir(os.path.join(os.path.curdir, "scripts"))) or (encoded in ftp.listScripts()):
         GetRandomTopic(genre)
