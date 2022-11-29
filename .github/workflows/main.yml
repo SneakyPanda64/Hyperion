@@ -1,27 +1,31 @@
-name: Docker Builds
-
-on: [push]
+on:
+  push:
+    branches:
+      - 'main'
 
 jobs:
-  build:
+  docker:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Log in to Docker Hub
-      env:
-        DOCKER_USER: ${{ secrets.DOCKER_USER }}
-        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-      run: |
-        docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-    - name: docker build yftp-server
-      run: |
-        docker build ./yftp-server -t sneakypanda64/atlasservers:hyperion.yftp --progress=plain --platform=linux/arm64/v8
-    - name: docker pushing yftp-server
-      run: |
-        docker push sneakypanda64/atlasservers:hyperion.yftp
-    - name: docker build performance-server
-      run: |
-        docker build ./performance-server -t sneakypanda64/atlasservers:hyperion.performance --progress=plain
-    - name: docker pushing performance-server
-      run: |
-        docker push sneakypanda64/atlasservers:hyperion.performance
+      -
+        name: Checkout
+        uses: actions/checkout@v3
+      -
+        name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+      -
+        name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+      -
+        name: Login to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKER_USER }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+      -
+        name: Build and push
+        uses: docker/build-push-action@v3
+        with:
+          context: ./yftp-server
+          push: true
+          tags: sneakypanda64/atlasservers:hyperion.yftp
