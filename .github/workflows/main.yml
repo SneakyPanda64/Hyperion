@@ -23,10 +23,18 @@ jobs:
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       -
-        name: Build and push
+        name: YFTP Server - Build and push
         uses: docker/build-push-action@v3
         with:
           context: ./yftp-server
           platforms: linux/arm/v8
           push: true
           tags: sneakypanda64/atlasservers:hyperion.yftp
+      -
+        name: Performance Server - Build and push
+        uses: docker/build-push-action@v3
+        with:
+          context: ./performance-server
+          platforms: linux/amd64
+          push: true
+          tags: sneakypanda64/atlasservers:hyperion.performance
