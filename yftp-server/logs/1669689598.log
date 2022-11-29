@@ -1,0 +1,4 @@
+[2022-11-29 02:39:58,819] INFO - file_cache is only supported with oauth2client<4.0.0
+[2022-11-29 02:39:58,938] DEBUG - URL being requested: POST https://youtube.googleapis.com/upload/youtube/v3/videos?part=snippet%2Cstatus&alt=json&uploadType=resumable
+[2022-11-29 02:40:19,652] WARNING - media_mime_type argument not specified: trying to auto-detect for scripts\VGhlIFJvbGUgb2YgRnVuY3Rpb25zIGluIFByb2dyYW1taW5n\thumbnail.png
+[2022-11-29 02:40:19,652] DEBUG - URL being requested: POST https://youtube.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=jMzZ0qIgJwA&alt=json&uploadType=media

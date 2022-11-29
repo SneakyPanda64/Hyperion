@@ -28,6 +28,7 @@ def initialise_connection():
     # Instantiate FTP server class and listen on 0.0.0.0:2121
     hostname = socket.gethostname()
     ip = socket.gethostbyname(hostname)
+    print(f"IP {ip}")
     address = (ip, 21)
     server = FTPServer(address, handler)
     # set a limit for connections

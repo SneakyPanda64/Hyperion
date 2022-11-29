@@ -23,7 +23,7 @@ def main(repeat=1, preset="standard"):
                 os.mkdir(os.path.join("stock-footage", v))
                 stock.GetFootage(os.path.join("stock-footage", v), v, 10)
         id = script.GetVideoScript(
-            "theory of computer science"
+            "theory of computer science programming concepts"
         )
         if not id:
             logging.critical(f"Failed to generate video script")
@@ -57,5 +57,8 @@ if __name__ == '__main__':
     if not ftp.login():
         logging.critical("FTP server could not be reached")
     else:
-        #video.CreateVideo("VGhlb3J5IGJlaGluZCBEYXRhIHN0cnVjdHVyZXM6IEFuIGV4cGxvcmF0aW9u")
+        # script.GetVideoScript(
+        #     "theory of computer science programming concepts"
+        # )
+        #thumbnail.GenerateThumbnail("VGhlIE1hZ2ljIG9mIEZvcm1hbCBMYW5ndWFnZXMgYW5kIEF1dG9tYXRh")
         main(repeat=int(os.getenv("MAIN_REPEATS")), preset=os.getenv("TTS_PRESET"))
