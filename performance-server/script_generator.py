@@ -12,7 +12,7 @@ import requests
 import re
 def GetRandomTopic(genre):
     keywords = (util.complete(
-        prompt=f"Write a list of unique and interesting keywords relating to basic {genre}:\n\n-",
+        prompt=f"Write a list of unique and interesting keywords relating to {genre}:\n\n-",
         max_tokens=128,
         temperature=1,
         model="text-davinci-002"
@@ -22,12 +22,12 @@ def GetRandomTopic(genre):
 
     topics = (util.complete(
         #prompt=f"Write a list of 5 interesting beginner topics relating to {genre} and {keyword}:",
-        prompt=f"Write a list of 5 interesting beginner topics on where {keyword} is used in the context of {genre}:\n-",
+        prompt=f"Write a list of 5 interesting beginner topics on where {keyword} is used in the context of {genre}:\n\n-",
         max_tokens=256,
-        model="text-curie-001"
+        model="text-davinci-002"
     ).choices[0].text).replace("\n", "").split("-")
     topic = (util.complete(
-        prompt=f"Write a short, unique and interesting title relating to the theory of {topics[random.randint(0, len(topics)-1)]} in the form of a video essay title without involving numbers:",
+        prompt=f"Write a short, unique and interesting title relating to {random.choice(topics)} title without involving numbers:",
         max_tokens=20,
         temperature=1,
         model="text-davinci-002"
@@ -42,7 +42,6 @@ def GetSubTopics(topic, genre):
         prompt=f"Write a list of beginner topics relating to what is {topic} in the context of {genre}:\n\n-",
         temperature=0
     )
-    texts = []
     logging.debug(f"topic: {topic}, sub topics {text.choices[0].text}")
     subtopics = text.choices[0].text.strip().split("-")
     subtopics = [i.strip() for i in subtopics if i]
@@ -59,25 +58,30 @@ def GetPassage(passages, topic, subtopics, genre):
         else:
             text = prefix
             break
-    model = "text-davinci-002"
-    if bool(os.getenv("DEBUGGING")):
-        model = "text-curie-001"
     response_complete = util.complete(
         prompt=f"{text}",
         temperature=1,
-        model=model,
+        model="text-curie-001",
         max_tokens=128,
-        stop=[f"\n{len(passages)+2}.", f"\n\n{len(passages)+2}.", f"\n\n\n{len(passages)+2}."]
+        stop=[f"\n{len(passages)+2}.", f"\n\n{len(passages)+2}.", f"\n\n\n{len(passages)+2}."],
+        presence_penalty=1
     )
     response = response_complete.choices[0].text.strip()
     logging.debug(f"passage length {len(response)}")
     if len(response) > 750 or len(response) < 10:
         return False
+    words = 0
+    sentence = ""
+    for v in response.split("\n"):
+        if words <= 70:
+            words += len(v.split(" "))
+            sentence += v + " "
+    response = sentence.strip()
     response_edit = util.edit(
         response,
-        "Replace all non-characters with their spoken counterpart. And fix grammar.",
+        "Replace all non-characters with their spoken counterpart. And fix grammar. And also change all numbered lists to comma seperated lists"
     )
-    return response_edit.replace("-", "").replace("[", "").replace("]", "").strip()
+    return response_edit.replace("[", "").replace("]", "").strip()
 def GetScriptTags(topic):
     yt = YouTubeDataAPI(os.getenv("YOUTUBE_DATA_API_KEY"))
     max_results = 25

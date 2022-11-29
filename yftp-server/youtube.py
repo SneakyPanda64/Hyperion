@@ -5,14 +5,20 @@ from time import sleep, time
 import datetime
 import logging
 import sys
-
+import util
 from simple_youtube_api.Channel import Channel
 from simple_youtube_api.LocalVideo import LocalVideo
 
 
 def getVideosUploaded():
+    channel = Channel()
+    channel.login("hyperion.json", "credentials.storage")
+    videos = channel.fetch_uploads()
+    uploaded_videos = ([util.base64UrlEncode(v.title) for v in videos])
     with open(os.path.join("videos.json")) as f:
-        return json.loads(f.read())["uploaded"]
+        videos = json.loads(f.read())["uploaded"]
+        videos += uploaded_videos
+        return list(videos)
 def uploadVideo(id):
     path = os.path.join("scripts", id)
     channel = Channel()
@@ -37,37 +43,42 @@ def uploadVideo(id):
         )
         video.set_embeddable(True)
         video.set_license("creativeCommon")
-        video.set_privacy_status("private")
+        video.set_privacy_status(os.getenv("UPLOAD_PRIVACY"))
         video.set_public_stats_viewable(True)
         video.set_made_for_kids(False)
         video.set_thumbnail_path(os.path.join(path, "thumbnail.png"))
-        video = channel.upload_video(video)
-        logging.info(f"Video has been uploaded to youtube")
+        if bool(os.getenv("UPLOAD")):
+            video = channel.upload_video(video)
+            logging.info(f"Video has been uploaded to youtube {video.id}")
+        else:
+            logging.info(f"Video was not uploaded (debug mode)")
 def upload():
     path = os.path.join("scripts")
     uploading = 0
     videos = getVideosUploaded()
-    for i, id in enumerate(os.listdir(path)):
-        stat = os.stat(os.path.join(path, id))
+    for i, script_id in enumerate(os.listdir(path)):
+        stat = os.stat(os.path.join(path, script_id))
         if time()-stat.st_mtime < 30:
-            logging.debug(f"#{i} [{id}] (too young > 30s)")
+            logging.debug(f"#{i} [{script_id}] (too young > 30s)")
         else:
-            if id not in videos:
+            if script_id not in videos:
                 if uploading >= 1:
-                    logging.debug(f"#{i} [{id}] (max uploads)")
+                    logging.debug(f"#{i} [{script_id}] (max uploads)")
                 else:
-                    logging.debug(f"#{i} [{id}] (uploading)")
+                    logging.debug(f"#{i} [{script_id}] (uploading)")
                     contents = json.loads(open(os.path.join("videos.json"), "r").read())
                     videos = contents["uploaded"]
-                    videos.append(id)
+                    videos.append(script_id)
                     with open(os.path.join("videos.json"), "w") as f:
                         contents["uploaded"] = videos
                         json.dump(contents, f)
                     uploading += 1
-                    uploadVideo(id)
+                    uploadVideo(script_id)
             else:
-                logging.debug(f"#{i} [{id}] (already uploaded)")
-def autoChecker(time_period=1800):
+                logging.debug(f"#{i} [{script_id}] (already uploaded)")
+
+
+def autoChecker(time_period=600):
     lastUploaded = time()
     while True:
         sleep(time_period)
@@ -76,12 +87,12 @@ def autoChecker(time_period=1800):
         logging.debug(f"Checking if there was a video last uploaded 1h ago. Last uploaded {int(dif)}s ago")
         if dif > 3600:
             logging.debug(f"Checking if videos should be uploaded this hour.")
-            # hours = [9, 15, 19]
-            # if date.hour in hours:
-            logging.info(f"Check passed, uploading video")
-            try:
-                upload()
-                lastUploaded = time()
-            except Exception as e:
-                logging.error(f"Error occurred: {e}")
-                break
+            hours = [11, 15, 19]
+            if date.hour in hours:
+                logging.info(f"Check passed, uploading video")
+                try:
+                    upload()
+                    lastUploaded = time()
+                except Exception as e:
+                    logging.error(f"Error occurred: {e}")
+                    break

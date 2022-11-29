@@ -1,0 +1,16 @@
+[2022-11-26 21:37:01,456] CRITICAL - GPU detected
+[2022-11-26 21:37:01,468] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 21:37:01,468] DEBUG - api_version=None data='{"model": "text-babbage-001", "prompt": "Extract keywords from the following sentences:\\n\\nThe Great Debate: Strict vs. Loose Evaluation\\n\\nkeywords:", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 21:37:01,468] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-26 21:37:01,471] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-26 21:37:02,024] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 290
+[2022-11-26 21:37:02,025] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=123 request_id=02552fcb026785d910a1273714de872b response_code=200
+[2022-11-26 21:37:02,027] DEBUG - Getting requests for icons
+[2022-11-26 21:37:02,028] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-26 21:37:02,106] DEBUG - https://www.flaticon.com:443 "GET /search?word=strict&color=color&shape=outline&order_by=4 HTTP/1.1" 404 None
+[2022-11-26 21:37:02,116] DEBUG - Getting requests for icons
+[2022-11-26 21:37:02,117] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-26 21:37:02,194] DEBUG - https://www.flaticon.com:443 "GET /search?word=%20loose&color=color&shape=outline&order_by=4 HTTP/1.1" 200 None
+[2022-11-26 21:37:02,255] DEBUG - ['https://cdn-icons-png.flaticon.com/256/5594/5594279.png', 'https://cdn-icons-png.flaticon.com/256/3482/3482688.png', 'https://cdn-icons-png.flaticon.com/256/2956/2956037.png', 'https://cdn-icons-png.flaticon.com/256/4849/4849640.png']
+[2022-11-26 21:37:02,256] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-26 21:37:02,327] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/5594/5594279.png HTTP/1.1" 200 12634

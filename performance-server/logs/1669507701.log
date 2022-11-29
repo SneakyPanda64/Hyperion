@@ -1,0 +1,40 @@
+[2022-11-27 00:08:21,554] CRITICAL - GPU detected
+[2022-11-27 00:08:21,555] INFO - Getting video script.
+[2022-11-27 00:08:21,565] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:08:21,565] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of unique and interesting keywords relating to theory of a level business:\\n\\n-", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:08:21,565] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-27 00:08:21,567] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-27 00:08:25,059] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 553
+[2022-11-27 00:08:25,060] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3087 request_id=c467ea0e06e67b19aab795f2e3890f08 response_code=200
+[2022-11-27 00:08:25,063] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:08:25,063] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of 5 interesting beginner topics on where A level business ides is used in the context of theory of a level business:\\n\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:08:27,513] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 480
+[2022-11-27 00:08:27,513] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2309 request_id=e3b2e369dfa9f7e4b1e4494b231d7efe response_code=200
+[2022-11-27 00:08:27,513] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:08:27,514] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a short, unique and interesting title relating to the theory of  Theoretical models of A level business in the form of a video essay title without involving numbers:", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:08:28,764] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 337
+[2022-11-27 00:08:28,766] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1110 request_id=7f6feee44ed81100ff4054b892d2f94e response_code=200
+[2022-11-27 00:08:28,792] DEBUG - Keyword A level business ides, Topics [' The role of A level business in economic development', ' The impact of A level business on society and culture', ' Theoretical models of A level business', ' The A level business cycle', ' The A level business environment'], Topic How Theoretical Models of A level Business Can Help You Achieve Success
+[2022-11-27 00:08:28,792] INFO - topic How Theoretical Models of A level Business Can Help You Achieve Success
+[2022-11-27 00:08:28,792] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:08:28,792] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of beginner topics relating to what is How Theoretical Models of A level Business Can Help You Achieve Success in the context of theory of a level business:\\n\\n- ", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:08:31,953] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 668
+[2022-11-27 00:08:31,953] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3019 request_id=a85e21e106b709afc964eb325e9d380f response_code=200
+[2022-11-27 00:08:31,954] DEBUG - topic: How Theoretical Models of A level Business Can Help You Achieve Success, sub topics 
+How theoretical models can help you understand and predict business behaviour
+- How theoretical models can help you develop effective business strategies
+- How theoretical models can help you understand and manage risk in business
+- How theoretical models can help you understand and exploit opportunities in business
+- How theoretical models can help you understand and cope with change in business
+[2022-11-27 00:08:31,954] INFO - subtopics ['How theoretical models can help you understand and predict business behaviour', 'How theoretical models can help you develop effective business strategies', 'How theoretical models can help you understand and manage risk in business', 'How theoretical models can help you understand and exploit opportunities in business', 'How theoretical models can help you understand and cope with change in business']
+[2022-11-27 00:08:31,954] DEBUG - getting summary for topic
+[2022-11-27 00:08:31,954] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:08:31,954] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a summary for the following topic in the form of a youtube description in the context of theory of a level business:\\n\\ntopic: How Theoretical Models of A level Business Can Help You Achieve Success\\n\\nsummary:", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:08:32,909] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 510
+[2022-11-27 00:08:32,909] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=807 request_id=92e31eb6588c78b09e8a707eb3bf869c response_code=200
+[2022-11-27 00:08:32,910] INFO - summary In this video, we'll be discussing how theoretical models of a level business can help you achieve success. By understanding how these models work, you can better understand how to run your own business and achieve the goals you set for yourself.
+[2022-11-27 00:08:32,910] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:08:32,910] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of How Theoretical Models of A level Business Can Help You Achieve Success in the context of theory of a level business summarised for a 9th grader:\\n\\n1. How theoretical models can help you understand and predict business behaviour\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n2.", "\\n\\n2.", "\\n\\n\\n2."], "echo": false}' message='Post details'
+[2022-11-27 00:08:33,320] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 237
+[2022-11-27 00:08:33,320] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=265 request_id=63a6c4d8514013a5c1bb529e420f4b6b response_code=200
+[2022-11-27 00:08:33,320] DEBUG - passage length 0

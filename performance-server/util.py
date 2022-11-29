@@ -122,12 +122,13 @@ def edit(text, instruction, temperature=0.7):
             temperature=temperature,
             top_p=1
         )
+        if len(response.choices[0].text) > len(text) * 1.2:
+            return text
     except:
         logging.debug("[Edit/Openai] Rate limited retrying in 7s")
         sleep(7)
         return edit(text, instruction, temperature)
-    if len(response) > len(text) * 1.2:
-        return text
+
     return response.choices[0].text
 def base64UrlEncode(data):
     return urlsafe_b64encode(data.encode("utf-8")).rstrip(b'=').decode("utf-8")

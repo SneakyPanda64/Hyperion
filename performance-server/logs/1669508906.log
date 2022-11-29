@@ -1,0 +1,274 @@
+[2022-11-27 00:28:26,911] CRITICAL - GPU detected
+[2022-11-27 00:28:26,913] INFO - Getting video script.
+[2022-11-27 00:28:26,922] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:28:26,922] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of unique and interesting keywords relating to theory of computer science programming concepts:\\n\\n-", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:28:26,922] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-27 00:28:26,925] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-27 00:28:29,306] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 427
+[2022-11-27 00:28:29,306] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1935 request_id=5af320c5b506980cc184a50a19241bb1 response_code=200
+[2022-11-27 00:28:29,309] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:28:29,309] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of 5 interesting beginner topics on where design patterns is used in the context of theory of computer science programming concepts:\\n\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:28:32,888] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 659
+[2022-11-27 00:28:32,888] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3439 request_id=c56e0e5f7afae193924d0963fc164400 response_code=200
+[2022-11-27 00:28:32,888] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:28:32,888] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a short, unique and interesting title relating to the theory of Design patterns can be used to improve performance by making code more efficient. in the form of a video essay title without involving numbers:", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:28:33,861] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 319
+[2022-11-27 00:28:33,861] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=833 request_id=4bacd9ce6e927b422d9984e6c7324439 response_code=200
+[2022-11-27 00:28:33,866] DEBUG - Keyword design patterns, Topics ['Design patterns can be used to organize code and make it more readable.', 'Design patterns can be used to improve performance by making code more efficient.', 'Design patterns can be used to make code more flexible and extensible.', 'Design patterns can be used to reduce complexity and improve maintainability.', 'Design patterns can be used to improve software quality and reduce development costs.'], Topic Design Patterns: How to Make Your Code More Efficient
+[2022-11-27 00:28:33,866] INFO - topic Design Patterns: How to Make Your Code More Efficient
+[2022-11-27 00:28:33,866] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:28:33,867] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of beginner topics relating to what is Design Patterns: How to Make Your Code More Efficient in the context of theory of computer science programming concepts:\\n\\n- ", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:28:36,042] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 447
+[2022-11-27 00:28:36,042] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2035 request_id=25a376ef6eec358adb859a1adb53b7ae response_code=200
+[2022-11-27 00:28:36,042] DEBUG - topic: Design Patterns: How to Make Your Code More Efficient, sub topics 
+-What is a design pattern?
+-What are the most common design patterns?
+-How can design patterns make my code more efficient?
+-What are some best practices for using design patterns?
+[2022-11-27 00:28:36,042] INFO - subtopics ['-What is a design pattern?\n-What are the most common design patterns?\n-How can design patterns make my code more efficient?\n-What are some best practices for using design patterns?']
+[2022-11-27 00:28:36,042] DEBUG - getting summary for topic
+[2022-11-27 00:28:36,043] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:28:36,043] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a summary for the following topic in the form of a youtube description in the context of theory of computer science programming concepts:\\n\\ntopic: Design Patterns: How to Make Your Code More Efficient\\n\\nsummary:", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:28:36,874] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 513
+[2022-11-27 00:28:36,874] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=684 request_id=b5ce0be641101536598e0acd297af36a response_code=200
+[2022-11-27 00:28:36,875] INFO - summary In this video, we'll be discussing the design patterns, and how they can help make your code more efficient. We'll be covering the creational, structural, and behavioral design patterns, and how they can be used to solve common programming problems.
+[2022-11-27 00:28:36,875] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:28:36,875] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of Design Patterns How to Make Your Code More Efficient in the context of theory of computer science programming concepts summarised for a 9th grader:\\n\\n1. -What is a design pattern?\\n-What are the most common design patterns?\\n-How can design patterns make my code more efficient?\\n-What are some best practices for using design patterns?\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n2.", "\\n\\n2.", "\\n\\n\\n2."], "echo": false}' message='Post details'
+[2022-11-27 00:28:38,212] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+[2022-11-27 00:28:38,213] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1191 request_id=a771f09738a5413a312b4a50338cc36c response_code=200
+[2022-11-27 00:28:38,213] DEBUG - passage length 602
+[2022-11-27 00:28:38,213] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/edits
+[2022-11-27 00:28:38,213] DEBUG - api_version=None data='{"model": "text-davinci-edit-001", "input": "When you write code, it\\u2019s often helpful to think about it in terms of \\u201cthings that can happen\\u201d. A design pattern is just a way of looking at the problem of dealing with things that can happen, and it helps us write code that is more organized and easier to manage.  The most common design patterns are the interface and implementation patterns, which are both about dealing with the problem of separating your code from the implementation details of the object it\\u2019s dealing with. For example, if you have a class that represents a person, you might have an interface that describes how the person looks", "instruction": "Replace all non-characters with their spoken counterpart. And fix grammar. And also change all numbered lists to comma seperated lists", "temperature": 0.7, "top_p": 1}' message='Post details'
+[2022-11-27 00:28:48,761] DEBUG - https://api.openai.com:443 "POST /v1/edits HTTP/1.1" 200 None
+[2022-11-27 00:28:48,761] INFO - message='OpenAI API response' path=https://api.openai.com/v1/edits processing_ms=10409 request_id=0122920fae7bf84bb358ce95e39f4394 response_code=200
+[2022-11-27 00:28:48,762] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-27 00:28:48,909] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/playlists?part=id&id=UC_x5XG1OV2P6uZZ5FSM9Ttw&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&maxResults=2 HTTP/1.1" 200 None
+[2022-11-27 00:28:48,911] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-27 00:28:49,546] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/search?part=snippet&type=video&maxResults=50&order=relevance&key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&q=-What%20is%20a%20design%20pattern?%0A-What%20are%20the%20most%20common%20design%20patterns?%0A-How%20can%20design%20patterns%20make%20my%20code%20more%20efficient?%0A-What%20are%20some%20best%20practices%20for%20using%20design%20patterns?%20in%20theory%20of%20computer%20science%20programming%20concepts&publishedAfter=2000-01-01T00:00:00Z&publishedBefore=3000-01-01T00:00:00Z HTTP/1.1" 200 None
+[2022-11-27 00:28:49,550] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-27 00:28:49,621] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=aXC5rMLHuZ8 HTTP/1.1" 200 None
+[2022-11-27 00:28:49,623] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-27 00:28:49,698] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=cTnMeGGkQkw HTTP/1.1" 200 None
+[2022-11-27 00:28:49,700] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-27 00:28:49,778] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=05n3l_TSnxw HTTP/1.1" 200 None
+[2022-11-27 00:28:49,780] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-27 00:28:49,847] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=jIgPwUjjl18 HTTP/1.1" 200 None
+[2022-11-27 00:28:49,850] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-27 00:28:49,922] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=Poy5Mc1BgKM HTTP/1.1" 200 None
+[2022-11-27 00:28:49,924] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-27 00:28:49,983] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=HrTG--MB_zU HTTP/1.1" 200 None
+[2022-11-27 00:28:49,985] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-27 00:28:50,058] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=vTjSCs9Bby8 HTTP/1.1" 200 None
+[2022-11-27 00:28:50,061] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-27 00:28:50,131] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=FjtTny8HFDk HTTP/1.1" 200 None
+[2022-11-27 00:28:50,134] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-27 00:28:50,190] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=xzt7dV_rE84 HTTP/1.1" 200 None
+[2022-11-27 00:28:50,193] DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[2022-11-27 00:28:50,252] DEBUG - https://www.googleapis.com:443 "GET /youtube/v3/videos?key=AIzaSyDfv2ISoNjVh2oX2JRJUQ1loS-voHH3GlI&fields=items(snippet(description,tags))&part=snippet&id=H03XOxT2AEc HTTP/1.1" 200 None
+[2022-11-27 00:28:50,254] DEBUG - Hashtags ['#ssc_cgl_2022_syllabus', '#ssc_cgl_syllabus_2022', '#ssc_cgl_2022_new_exam_patterns', '#ssc_cgl_2022_marking_scheme', '#ssc_cgl_exam_pattern', '#ssc_cgl_tier_2_syllabus', '#ssc_cgl_syllabus_2022_in_hindi', '#ssc_cgl_new_exam_patterns', '#ssc_cgl_2022_syllabus_and_exam_pattern', '#ssc_cgl_syllabus', '#ssc_cgl', '#ak_all_rounder', '#akallrounder', '#tnpscaecivil', '#assistantengineer', '#maheshsircivil', '#ssc_cgl_syllabus_2022', '#ssc_cgl_syllabus_2022_in_hindi', '#ssc_cgl_exam_pattern', '#ssc_cgl_2022_syllabus', '#ssc_cgl_2022_syllabus_and_exam_pattern', '#ssc_cgl_syllabus', '#ssc_cgl', '#ak_all_rounder', '#akallrounder', '#letscrackit', '#ntaugcnet', '#unacademylive', '#netexam', '#june2020', '#letscrackgateandese_me', '#expected_questions_gate', '#expected_questions_psus', '#ese', '#psus', '#gate2021', '#ese2021', '#psus2021', '#unacademy', '#completereasoning', '#rrb_groupd', '#deepak_sir_reasoning', '#date_sufficiency', '#wifistudy', '#fcirecruitment2022', '#fci', '#fciag3notification', '#fciag3', '#fci2022', '#fcinotification2022', '#fcijobs', '#fciag3technical', '#fci2022', '#fciag3notification', '#sscadda247', '#sscadda247classes', '#sscadda247live', '#ctetadda247', '#ctetmath', '#ctetmathspreparation', '#ctetmathsclasses', '#ctetmathpedagogy', '#ctetmathspreviousyearquestionpaper', '#ctetmathpedagogyinhindi', '#ctetmathpaper1', '#ctetmathspreparationpaper1', '#ctetmathspreparationpaper2', '#ctet', '#ctet2021', '#ctetpreparationinhindi', '#teachersadda', '#teachersadda247']
+[2022-11-27 00:28:50,254] DEBUG - Top Hashtags ['#ssc_cgl_2022_syllabus', '#ssc_cgl_syllabus_2022', '#ssc_cgl_exam_pattern', '#ssc_cgl_syllabus_2022_in_hindi', '#ssc_cgl_2022_syllabus_and_exam_pattern']
+[2022-11-27 00:28:50,254] DEBUG - Tags ['ssc cgl 2022 syllabus', 'ssc cgl syllabus 2022', 'ssc cgl 2022 syllabus in hindi', 'ssc cgl 2022 new exam pattern', 'ssc cgl 2022 marking scheme', 'ssc cgl exam pattern', 'ssc cgl 2022 exam pattern', 'ssc cgl tier 2 syllabus', 'ssc cgl 2022', 'ssc cgl 2022 syllabus and exam pattern', 'ssc cgl 2022 syllabus pdf', 'ssc cgl 2022 notification', 'ssc cgl', 'ssc cgl exam pattern and syllabus', 'ak all rounder', 'ssc cgl new vacancy 2022', 'ssc cgl vacancy 2022', 'cgl syllabus', 'dart bangla tutorial', 'flutter bangla tutorial', 'android bangla tutorial', 'ios bangla tutorial', 'react native bangla', 'web development bangla', 'dart programming bangla', 'rabbil hasan', 'mobile app development bangla', 'flutter', 'mobile application framework', 'flutter tutorial for beginner', 'kotline tutorial', 'java tutorial', 'react tutorial bangla', 'flutter android tutorial', 'flutter ios tutorial', 'ssc cgl syllabus 2022', 'ssc cgl syllabus 2022 in hindi', 'ssc cgl exam pattern', 'ssc cgl exam pattern 2022', 'ssc cgl exam pattern and syllabus', 'ssc cgl 2022 syllabus', 'ssc cgl 2022 syllabus pdf', 'ssc cgl 2022 marking scheme', 'ssc cgl', 'ssc cgl 2022', 'ssc cgl syllabus', 'ak all rounder', 'nta ugc net', 'ugc net', 'nta net', 'unacademy live', 'unacademy', 'net jrf', 'letscrackit', 'paper1', 'paper2', 'net exam2019', 'netexam2020', 'ugc net june exam', 'crack ugc net', 'assistant professor', 'associate professor', 'ugc net coaching', 'crack net exam', 'gate 2020', 'ese 2020', 'unacademy live classes', 'gate preparation', 'gate and ese preparation', 'gate and ese 2021', 'gate 2021 preparation strategy', 'ese 2021 preparation strategy', "let's crack gate and ese me", 'first law of thermodynamics in hindi', 'first law of thermodynamics unacademy', 'first law of thermodynamics numericals', 'first law of thermodynamics engineering', 'first law of thermodynamics questions', 'first law of thermodynamics quiz', 'first law of thermodynamics gate questions', 'uppsc csat syllabus discussion | uppsc 2021 | by ankita ojha', 'ankita ojha', 'upsc uppsc ssc bank', 'by ankita ojha', 'unacademy uppsc', 'up exam', 'complete reasoning - clock concept & trick', 'upsc uppsc ssc bank | by ankita ojha', 'complete reasoning - causes and effects concept & trick', 'causes and effects concept & trick', 'causes and effects by ankita ojha', 'complete reasoning - important miscellaneous reasoning questions concept & trick', 'wifistudy', 'rrb group d', 'reasoning', 'group d reasoning', 'rrb group d preparation', 'rrb', 'rrb ntpc', 'reasoning tricks', 'rrb reasoning', 'ntpc', 'railway', 'group d', 'reasoning by deepak sir', 'mock test reasoning', 'rrb ntpc cbt 2', 'rrb ntpc reasoning', 'ssc cgl 2021', 'rrb ntpc cbt 2 reasoning', 'ssc cgl', 'railway ntpc reasoning tricks', 'ntpc cbt2 reasoning class', 'reasoning classes', 'ntpc reasoning mock test', 'group d reasoning test', 'railway reasoning', 'reasoning marathon', 'top 100 reasoning questions', 'ssc adda247', 'fci ag 3 notification 2022', 'fci vacancy 2022', 'fci notification 2022', 'fci recruitment 2022 notification', 'fci bharti 2022', 'fci vacancy 2022 notification', 'fci ag 3', 'fci ag 3 recruitment', 'fci ag3 notification 2022', 'fci ag 3 eligibility', 'fci ag3', 'fci ag 3 salary', 'fci ag 3 technical', 'fci', 'fci ag 3 recruitment 2022', 'fci ag 3 syllabus', 'fci ag 3 technical syllabus', 'fci ag 3 notification', 'fci recruitment 2022', 'fci recruitment', 'ssc adda', 'ctet maths', 'ctet maths preparation paper 1', 'ctet maths paper 1', 'ctet maths preparation paper 2', 'ctet maths paper 2', 'ctet maths pedagogy', 'ctet maths previous year question paper', 'ctet maths paper 2 preparation', 'ctet maths pedagogy paper 1', 'ctet math', 'ctet maths classes', 'ctet', 'adda247 ctet', 'ctet 2021', 'ctet maths tricks', 'ctet 2021 preparation', 'ctet maths pedagogy previous year question', 'ctet maths pedagogy classes', 'maths by ayush sir', 'teachers adda', 'teachers adda247']
+[2022-11-27 00:28:50,256] DEBUG - Top Tags ['ssc cgl', 'ssc cgl 2022 syllabus', 'ssc cgl syllabus 2022', 'ssc cgl 2022 marking scheme', 'ssc cgl exam pattern', 'ssc cgl 2022', 'ssc cgl 2022 syllabus pdf', 'ssc cgl exam pattern and syllabus', 'ak all rounder']
+[2022-11-27 00:29:02,583] INFO - processing 5 tts sections
+[2022-11-27 00:29:02,584] DEBUG - Text-to-speech: -What is a design pattern?
+-What are the most common design patterns?
+-How can design patterns make my code more efficient?
+-What are some best practices for using design patterns?
+[2022-11-27 00:29:02,584] DEBUG - [#1] Subsection: -What is a design pattern?
+-What are the most common design patterns?
+-How can design patterns make my code more efficient?
+-What are some best practices for using design patterns?
+[2022-11-27 00:30:00,518] DEBUG - Text-to-speech: When you write code, it’s often helpful to think about it in terms of “things that can happen”. A design pattern is just a way of looking at the problem of dealing with things that can happen, and it helps us write code that is more organized and easier to manage.
+
+The most common design patterns are the interface and implementation patterns, which are both about dealing with the problem of separating your code from the implementation details of the object it’s dealing with. For example, if you have a class that represents a person, you might have an interface that describes how the person looks
+[2022-11-27 00:30:00,518] DEBUG - [#1] Subsection: When you write code, it’s often helpful to think about it in terms of “things that can happen”.
+[2022-11-27 00:30:28,726] DEBUG - [#2] Subsection: A design pattern is just a way of looking at the problem of dealing with things that can happen, and it helps us write code that is more organized and easier to manage.
+[2022-11-27 00:31:11,294] DEBUG - [#3] Subsection: The most common design patterns are the interface and implementation patterns, which are both about dealing with the problem of separating your code from the implementation details of the object it’s dealing with.
+[2022-11-27 00:32:01,153] DEBUG - [#4] Subsection: For example, if you have a class that represents a person, you might have an interface that describes how the person looks.
+[2022-11-27 00:32:34,056] DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+[2022-11-27 00:32:34,426] DEBUG - https://huggingface.co:443 "HEAD /ml6team/keyphrase-generation-t5-small-inspec/resolve/main/config.json HTTP/1.1" 200 0
+[2022-11-27 00:32:34,963] DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+[2022-11-27 00:32:35,319] DEBUG - https://huggingface.co:443 "HEAD /ml6team/keyphrase-generation-t5-small-inspec/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[2022-11-27 00:32:35,652] DEBUG - Getting requests for icons
+[2022-11-27 00:32:35,653] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-27 00:32:35,757] DEBUG - https://www.flaticon.com:443 "GET /search?word=design%20pattern&color=color&shape=outline&order_by=4 HTTP/1.1" 200 None
+[2022-11-27 00:32:35,915] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-27 00:32:36,161] DEBUG - https://www.flaticon.com:443 "GET /search?word=interface&color=color&shape=outline&order_by=4 HTTP/1.1" 200 None
+[2022-11-27 00:32:36,311] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-27 00:32:36,394] DEBUG - https://www.flaticon.com:443 "GET /search?word=implementation%20patterns&color=color&shape=outline&order_by=4 HTTP/1.1" 404 None
+[2022-11-27 00:32:36,407] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-27 00:32:36,550] DEBUG - https://www.flaticon.com:443 "GET /search?word=person&color=color&shape=outline&order_by=4 HTTP/1.1" 200 None
+[2022-11-27 00:32:36,699] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-27 00:32:36,921] DEBUG - https://www.flaticon.com:443 "GET /search?word=interface&color=color&shape=outline&order_by=4 HTTP/1.1" 200 None
+[2022-11-27 00:32:37,139] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-27 00:32:37,249] DEBUG - https://www.flaticon.com:443 "GET /search?word=object&color=color&shape=outline&order_by=4 HTTP/1.1" 200 None
+[2022-11-27 00:32:37,391] DEBUG - ['https://cdn-icons-png.flaticon.com/256/7100/7100817.png', 'https://cdn-icons-png.flaticon.com/256/6152/6152911.png', 'https://cdn-icons-png.flaticon.com/256/5757/5757314.png', 'https://cdn-icons-png.flaticon.com/256/5515/5515943.png', 'https://cdn-icons-png.flaticon.com/256/4795/4795200.png', 'https://cdn-icons-png.flaticon.com/256/9002/9002254.png', 'https://cdn-icons-png.flaticon.com/256/8302/8302127.png', 'https://cdn-icons-png.flaticon.com/256/5921/5921767.png', 'https://cdn-icons-png.flaticon.com/256/8297/8297997.png', 'https://cdn-icons-png.flaticon.com/256/8434/8434502.png', 'https://cdn-icons-png.flaticon.com/256/8931/8931699.png', 'https://cdn-icons-png.flaticon.com/256/8999/8999317.png', 'https://cdn-icons-png.flaticon.com/256/8912/8912811.png', 'https://cdn-icons-png.flaticon.com/256/2853/2853865.png', 'https://cdn-icons-png.flaticon.com/256/5916/5916391.png', 'https://cdn-icons-png.flaticon.com/256/8302/8302127.png', 'https://cdn-icons-png.flaticon.com/256/5921/5921767.png', 'https://cdn-icons-png.flaticon.com/256/8297/8297997.png', 'https://cdn-icons-png.flaticon.com/256/8434/8434502.png', 'https://cdn-icons-png.flaticon.com/256/3674/3674901.png', 'https://cdn-icons-png.flaticon.com/256/8998/8998423.png', 'https://cdn-icons-png.flaticon.com/256/7492/7492874.png', 'https://cdn-icons-png.flaticon.com/256/8741/8741140.png', 'https://cdn-icons-png.flaticon.com/256/4749/4749044.png', 'https://cdn-icons-png.flaticon.com/256/4203/4203774.png']
+[2022-11-27 00:32:37,397] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:37,564] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/7100/7100817.png HTTP/1.1" 200 24270
+[2022-11-27 00:32:37,584] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:37,728] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/6152/6152911.png HTTP/1.1" 200 10753
+[2022-11-27 00:32:37,731] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:37,887] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/5757/5757314.png HTTP/1.1" 200 37159
+[2022-11-27 00:32:37,909] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:38,049] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/5515/5515943.png HTTP/1.1" 200 16847
+[2022-11-27 00:32:38,055] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:38,213] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/4795/4795200.png HTTP/1.1" 200 39895
+[2022-11-27 00:32:38,237] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:38,386] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/9002/9002254.png HTTP/1.1" 200 6227
+[2022-11-27 00:32:38,389] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:38,578] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/8302/8302127.png HTTP/1.1" 200 13738
+[2022-11-27 00:32:38,582] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:38,716] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/5921/5921767.png HTTP/1.1" 200 6256
+[2022-11-27 00:32:38,719] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:38,842] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/8297/8297997.png HTTP/1.1" 200 8431
+[2022-11-27 00:32:38,845] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:38,991] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/8434/8434502.png HTTP/1.1" 200 8384
+[2022-11-27 00:32:38,995] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:39,143] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/8931/8931699.png HTTP/1.1" 200 12831
+[2022-11-27 00:32:39,145] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:39,375] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/8999/8999317.png HTTP/1.1" 200 14700
+[2022-11-27 00:32:39,378] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:39,550] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/8912/8912811.png HTTP/1.1" 200 5926
+[2022-11-27 00:32:39,552] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:39,732] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/2853/2853865.png HTTP/1.1" 200 19704
+[2022-11-27 00:32:39,738] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:39,894] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/5916/5916391.png HTTP/1.1" 200 10761
+[2022-11-27 00:32:39,896] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:39,963] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/8302/8302127.png HTTP/1.1" 200 13738
+[2022-11-27 00:32:39,966] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:40,034] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/5921/5921767.png HTTP/1.1" 200 6256
+[2022-11-27 00:32:40,037] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:40,103] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/8297/8297997.png HTTP/1.1" 200 8431
+[2022-11-27 00:32:40,106] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:40,171] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/8434/8434502.png HTTP/1.1" 200 8384
+[2022-11-27 00:32:40,176] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:40,332] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/3674/3674901.png HTTP/1.1" 200 5239
+[2022-11-27 00:32:40,335] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:40,471] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/8998/8998423.png HTTP/1.1" 200 20804
+[2022-11-27 00:32:40,476] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:40,653] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/7492/7492874.png HTTP/1.1" 200 10402
+[2022-11-27 00:32:40,655] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:40,784] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/8741/8741140.png HTTP/1.1" 200 17636
+[2022-11-27 00:32:40,789] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:40,943] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/4749/4749044.png HTTP/1.1" 200 11585
+[2022-11-27 00:32:40,945] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-27 00:32:41,078] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/4203/4203774.png HTTP/1.1" 200 3454
+[2022-11-27 00:32:41,093] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-27 00:32:41,093] DEBUG - STREAM b'pHYs' 41 9
+[2022-11-27 00:32:41,093] DEBUG - STREAM b'IDAT' 62 13353
+[2022-11-27 00:32:41,103] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-27 00:32:41,103] DEBUG - STREAM b'pHYs' 41 9
+[2022-11-27 00:32:41,103] DEBUG - STREAM b'tEXt' 62 25
+[2022-11-27 00:32:41,103] DEBUG - STREAM b'IDAT' 99 8192
+[2022-11-27 00:32:53,030] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-27 00:32:53,030] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-27 00:32:53,030] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-27 00:32:53,030] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-27 00:32:53,030] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-27 00:32:53,030] DEBUG - STREAM b'IDAT' 119 32768
+[2022-11-27 00:32:53,036] DEBUG - STREAM b'tEXt' 100259 37
+[2022-11-27 00:32:53,037] DEBUG - STREAM b'tEXt' 100308 37
+[2022-11-27 00:32:53,037] DEBUG - STREAM b'tEXt' 100357 40
+[2022-11-27 00:32:53,037] DEBUG - STREAM b'zTXt' 100409 124
+[2022-11-27 00:32:53,044] DEBUG - transcribing audio file in path .\scripts\RGVzaWduIFBhdHRlcm5zOiBIb3cgdG8gTWFrZSBZb3VyIENvZGUgTW9yZSBFZmZpY2llbnQ\audio\audio-1.wav
+[2022-11-27 00:32:57,005] DEBUG - start, 0.0, end, 5.08, text,  When you write code, it's often helpful to think about it in terms of things that can happen.
+[2022-11-27 00:32:57,005] DEBUG - start, 5.08, end, 9.78, text,  A design pattern is just a way of looking at the problem of dealing with things that can happen,
+[2022-11-27 00:32:57,005] DEBUG - start, 9.78, end, 13.96, text,  and it helps us write code that is more organized and easier to manage.
+[2022-11-27 00:32:57,005] DEBUG - start, 13.96, end, 18.26, text,  The most common design patterns are the interface and implementation patterns,
+[2022-11-27 00:32:57,005] DEBUG - start, 18.26, end, 24.740000000000002, text,  which are both about dealing with the problem of separating your code from the implementation details of the object it's dealing with.
+[2022-11-27 00:32:57,005] DEBUG - start, 24.740000000000002, end, 28.42, text,  For example, if you have a class that represents a person,
+[2022-11-27 00:32:57,005] DEBUG - start, 28.42, end, 31.78, text,  you might have an interface that describes how the person looks.
+[2022-11-27 00:32:57,005] DEBUG - start, 31.78, end, 52.84, text,  Use your code.
+[2022-11-27 00:32:57,005] DEBUG - start, 56.84, end, 59.06, text,  Inhale.
+[2022-11-27 00:32:57,100] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-27 00:32:57,100] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-27 00:32:57,101] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-27 00:32:57,101] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-27 00:32:57,101] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-27 00:32:57,101] DEBUG - STREAM b'IDAT' 119 27378
+[2022-11-27 00:32:57,103] DEBUG - STREAM b'tEXt' 27509 37
+[2022-11-27 00:32:57,103] DEBUG - STREAM b'tEXt' 27558 37
+[2022-11-27 00:32:57,103] DEBUG - STREAM b'tEXt' 27607 40
+[2022-11-27 00:32:57,103] DEBUG - STREAM b'tEXt' 27659 99
+[2022-11-27 00:32:57,201] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-27 00:32:57,201] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-27 00:32:57,201] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-27 00:32:57,201] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-27 00:32:57,201] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-27 00:32:57,201] DEBUG - STREAM b'IDAT' 119 31330
+[2022-11-27 00:32:57,202] DEBUG - STREAM b'tEXt' 31461 37
+[2022-11-27 00:32:57,202] DEBUG - STREAM b'tEXt' 31510 37
+[2022-11-27 00:32:57,202] DEBUG - STREAM b'tEXt' 31559 40
+[2022-11-27 00:32:57,203] DEBUG - STREAM b'tEXt' 31611 102
+[2022-11-27 00:32:57,307] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-27 00:32:57,307] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-27 00:32:57,307] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-27 00:32:57,307] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-27 00:32:57,307] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-27 00:32:57,307] DEBUG - STREAM b'IDAT' 119 24043
+[2022-11-27 00:32:57,308] DEBUG - STREAM b'tEXt' 24174 37
+[2022-11-27 00:32:57,308] DEBUG - STREAM b'tEXt' 24223 37
+[2022-11-27 00:32:57,309] DEBUG - STREAM b'tEXt' 24272 40
+[2022-11-27 00:32:57,309] DEBUG - STREAM b'tEXt' 24324 77
+[2022-11-27 00:32:57,404] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-27 00:32:57,404] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-27 00:32:57,404] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-27 00:32:57,404] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-27 00:32:57,404] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-27 00:32:57,405] DEBUG - STREAM b'IDAT' 119 25850
+[2022-11-27 00:32:57,406] DEBUG - STREAM b'tEXt' 25981 37
+[2022-11-27 00:32:57,406] DEBUG - STREAM b'tEXt' 26030 37
+[2022-11-27 00:32:57,406] DEBUG - STREAM b'tEXt' 26079 40
+[2022-11-27 00:32:57,406] DEBUG - STREAM b'tEXt' 26131 84
+[2022-11-27 00:32:57,631] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-27 00:32:57,631] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-27 00:32:57,631] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-27 00:32:57,631] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-27 00:32:57,632] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-27 00:32:57,632] DEBUG - STREAM b'IDAT' 119 32768
+[2022-11-27 00:32:57,634] DEBUG - STREAM b'tEXt' 41658 37
+[2022-11-27 00:32:57,634] DEBUG - STREAM b'tEXt' 41707 37
+[2022-11-27 00:32:57,634] DEBUG - STREAM b'tEXt' 41756 40
+[2022-11-27 00:32:57,634] DEBUG - STREAM b'zTXt' 41808 111
+[2022-11-27 00:32:57,737] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-27 00:32:57,737] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-27 00:32:57,738] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-27 00:32:57,738] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-27 00:32:57,738] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-27 00:32:57,738] DEBUG - STREAM b'IDAT' 119 20770
+[2022-11-27 00:32:57,739] DEBUG - STREAM b'tEXt' 20901 37
+[2022-11-27 00:32:57,740] DEBUG - STREAM b'tEXt' 20950 37
+[2022-11-27 00:32:57,740] DEBUG - STREAM b'tEXt' 20999 40
+[2022-11-27 00:32:57,740] DEBUG - STREAM b'tEXt' 21051 64
+[2022-11-27 00:32:57,851] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-27 00:32:57,851] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-27 00:32:57,851] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-27 00:32:57,851] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-27 00:32:57,851] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-27 00:32:57,851] DEBUG - STREAM b'IDAT' 119 22560
+[2022-11-27 00:32:57,853] DEBUG - STREAM b'tEXt' 22691 37
+[2022-11-27 00:32:57,853] DEBUG - STREAM b'tEXt' 22740 37
+[2022-11-27 00:32:57,854] DEBUG - STREAM b'tEXt' 22789 40
+[2022-11-27 00:32:57,854] DEBUG - STREAM b'tEXt' 22841 70
+[2022-11-27 00:32:57,936] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-27 00:32:57,936] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-27 00:32:57,936] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-27 00:32:57,936] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-27 00:32:57,936] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-27 00:32:57,936] DEBUG - STREAM b'IDAT' 119 5323
+[2022-11-27 00:32:57,937] DEBUG - STREAM b'tEXt' 5454 37
+[2022-11-27 00:32:57,937] DEBUG - STREAM b'tEXt' 5503 37
+[2022-11-27 00:32:57,937] DEBUG - STREAM b'tEXt' 5552 40
+[2022-11-27 00:32:57,937] DEBUG - STREAM b'tEXt' 5604 20
+[2022-11-27 00:32:58,010] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-27 00:32:58,010] DEBUG - STREAM b'gAMA' 41 4
+[2022-11-27 00:32:58,010] DEBUG - STREAM b'cHRM' 57 32
+[2022-11-27 00:32:58,010] DEBUG - STREAM b'bKGD' 101 6
+[2022-11-27 00:32:58,010] DEBUG - b'bKGD' 101 6 (unknown)
+[2022-11-27 00:32:58,010] DEBUG - STREAM b'IDAT' 119 2073
+[2022-11-27 00:32:58,010] DEBUG - STREAM b'tEXt' 2204 37
+[2022-11-27 00:32:58,011] DEBUG - STREAM b'tEXt' 2253 37
+[2022-11-27 00:32:58,011] DEBUG - STREAM b'tEXt' 2302 40
+[2022-11-27 00:32:58,011] DEBUG - STREAM b'tEXt' 2354 13
+[2022-11-27 00:35:17,213] INFO - Video finished id: RGVzaWduIFBhdHRlcm5zOiBIb3cgdG8gTWFrZSBZb3VyIENvZGUgTW9yZSBFZmZpY2llbnQ
+[2022-11-27 00:35:17,213] INFO - Finished video creation (1/1)

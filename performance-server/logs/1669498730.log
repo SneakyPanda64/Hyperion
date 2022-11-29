@@ -1,0 +1,22 @@
+[2022-11-26 21:38:50,720] CRITICAL - GPU detected
+[2022-11-26 21:38:50,731] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 21:38:50,732] DEBUG - api_version=None data='{"model": "text-babbage-001", "prompt": "Extract keywords from the following sentences:\\n\\nThe Great Debate: Strict vs. Loose Evaluation\\n\\nkeywords:", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 21:38:50,732] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-26 21:38:50,736] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-26 21:38:51,315] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 290
+[2022-11-26 21:38:51,315] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=223 request_id=df4d1816f9e637160cb0d475803ed821 response_code=200
+[2022-11-26 21:38:51,318] DEBUG - Getting requests for icons
+[2022-11-26 21:38:51,318] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-26 21:38:51,398] DEBUG - https://www.flaticon.com:443 "GET /search?word=strict&color=color&shape=outline&order_by=4 HTTP/1.1" 404 None
+[2022-11-26 21:38:51,407] DEBUG - Getting requests for icons
+[2022-11-26 21:38:51,408] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-26 21:38:51,488] DEBUG - https://www.flaticon.com:443 "GET /search?word=%20loose&color=color&shape=outline&order_by=4 HTTP/1.1" 200 None
+[2022-11-26 21:38:51,550] DEBUG - ['https://cdn-icons-png.flaticon.com/256/5594/5594279.png', 'https://cdn-icons-png.flaticon.com/256/3482/3482688.png', 'https://cdn-icons-png.flaticon.com/256/2956/2956037.png', 'https://cdn-icons-png.flaticon.com/256/4849/4849640.png']
+[2022-11-26 21:38:51,551] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-26 21:38:51,582] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/5594/5594279.png HTTP/1.1" 200 12634
+[2022-11-26 21:38:51,585] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-26 21:38:51,608] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/3482/3482688.png HTTP/1.1" 200 11259
+[2022-11-26 21:38:51,610] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-26 21:38:51,642] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/2956/2956037.png HTTP/1.1" 200 5956
+[2022-11-26 21:38:51,644] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-26 21:38:51,668] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/4849/4849640.png HTTP/1.1" 200 19080
