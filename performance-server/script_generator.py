@@ -26,16 +26,18 @@ def GetRandomTopic(genre):
         max_tokens=256,
         model="text-davinci-002"
     ).choices[0].text).replace("\n", "").split("-")
+    logging.debug(f"topics generated: {topics}")
     topic = (util.complete(
-        prompt=f"Write a short, unique and interesting title relating to {random.choice(topics)} title without involving numbers:",
+        prompt=f"Write a short, unique and interesting title relating to {random.choice(topics)} in the context of {keyword}. And without involving numbers in the title:",
         max_tokens=20,
         temperature=1,
         model="text-davinci-002"
     )).choices[0].text.strip().replace("\"", "").replace("\'", "")
+    logging.debug(f"title generated: {topic}")
     encoded = util.base64UrlEncode(topic)
     if (encoded in os.listdir(os.path.join(os.path.curdir, "scripts"))) or (encoded in ftp.listScripts()):
         GetRandomTopic(genre)
-    logging.debug(f"Keyword {keyword}, Topics {topics}, Topic {topic}")
+    logging.info(f"Keyword {keyword}, Topics {topics}, Topic {topic}")
     return topic
 def GetSubTopics(topic, genre):
     text = util.complete(
