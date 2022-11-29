@@ -1,0 +1,40 @@
+[2022-11-27 00:16:53,193] CRITICAL - GPU detected
+[2022-11-27 00:16:53,195] INFO - Getting video script.
+[2022-11-27 00:16:53,204] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:16:53,204] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of unique and interesting keywords relating to theory of computer science programming:\\n\\n-", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:16:53,205] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-27 00:16:53,207] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-27 00:16:56,985] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 534
+[2022-11-27 00:16:56,985] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3375 request_id=c8b935ada2cf68a946eb5d511720d63e response_code=200
+[2022-11-27 00:16:56,987] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:16:56,987] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of 5 interesting beginner topics on where Logic Programming is used in the context of theory of computer science programming:\\n\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:17:00,348] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 657
+[2022-11-27 00:17:00,349] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3216 request_id=de80b96907e3ea1406dec14914a3b164 response_code=200
+[2022-11-27 00:17:00,349] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:17:00,349] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a short, unique and interesting title relating to the theory of Logic programming can help improve the performance of software systems. in the form of a video essay title without involving numbers:", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:17:01,356] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 321
+[2022-11-27 00:17:01,357] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=861 request_id=0eda9f3d5807654c38bcf73597935b27 response_code=200
+[2022-11-27 00:17:01,385] DEBUG - Keyword Logic Programming, Topics ['Logic programming is used to create efficient algorithms for solving problems in computer science.', 'Logic programming can help improve the performance of software systems.', 'Logic programming can be used to create new programming languages.', 'Logic programming can be used to develop artificial intelligence applications.', 'Logic programming can be used to analyze and verify software systems.'], Topic Logic programming can help improve software performance
+[2022-11-27 00:17:01,385] INFO - topic Logic programming can help improve software performance
+[2022-11-27 00:17:01,385] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:17:01,385] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of beginner topics relating to what is Logic programming can help improve software performance in the context of theory of computer science programming:\\n\\n- ", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:17:05,236] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 475
+[2022-11-27 00:17:05,236] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3706 request_id=75cfb45df6df45f41eb3aed0470943f7 response_code=200
+[2022-11-27 00:17:05,237] DEBUG - topic: Logic programming can help improve software performance, sub topics 
+
+- How to design and implement efficient algorithms
+- How to reason about the correctness of algorithms
+- How to use data structures effectively
+- How to use logic programming to improve software performance
+[2022-11-27 00:17:05,237] INFO - subtopics ['How to design and implement efficient algorithms', 'How to reason about the correctness of algorithms', 'How to use data structures effectively', 'How to use logic programming to improve software performance']
+[2022-11-27 00:17:05,237] DEBUG - getting summary for topic
+[2022-11-27 00:17:05,237] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:17:05,237] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a summary for the following topic in the form of a youtube description in the context of theory of computer science programming:\\n\\ntopic: Logic programming can help improve software performance\\n\\nsummary:", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-27 00:17:05,854] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 362
+[2022-11-27 00:17:05,854] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=449 request_id=7524d8197039174cf74467d521989517 response_code=200
+[2022-11-27 00:17:05,854] INFO - summary Logic programming can help improve software performance by automating the process of decision making.
+[2022-11-27 00:17:05,855] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-27 00:17:05,855] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of Logic programming can help improve software performance in the context of theory of computer science programming summarised for a 9th grader:\\n\\n1. How to design and implement efficient algorithms\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n2.", "\\n\\n2.", "\\n\\n\\n2."], "echo": false}' message='Post details'
+[2022-11-27 00:17:06,128] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 237
+[2022-11-27 00:17:06,129] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=89 request_id=7bd129c330e93d503a030454ed28a727 response_code=200
+[2022-11-27 00:17:06,129] DEBUG - passage length 0

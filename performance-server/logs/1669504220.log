@@ -1,0 +1,42 @@
+[2022-11-26 23:10:20,556] CRITICAL - GPU detected
+[2022-11-26 23:10:20,557] INFO - Getting video script.
+[2022-11-26 23:10:20,567] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:10:20,567] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of unique and interesting keywords relating to basic gcse computer science:\\n\\n-", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:10:20,568] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-26 23:10:20,570] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-26 23:10:23,098] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 397
+[2022-11-26 23:10:23,098] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2078 request_id=689aa45c542ade708858af0543daf602 response_code=200
+[2022-11-26 23:10:23,101] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:10:23,101] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where Data storage is used in the context of gcse computer science:\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:10:23,950] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 506
+[2022-11-26 23:10:23,950] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=702 request_id=14be525a569b6ed86621e6b3aa035f93 response_code=200
+[2022-11-26 23:10:23,951] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:10:23,951] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a short, unique and interesting title relating to the theory of Data storage in the context of artificial intelligence in the form of a video essay title without involving numbers:", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:10:24,478] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 287
+[2022-11-26 23:10:24,479] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=363 request_id=45ce671a9bd2fc12c77509a854a0e46b response_code=200
+[2022-11-26 23:10:24,507] DEBUG - Keyword Data storage, Topics ['Data storage in the context of big data', 'Data storage in the context of machine learning', 'Data storage in the context of artificial intelligence', 'Data storage in the context of blockchain', 'Data storage in the context of the internet of things'], Topic The Ways We Store Data
+[2022-11-26 23:10:24,507] INFO - topic The Ways We Store Data
+[2022-11-26 23:10:24,507] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:10:24,507] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of beginner topics relating to what is The Ways We Store Data in the context of gcse computer science:\\n\\n- ", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:10:27,973] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 723
+[2022-11-26 23:10:27,973] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3298 request_id=b3a985e8af9fc3989be7b519e84cf48a response_code=200
+[2022-11-26 23:10:27,973] DEBUG - topic: The Ways We Store Data, sub topics Different types of data storage devices
+- The advantages and disadvantages of different types of data storage devices
+- How data is stored on different types of data storage devices
+- The different ways data can be stored on different types of data storage devices
+- The importance of data storage in computer science
+- The different types of data storage formats
+- The different types of data storage media
+- The different types of data storage devices
+[2022-11-26 23:10:27,973] INFO - subtopics ['Different types of data storage devices', 'The advantages and disadvantages of different types of data storage devices', 'How data is stored on different types of data storage devices', 'The different ways data can be stored on different types of data storage devices', 'The importance of data storage in computer science', 'The different types of data storage formats', 'The different types of data storage media', 'The different types of data storage devices']
+[2022-11-26 23:10:27,974] DEBUG - getting summary for topic
+[2022-11-26 23:10:27,974] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:10:27,974] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a summary for the following topic in the form of a youtube description in the context of gcse computer science:\\n\\ntopic: The Ways We Store Data\\n\\nsummary:", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:10:28,624] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 422
+[2022-11-26 23:10:28,625] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=482 request_id=a2d9490d028c366c87b2ac6b3cd249ec response_code=200
+[2022-11-26 23:10:28,625] INFO - summary In this video, we'll be discussing the different ways we store data in computers. We'll look at how memory works, how hard drives work, and how networks work.
+[2022-11-26 23:10:28,625] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:10:28,625] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of The Ways We Store Data in the context of gcse computer science summarised for a 9th grader:\\n\\n1. Different types of data storage devices\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n2.", "\\n\\n2.", "\\n\\n\\n2."], "echo": false}' message='Post details'
+[2022-11-26 23:10:28,903] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 237
+[2022-11-26 23:10:28,903] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=88 request_id=788da848dc2b2146b376464734f30f52 response_code=200
+[2022-11-26 23:10:28,903] DEBUG - passage length 0

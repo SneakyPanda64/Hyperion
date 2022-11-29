@@ -1,0 +1,30 @@
+[2022-11-29 01:45:21,751] CRITICAL - GPU detected
+[2022-11-29 01:45:21,756] DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+[2022-11-29 01:45:22,133] DEBUG - https://huggingface.co:443 "HEAD /ml6team/keyphrase-generation-t5-small-inspec/resolve/main/config.json HTTP/1.1" 200 0
+[2022-11-29 01:45:22,705] DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+[2022-11-29 01:45:23,044] DEBUG - https://huggingface.co:443 "HEAD /ml6team/keyphrase-generation-t5-small-inspec/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[2022-11-29 01:45:23,576] DEBUG - Getting requests for icons
+[2022-11-29 01:45:23,577] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-29 01:45:23,661] DEBUG - https://www.flaticon.com:443 "GET /search?word=formal%20languages&color=color&shape=outline&order_by=4 HTTP/1.1" 404 None
+[2022-11-29 01:45:23,672] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-29 01:45:23,848] DEBUG - https://www.flaticon.com:443 "GET /search?word=symbols&color=color&shape=outline&order_by=4 HTTP/1.1" 200 None
+[2022-11-29 01:45:24,005] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-29 01:45:24,091] DEBUG - https://www.flaticon.com:443 "GET /search?word=firstorder%20languages&color=color&shape=outline&order_by=4 HTTP/1.1" 404 None
+[2022-11-29 01:45:24,101] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-29 01:45:24,184] DEBUG - https://www.flaticon.com:443 "GET /search?word=secondorder%20languages&color=color&shape=outline&order_by=4 HTTP/1.1" 404 None
+[2022-11-29 01:45:24,195] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-29 01:45:24,275] DEBUG - https://www.flaticon.com:443 "GET /search?word=higherorder&color=color&shape=outline&order_by=4 HTTP/1.1" 404 None
+[2022-11-29 01:45:24,285] DEBUG - ['https://cdn-icons-png.flaticon.com/256/5349/5349891.png', 'https://cdn-icons-png.flaticon.com/256/4154/4154100.png', 'https://cdn-icons-png.flaticon.com/256/4776/4776202.png', 'https://cdn-icons-png.flaticon.com/256/8809/8809097.png', 'https://cdn-icons-png.flaticon.com/256/8283/8283617.png']
+[2022-11-29 01:45:24,288] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-29 01:45:24,444] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/5349/5349891.png HTTP/1.1" 200 16973
+[2022-11-29 01:45:24,449] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-29 01:45:24,511] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/4154/4154100.png HTTP/1.1" 200 9804
+[2022-11-29 01:45:24,513] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-29 01:45:24,576] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/4776/4776202.png HTTP/1.1" 200 9360
+[2022-11-29 01:45:24,578] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-29 01:45:24,657] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/8809/8809097.png HTTP/1.1" 200 1395
+[2022-11-29 01:45:24,660] DEBUG - Starting new HTTPS connection (1): cdn-icons-png.flaticon.com:443
+[2022-11-29 01:45:24,725] DEBUG - https://cdn-icons-png.flaticon.com:443 "GET /256/8283/8283617.png HTTP/1.1" 200 11435
+[2022-11-29 01:45:24,737] DEBUG - STREAM b'IHDR' 16 13
+[2022-11-29 01:45:24,737] DEBUG - STREAM b'pHYs' 41 9
+[2022-11-29 01:45:24,737] DEBUG - STREAM b'IDAT' 62 13353

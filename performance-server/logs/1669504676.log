@@ -1,0 +1,63 @@
+[2022-11-26 23:17:56,191] CRITICAL - GPU detected
+[2022-11-26 23:17:56,193] INFO - Getting video script.
+[2022-11-26 23:17:56,204] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:17:56,204] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of unique and interesting keywords relating to basic budgeting in business:\\n\\n-", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:17:56,204] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-26 23:17:56,205] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-26 23:17:58,687] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 402
+[2022-11-26 23:17:58,687] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2065 request_id=a4cbbae2eb9f060ea87b3904c2538c70 response_code=200
+[2022-11-26 23:17:58,689] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:17:58,689] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where Financial planning is used in the context of budgeting in business:\\n-", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:17:59,708] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 473
+[2022-11-26 23:17:59,708] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=866 request_id=ae8ae67672d4ba6973d7541f272edf0e response_code=200
+[2022-11-26 23:17:59,708] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:17:59,709] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a short, unique and interesting title relating to the theory of 4. The key steps in creating a budget in the form of a video essay title without involving numbers:", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:18:00,556] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 348
+[2022-11-26 23:18:00,556] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=683 request_id=c619ceaea687f39bdc1414114c2cc06e response_code=200
+[2022-11-26 23:18:00,586] DEBUG - Keyword Financial planning, Topics ['1. Understanding the role of budgeting in business', '2. The different types of budgets', '3. The benefits of budgeting', '4. The key steps in creating a budget', '5. The importance of monitoring and adjusting budgets'], Topic 1. Determine your financial goals.
+
+2. Assess your current financial situation
+[2022-11-26 23:18:00,586] INFO - topic 1. Determine your financial goals.
+
+2. Assess your current financial situation
+[2022-11-26 23:18:00,586] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:18:00,586] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of beginner topics relating to what is 1. Determine your financial goals.\\n\\n2. Assess your current financial situation in the context of budgeting in business:\\n\\n- ", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:18:07,164] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 958
+[2022-11-26 23:18:07,165] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=6434 request_id=a9b8de19fb092383e77531e027770bbf response_code=200
+[2022-11-26 23:18:07,165] DEBUG - topic: 1. Determine your financial goals.
+
+2. Assess your current financial situation, sub topics 
+What are your business goals?
+
+- What are your current expenses?
+
+- How much revenue do you bring in?
+
+- How much profit do you make?
+
+3. Understand the basics of financial planning:
+
+- What is a financial plan?
+
+- What are the steps involved in creating a financial plan?
+
+- What are the different types of financial plans?
+
+4. Learn about different financial planning tools and resources:
+
+- Financial calculators
+
+- Financial planning software
+
+- Financial planning books and articles
+
+5. Get tips for creating and sticking to a budget:
+
+- Determine your income and expenses
+
+- Track your spending
+
+- Find ways to save money
+
+- Make a budget and stick to it
+[2022-11-26 23:18:07,165] INFO - subtopics ['What are your business goals?', 'What are your current expenses?', 'How much revenue do you bring in?', 'How much profit do you make?\n\n3. Understand the basics of financial planning:', 'What is a financial plan?', 'What are the steps involved in creating a financial plan?', 'What are the different types of financial plans?\n\n4. Learn about different financial planning tools and resources:', 'Financial calculators', 'Financial planning software', 'Financial planning books and articles\n\n5. Get tips for creating and sticking to a budget:', 'Determine your income and expenses', 'Track your spending', 'Find ways to save money', 'Make a budget and stick to it']

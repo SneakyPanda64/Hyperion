@@ -1,0 +1,14 @@
+[2022-11-26 21:37:25,723] CRITICAL - GPU detected
+[2022-11-26 21:37:25,734] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 21:37:25,734] DEBUG - api_version=None data='{"model": "text-babbage-001", "prompt": "Extract keywords from the following sentences:\\n\\nThe Great Debate: Strict vs. Loose Evaluation\\n\\nkeywords:", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 21:37:25,734] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-26 21:37:25,737] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-26 21:37:26,322] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 290
+[2022-11-26 21:37:26,323] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=203 request_id=486cd0d43972e694eb4082da30376b9c response_code=200
+[2022-11-26 21:37:26,326] DEBUG - Getting requests for icons
+[2022-11-26 21:37:26,327] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-26 21:37:26,415] DEBUG - https://www.flaticon.com:443 "GET /search?word=strict&color=color&shape=outline&order_by=4 HTTP/1.1" 404 None
+[2022-11-26 21:37:26,425] DEBUG - Getting requests for icons
+[2022-11-26 21:37:26,426] DEBUG - Starting new HTTPS connection (1): www.flaticon.com:443
+[2022-11-26 21:37:26,510] DEBUG - https://www.flaticon.com:443 "GET /search?word=%20loose&color=color&shape=outline&order_by=4 HTTP/1.1" 200 None
+[2022-11-26 21:37:26,578] DEBUG - ['https://cdn-icons-png.flaticon.com/256/5594/5594279.png', 'https://cdn-icons-png.flaticon.com/256/3482/3482688.png', 'https://cdn-icons-png.flaticon.com/256/2956/2956037.png', 'https://cdn-icons-png.flaticon.com/256/4849/4849640.png']

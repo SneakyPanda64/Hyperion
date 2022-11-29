@@ -61,4 +61,7 @@ if __name__ == '__main__':
         #     "theory of computer science programming concepts"
         # )
         #thumbnail.GenerateThumbnail("VGhlIE1hZ2ljIG9mIEZvcm1hbCBMYW5ndWFnZXMgYW5kIEF1dG9tYXRh")
+        # script.GetVideoScript(
+        #     "theory of computer science programming concepts"
+        # )
         main(repeat=int(os.getenv("MAIN_REPEATS")), preset=os.getenv("TTS_PRESET"))

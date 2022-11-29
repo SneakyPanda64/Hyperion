@@ -1,0 +1,55 @@
+[2022-11-26 23:30:48,515] CRITICAL - GPU detected
+[2022-11-26 23:30:48,517] INFO - Getting video script.
+[2022-11-26 23:30:48,527] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:30:48,527] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of unique and interesting keywords relating to basic theory of a level business:\\n\\n-", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:30:48,527] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-26 23:30:48,530] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-26 23:30:51,122] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 470
+[2022-11-26 23:30:51,123] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2189 request_id=2764afa7455f8e6c54f91f17ade739b7 response_code=200
+[2022-11-26 23:30:51,126] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:30:51,127] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where economics is used in the context of theory of a level business:\\n\\n- ", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:30:51,699] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 282
+[2022-11-26 23:30:51,699] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=425 request_id=d284e27fa7f3f63d57218dd291af5ab3 response_code=200
+[2022-11-26 23:30:51,700] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:30:51,700] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a short, unique and interesting title relating to the theory of  in the form of a video essay title without involving numbers:", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:30:53,000] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 336
+[2022-11-26 23:30:53,000] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1158 request_id=0097b85a01df5ff63db117978d2650fc response_code=200
+[2022-11-26 23:30:53,036] DEBUG - Keyword economics, Topics ['', '', '', '', '', ''], Topic The Colors of Life: A Look at the Theory of 
+
+The Hidden Depths of
+[2022-11-26 23:30:53,036] INFO - topic The Colors of Life: A Look at the Theory of 
+
+The Hidden Depths of
+[2022-11-26 23:30:53,036] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:30:53,036] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of beginner topics relating to what is The Colors of Life: A Look at the Theory of \\n\\nThe Hidden Depths of in the context of theory of a level business:\\n\\n- ", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:30:56,832] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 449
+[2022-11-26 23:30:56,833] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3629 request_id=a294620a89000ea5e34a2af603a538df response_code=200
+[2022-11-26 23:30:56,833] DEBUG - topic: The Colors of Life: A Look at the Theory of 
+
+The Hidden Depths of, sub topics 
+
+What is the Colors of Life?
+
+- 
+
+What is the theory of a level business?
+
+- 
+
+What are the benefits of the Colors of Life?
+
+- 
+
+How can the Colors of Life help businesses?
+[2022-11-26 23:30:56,833] INFO - subtopics ['What is the Colors of Life?', 'What is the theory of a level business?', 'What are the benefits of the Colors of Life?', 'How can the Colors of Life help businesses?']
+[2022-11-26 23:30:56,833] DEBUG - getting summary for topic
+[2022-11-26 23:30:56,833] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:30:56,833] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a summary for the following topic in the form of a youtube description in the context of theory of a level business:\\n\\ntopic: The Colors of Life: A Look at the Theory of \\n\\nThe Hidden Depths of\\n\\nsummary:", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:30:57,517] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 513
+[2022-11-26 23:30:57,517] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=535 request_id=1eacfcb7161b1e13e7dda76d39a0b3a4 response_code=200
+[2022-11-26 23:30:57,517] INFO - summary In this video, we explore the theory of colors of life. We discuss how different colors can help us to feel more positive and connected to our surroundings. We also explore how using different colors can help us to be more productive and organized.
+[2022-11-26 23:30:57,518] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:30:57,518] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of The Colors of Life A Look at the Theory of \\n\\nThe Hidden Depths of in the context of theory of a level business summarised for a 9th grader:\\n\\n1. What is the Colors of Life?\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n2.", "\\n\\n2.", "\\n\\n\\n2."], "echo": false}' message='Post details'
+[2022-11-26 23:30:57,770] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 237
+[2022-11-26 23:30:57,771] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=105 request_id=d51c192434697f1a96f1dbd0b95447e1 response_code=200
+[2022-11-26 23:30:57,771] DEBUG - passage length 0

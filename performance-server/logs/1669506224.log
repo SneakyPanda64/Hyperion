@@ -1,0 +1,59 @@
+[2022-11-26 23:43:44,974] CRITICAL - GPU detected
+[2022-11-26 23:43:44,975] INFO - Getting video script.
+[2022-11-26 23:43:44,985] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:43:44,985] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of unique and interesting keywords relating to basic theory of a level business:\\n\\n-", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:43:44,986] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2022-11-26 23:43:44,988] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+[2022-11-26 23:43:48,002] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 464
+[2022-11-26 23:43:48,003] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2587 request_id=1bcf14f9f63e19ba2ed2f0a3bfa13d89 response_code=200
+[2022-11-26 23:43:48,005] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:43:48,005] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a list of 5 interesting beginner topics on where International business is used in the context of theory of a level business:\\n\\n- ", "temperature": 0.7, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:43:48,909] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 534
+[2022-11-26 23:43:48,909] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=744 request_id=fa1147c7c70e0faa05405da6ad252f21 response_code=200
+[2022-11-26 23:43:48,910] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:43:48,910] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a short, unique and interesting title relating to the theory of 1) Theories of international business and trade2) The globalization of business3) The role of international business in the global economy4) The impact of international business on national economies5) The role of international business in the global marketplace in the form of a video essay title without involving numbers:", "temperature": 1, "max_tokens": 20, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:43:49,964] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 348
+[2022-11-26 23:43:49,965] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=907 request_id=720466553e18f73d6521cc33b35ebf1c response_code=200
+[2022-11-26 23:43:49,981] DEBUG - Keyword International business, Topics ['1) Theories of international business and trade2) The globalization of business3) The role of international business in the global economy4) The impact of international business on national economies5) The role of international business in the global marketplace'], Topic The Power of International Business:
+
+Shaping the Global Economy and Marketplace
+[2022-11-26 23:43:49,981] INFO - topic The Power of International Business:
+
+Shaping the Global Economy and Marketplace
+[2022-11-26 23:43:49,982] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:43:49,982] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of beginner topics relating to what is The Power of International Business:\\n\\nShaping the Global Economy and Marketplace in the context of theory of a level business:\\n\\n- ", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:43:57,919] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 1305
+[2022-11-26 23:43:57,919] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=7792 request_id=393cbed7dc92a778902c08dae28a5852 response_code=200
+[2022-11-26 23:43:57,919] DEBUG - topic: The Power of International Business:
+
+Shaping the Global Economy and Marketplace, sub topics 
+
+What is international business?
+What are the benefits of international business?
+What are the risks of international business?
+What are the different types of international business?
+What are the different stages of international business?
+What are the different methods of international business?
+What are the different types of international business organizations?
+What are the different types of international business transactions?
+What are the different types of international business law?
+What are the different types of international business policy?
+What are the different types of international business strategy?
+What are the different types of international business operations?
+What are the different types of international business marketing?
+What are the different types of international business finance?
+What are the different types of international business accounting?
+What are the different types of international business economics?
+What are the different types of international business management?
+[2022-11-26 23:43:57,919] INFO - subtopics ['What is international business?\nWhat are the benefits of international business?\nWhat are the risks of international business?\nWhat are the different types of international business?\nWhat are the different stages of international business?\nWhat are the different methods of international business?\nWhat are the different types of international business organizations?\nWhat are the different types of international business transactions?\nWhat are the different types of international business law?\nWhat are the different types of international business policy?\nWhat are the different types of international business strategy?\nWhat are the different types of international business operations?\nWhat are the different types of international business marketing?\nWhat are the different types of international business finance?\nWhat are the different types of international business accounting?\nWhat are the different types of international business economics?\nWhat are the different types of international business management?']
+[2022-11-26 23:43:57,919] DEBUG - getting summary for topic
+[2022-11-26 23:43:57,919] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:43:57,919] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Write a summary for the following topic in the form of a youtube description in the context of theory of a level business:\\n\\ntopic: The Power of International Business:\\n\\nShaping the Global Economy and Marketplace\\n\\nsummary:", "temperature": 0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
+[2022-11-26 23:43:58,663] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 548
+[2022-11-26 23:43:58,663] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=479 request_id=726369d680250c1ee47e54789b4fe564 response_code=200
+[2022-11-26 23:43:58,664] INFO - summary In this video, we explore the power of international business and how it shapes the global economy. We look at the different ways that international business can impact the world, and discuss the different strategies that businesses can use to succeed in this competitive environment.
+[2022-11-26 23:43:58,664] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+[2022-11-26 23:43:58,664] DEBUG - api_version=None data='{"model": "text-curie-001", "prompt": "Expand greatly upon the topic of The Power of International Business\\n\\nShaping the Global Economy and Marketplace in the context of theory of a level business summarised for a 9th grader:\\n\\n1. What is international business?\\nWhat are the benefits of international business?\\nWhat are the risks of international business?\\nWhat are the different types of international business?\\nWhat are the different stages of international business?\\nWhat are the different methods of international business?\\nWhat are the different types of international business organizations?\\nWhat are the different types of international business transactions?\\nWhat are the different types of international business law?\\nWhat are the different types of international business policy?\\nWhat are the different types of international business strategy?\\nWhat are the different types of international business operations?\\nWhat are the different types of international business marketing?\\nWhat are the different types of international business finance?\\nWhat are the different types of international business accounting?\\nWhat are the different types of international business economics?\\nWhat are the different types of international business management?\\n\\n", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": ["\\n2.", "\\n\\n2.", "\\n\\n\\n2."], "echo": false}' message='Post details'
+[2022-11-26 23:43:58,933] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 239
+[2022-11-26 23:43:58,933] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=94 request_id=03b0db91a3a7a051188d5051622e78ce response_code=200
+[2022-11-26 23:43:58,933] DEBUG - passage length 0
