@@ -15,10 +15,12 @@ def getVideosUploaded():
     channel.login("hyperion.json", "credentials.storage")
     videos = channel.fetch_uploads()
     uploaded_videos = ([util.base64UrlEncode(v.title) for v in videos])
-    with open(os.path.join("videos.json")) as f:
-        videos = json.loads(f.read())["uploaded"]
-        videos += uploaded_videos
-        return list(videos)
+    # with open(os.path.join("videos.json")) as f:
+    #     videos = json.loads(f.read())["uploaded"]
+    #     videos += uploaded_videos
+    return list(uploaded_videos)
+def getVideosPending():
+    return os.listdir("scripts")
 def uploadVideo(id):
     path = os.path.join("scripts", id)
     channel = Channel()
@@ -53,7 +55,7 @@ def uploadVideo(id):
         else:
             logging.info(f"Video was not uploaded (debug mode)")
 def upload():
-    path = os.path.join("scripts")
+    path = "scripts"
     uploading = 0
     videos = getVideosUploaded()
     for i, script_id in enumerate(os.listdir(path)):
@@ -66,12 +68,6 @@ def upload():
                     logging.debug(f"#{i} [{script_id}] (max uploads)")
                 else:
                     logging.debug(f"#{i} [{script_id}] (uploading)")
-                    contents = json.loads(open(os.path.join("videos.json"), "r").read())
-                    videos = contents["uploaded"]
-                    videos.append(script_id)
-                    with open(os.path.join("videos.json"), "w") as f:
-                        contents["uploaded"] = videos
-                        json.dump(contents, f)
                     uploading += 1
                     uploadVideo(script_id)
             else:

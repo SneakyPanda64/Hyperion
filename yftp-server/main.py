@@ -15,7 +15,6 @@ if __name__ == '__main__':
         logging.StreamHandler(sys.stdout)
     ])
     ftp = multiprocessing.Process(target=ftp.initialise_connection)
-    #youtube.uploadVideo("VGhlIFJvbGUgb2YgRnVuY3Rpb25zIGluIFByb2dyYW1taW5n")
     yt = multiprocessing.Process(target=youtube.autoChecker)
     ftp.start()
     yt.start()
