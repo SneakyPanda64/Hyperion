@@ -27,5 +27,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: ./yftp-server
+          platforms: linux/arm/v8
           push: true
           tags: sneakypanda64/atlasservers:hyperion.yftp
