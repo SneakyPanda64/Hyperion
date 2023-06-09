@@ -16,6 +16,8 @@ if __name__ == '__main__':
     ])
     if not os.path.exists("scripts"):
         os.mkdir("scripts")
+    if not os.path.exists("logs"):
+        os.mkdir("logs")
     ftp = multiprocessing.Process(target=ftp.initialise_connection)
     yt = multiprocessing.Process(target=youtube.autoChecker)
     ftp.start()

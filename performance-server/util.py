@@ -19,7 +19,6 @@ from tortoise.api import TextToSpeech, MODELS_DIR
 from tortoise.utils.audio import load_audio, load_voices
 from tortoise.utils.text import split_and_recombine_text
 
-openai.api_key = "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"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "hyperion.json"
 
 logging.info("loading transcription model")

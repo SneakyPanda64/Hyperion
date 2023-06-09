@@ -1,7 +1,0 @@
-[2022-11-17 08:41:15,121] INFO - file_cache is only supported with oauth2client<4.0.0
-[2022-11-17 08:41:15,222] DEBUG - URL being requested: POST https://youtube.googleapis.com/upload/youtube/v3/videos?part=snippet%2Cstatus&alt=json&uploadType=resumable
-[2022-11-17 08:41:15,283] INFO - Refreshing due to a 401 (attempt 1/2)
-[2022-11-17 08:41:15,283] INFO - Refreshing access_token
-[2022-11-17 08:41:34,209] WARNING - media_mime_type argument not specified: trying to auto-detect for scripts\VGhlIFBvd2VyIG9mIENyeXB0b2dyYXBoaWMgUHJpbWl0aXZlcw\thumbnail.png
-[2022-11-17 08:41:34,209] DEBUG - URL being requested: POST https://youtube.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=7eV3KaYILcA&alt=json&uploadType=media
-[2022-11-17 08:41:36,401] INFO - Video has been uploaded to youtube

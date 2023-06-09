@@ -1,29 +1,6 @@
 import ftplib
 import os
 
-# def placeFiles(ftp, path):
-#     for name in os.listdir(path):
-#         localpath = os.path.join(path, name)
-#         if os.path.isfile(localpath):
-#             print("STOR", name, localpath)
-#             ftp.cwd(path)
-#             ftp.storbinary('STOR ' + name, open(localpath,'rb'))
-#         elif os.path.isdir(localpath):
-#             print("MKD", name)
-#
-#             try:
-#                 ftp.mkd(name)
-#
-#             # ignore "directory already exists"
-#             except error_perm as e:
-#                 if not e.args[0].startswith('550'):
-#                     raise
-#
-#             print("CWD", name)
-#             ftp.cwd(name)
-#             placeFiles(ftp, localpath)
-#             print("CWD", "..")
-#             ftp.cwd("..")
 def recursiveFolder(ftp, path):
 
     for file in os.listdir(os.path.join(os.path.curdir, path)):

@@ -1,0 +1,6 @@
+credentials.storage
+.env
+.idea
+hyperion.json
+./logs/*
+scripts/*

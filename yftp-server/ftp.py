@@ -10,7 +10,7 @@ def initialise_connection():
 
     # Define a new user having full r/w permissions and a read-only
     # anonymous user
-    authorizer.add_user('ubuntu', 'Sneaky202564', '.', perm='elradfmwM')
+    authorizer.add_user(os.getenv("FTP_USERNAME"), os.getenv("FTP_PASSWORD"), '.', perm='elradfmwM')
     authorizer.add_anonymous(os.getcwd())
 
     # Instantiate FTP handler class
