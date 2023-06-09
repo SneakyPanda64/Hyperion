@@ -1,5 +1,0 @@
-[2022-11-26 21:47:04,961] CRITICAL - GPU detected
-[2022-11-26 21:47:04,965] DEBUG - Starting new HTTPS connection (1): huggingface.co:443
-[2022-11-26 21:47:05,333] DEBUG - https://huggingface.co:443 "HEAD /ml6team/keyphrase-generation-t5-small-inspec/resolve/main/config.json HTTP/1.1" 200 0
-[2022-11-26 21:47:05,857] DEBUG - Starting new HTTPS connection (1): huggingface.co:443
-[2022-11-26 21:47:06,218] DEBUG - https://huggingface.co:443 "HEAD /ml6team/keyphrase-generation-t5-small-inspec/resolve/main/tokenizer_config.json HTTP/1.1" 200 0

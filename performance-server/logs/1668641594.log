@@ -1,6 +1,0 @@
-[2022-11-16 23:33:14,805] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
-[2022-11-16 23:33:16,842] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1632 request_id=770f69010b50094a4c269efc307de1f1 response_code=200
-[2022-11-16 23:33:16,845] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
-[2022-11-16 23:33:17,431] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=439 request_id=a6fff9d2a157c8a9efcfc2b49713ba3a response_code=200
-[2022-11-16 23:33:17,431] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
-[2022-11-16 23:33:18,339] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=765 request_id=af1937ad7d479ff6506baa98628919ec response_code=200

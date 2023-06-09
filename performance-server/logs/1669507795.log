@@ -1,8 +1,0 @@
-[2022-11-27 00:09:55,920] CRITICAL - GPU detected
-[2022-11-27 00:09:55,921] INFO - Getting video script.
-[2022-11-27 00:09:55,932] INFO - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
-[2022-11-27 00:09:55,932] DEBUG - api_version=None data='{"model": "text-davinci-002", "prompt": "Write a list of unique and interesting keywords relating to theory of a level business:\\n\\n-", "temperature": 1, "max_tokens": 128, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0, "n": 1, "stop": "", "echo": false}' message='Post details'
-[2022-11-27 00:09:55,932] DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
-[2022-11-27 00:09:55,935] DEBUG - Starting new HTTPS connection (1): api.openai.com:443
-[2022-11-27 00:10:00,350] DEBUG - https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 712
-[2022-11-27 00:10:00,350] INFO - message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3997 request_id=e0b7b5c61accabe0c10fbe53854278a8 response_code=200
